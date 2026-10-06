@@ -48,6 +48,7 @@ Cloning the code alone does not include large recordings or MP4 exports. `pnpm a
 |---|---|---|
 | Ashwagandha | `outputs/baseline/ashwagandha-tiktok-v4-1080p-upload.mp4` | `outputs/baseline/ashwagandha-tiktok-v4-4k-master.mp4` |
 | ATC Fish Oil | `outputs/baseline/atc-fish-oil-v4-1080p-upload.mp4` | `outputs/baseline/atc-fish-oil-v4-4k-master.mp4` |
+| Creatine myths | `outputs/creatine-tiktok-v1.mp4` | — |
 
 Both cuts use 60 fps. Their archive masters are 2160 × 3840 upscales from 1080 × 1920 footage; upscaling improves output dimensions but cannot restore detail that was not captured. Use the 1080 × 1920 upload copy in TikTok Studio. TikTok’s current Studio help lists MP4/WebM, at least 720 × 1280, under 10 GB and up to 30 minutes. TikTok can re-encode an upload, so no file can guarantee uncompressed playback. The separate cover is a frame-zero still; choose it in TikTok Studio because automatic cover selection is not guaranteed.
 
@@ -75,6 +76,8 @@ pnpm render:ashwagandha-v4
 pnpm prepare:fish-oil-v4
 pnpm render:fish-oil-v4
 ```
+
+The Creatine edit is `CreatineMythsV1`. Its frame-accurate cut plan, phrase captions, claim map and review are in [`jobs/creatine-v1/`](jobs/creatine-v1/). To rebuild its original-speed voice mix and render the video, run `pnpm render:creatine-v1`. The private `creatine-v1.0.0` release contains the source/working media and finished MP4/cover ZIPs; `pnpm assets:restore` verifies and restores both.
 
 Reproduction uses the preserved final voice/SFX mixes. It does not rerun transcription or broad research. Render scripts verify file decoding, dimensions, frame rate, pixel format, audio presence and duration. The saved silence audits report whether the edited voice contains unplanned gaps longer than 0.35 seconds.
 

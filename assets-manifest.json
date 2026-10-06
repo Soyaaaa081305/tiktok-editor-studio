@@ -304,6 +304,79 @@
           "sha256": "fcf3d765631c90108ace91bdd42f8fb5292bf0042eb0b9f6c47b1e54f44bd213"
         }
       ]
+    },
+    {
+      "kind": "media",
+      "file": "media-creatine-v1.zip",
+      "release": "creatine-v1.0.0",
+      "bytes": 795608627,
+      "sha256": "78cf6e0dc5ca211deeaf16106a4dfd513e4ba515131126d200e50dac77bdc175",
+      "entries": [
+        {
+          "path": "public/creatine/creator-poster-frame.jpg",
+          "bytes": 317158,
+          "sha256": "8036bffee21e769ff17ba78728ea226433a2fd317ba23cf689ee5a0942cd05a9"
+        },
+        {
+          "path": "public/creatine/package-frame.jpg",
+          "bytes": 337272,
+          "sha256": "83cf9ed3a0a96287cb1c68435961e26d5265a3b808418845a869ab181c4961ef"
+        },
+        {
+          "path": "public/creatine/research/2003-body-composition.png",
+          "bytes": 23569,
+          "sha256": "ec4b3c5965e546959dc9787c9027816dfa805dfd0d2d0a56642161bab59f4ecb"
+        },
+        {
+          "path": "public/creatine/research/2013-kidney-trial.png",
+          "bytes": 35201,
+          "sha256": "96bdc9dff435ef15163afd018a62b4009f0a776fbb71d5a207badb7f27eb1d72"
+        },
+        {
+          "path": "public/creatine/research/2021-review.png",
+          "bytes": 44109,
+          "sha256": "9dfbe536e891d93061a012151d73436c9db4eb953d6528308e5c31eb69d2db6c"
+        },
+        {
+          "path": "public/creatine/source-recording.mp4",
+          "bytes": 771561080,
+          "sha256": "cf00b5939b6d8511b670562e699907eb2156c292ceab3b59b8e8a9dd5b269fa5"
+        },
+        {
+          "path": "public/creatine/user-asset-baldman.avif",
+          "bytes": 28580,
+          "sha256": "f01e40224ddb2bb20d110be6269296513bcc19771640b77264764052fe6c7f85"
+        },
+        {
+          "path": "public/creatine/user-asset-kidney.gif",
+          "bytes": 5245748,
+          "sha256": "8b35dedc7c7e29849e873beb4c0e310b69278656780dddcd3657624adf2157e7"
+        },
+        {
+          "path": "public/creatine/voice-edit.wav",
+          "bytes": 18014502,
+          "sha256": "ed00b0196c83b1569a3adea82ad1abcd45c01a4807f5c869c7c76747cea1d0ad"
+        }
+      ]
+    },
+    {
+      "kind": "exports",
+      "file": "exports-creatine-v1.zip",
+      "release": "creatine-v1.0.0",
+      "bytes": 98935683,
+      "sha256": "555947f102a84a30f0f07bbb9d51d233a1fc083742974c0f39e745df94758f13",
+      "entries": [
+        {
+          "path": "outputs/creatine-tiktok-v1.mp4",
+          "bytes": 96589754,
+          "sha256": "9960c6d228ef9d5f8a6ec07bbf31732e689da27c45bf1363818c8b87cc882e82"
+        },
+        {
+          "path": "outputs/creatine-cover-v1.png",
+          "bytes": 2345637,
+          "sha256": "b81f2e02511d59f90e81675c3fcc6486da0c8f750374dd780ab8ca9ac3509f9b"
+        }
+      ]
     }
   ]
 }

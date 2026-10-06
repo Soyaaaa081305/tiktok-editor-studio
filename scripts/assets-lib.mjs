@@ -12,7 +12,7 @@ export const sha256 = async (file) => {
   return hash.digest('hex');
 };
 export const assetPath = (relative) => {
-  if (!/^(public\/|outputs\/baseline\/)/.test(relative) || relative.split('/').some(p => p === '..') || relative.includes('\\')) {
+  if (!/^(public\/|outputs\/)/.test(relative) || relative.split('/').some(p => p === '..') || relative.includes('\\')) {
     throw new Error(`Invalid asset path: ${relative}`);
   }
   const resolved = path.resolve(root, relative);

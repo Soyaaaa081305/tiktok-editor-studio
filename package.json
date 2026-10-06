@@ -20,6 +20,8 @@
     "prepare:fish-oil-v4": "node scripts/prepare-fish-oil-v4.mjs",
     "audio:fish-oil-v4": "node scripts/render-fish-oil-v4.mjs --audio-only",
     "render:fish-oil-v4": "node scripts/render-fish-oil-v4.mjs",
+    "audio:creatine-v1": "node jobs/creatine-v1/build-audio.mjs",
+    "render:creatine-v1": "pnpm run audio:creatine-v1 && remotion render src/index-v2.jsx CreatineMythsV1 outputs/creatine-tiktok-v1.mp4 --codec=h264 --crf=20 --audio-bitrate=192k --concurrency=4",
     "assets:restore": "node scripts/restore-assets.mjs",
     "assets:verify": "node scripts/verify-assets.mjs",
     "reproduce:ashwagandha": "node scripts/render-ashwagandha-gapless-v4.mjs --skip-audio",

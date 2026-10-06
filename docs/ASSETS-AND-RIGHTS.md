@@ -1,5 +1,13 @@
 # Media and provenance
 
+The Creatine v1 private release delta adds the user's original recording,
+provided baldman and kidney GIF files, three source-article screenshots, two
+stills from the source recording and the edited voice track. The baldman image
+and generic kidney GIF are preserved as user-supplied reference assets but are
+not used in the edit. The release export delta adds the final Creatine MP4 and
+cover PNG. Their byte sizes and SHA-256 values are recorded in
+`assets-manifest.json`.
+
 The private media release contains the user's original Fish Oil and
 Ashwagandha recordings, genuine stills extracted for the existing edits,
 local font files and the actual used soundtracks/SFX. The final exports ZIP

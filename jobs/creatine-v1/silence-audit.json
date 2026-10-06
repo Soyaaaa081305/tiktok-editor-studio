@@ -1,0 +1,29 @@
+{
+  "method": "Use word timestamps from local Whisper small multilingual transcription and source-frame EDL; retain 60 fps source boundaries and short edge fades.",
+  "longPausesRemoved": [
+    {"startFrame":390,"endFrame":817,"seconds":7.117},
+    {"startFrame":1179,"endFrame":1499,"seconds":5.333},
+    {"startFrame":1987,"endFrame":2445,"seconds":7.633},
+    {"startFrame":2697,"endFrame":3175,"seconds":7.967},
+    {"startFrame":3597,"endFrame":3617,"seconds":0.333,"reason":"Tightens the pause before the blood-test explanation, retaining quiet handles around both phrases."},
+    {"startFrame":3927,"endFrame":4518,"seconds":9.85},
+    {"startFrame":4686,"endFrame":4994,"seconds":5.133},
+    {"startFrame":6216,"endFrame":6245,"seconds":0.483,"reason":"Tightens the CTA clause pause while preserving quiet handles."}
+  ],
+  "shortBoundariesKept": [
+    "The gaps around the kidney question and creatinine explanation remain close to the recorded pace.",
+    "Breath and onset handles remain inside selected word-timing ranges; no playback-rate change was applied."
+  ],
+  "knownLimitation": "ASR word timing is a draft alignment. A human listening pass should verify low-volume breaths and final cut edges; the final signoff tail remains untrimmed against an automated silence threshold.",
+  "renderedAudit": {
+    "thresholdDb": -45,
+    "minimumSilenceSeconds": 0.35,
+    "remainingDetectedGaps": [
+      {"startSeconds": 57.242, "endSeconds": 57.622, "durationSeconds": 0.380, "classification": "short natural pause in the creator CTA; retained to preserve the breath and clause rhythm"},
+      {"startSeconds": 62.022, "endSeconds": 62.571, "durationSeconds": 0.549, "classification": "quiet signoff ending/tail; retained because the ASR-timed final 'bless' reaches 62.50 seconds"}
+    ],
+    "integratedLoudnessLufs": -16.81,
+    "truePeakDbtp": -1.48,
+    "fullDecodePassed": true
+  }
+}
