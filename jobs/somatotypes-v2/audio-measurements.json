@@ -1,0 +1,62 @@
+{
+  "durationSeconds": 64.95,
+  "voiceBeforeMaster": {
+    "input_i": "-21.93",
+    "input_tp": "-4.06",
+    "input_lra": "6.10",
+    "input_thresh": "-32.28",
+    "output_i": "-15.84",
+    "output_tp": "-2.20",
+    "output_lra": "4.80",
+    "output_thresh": "-26.11",
+    "normalization_type": "dynamic",
+    "target_offset": "0.84"
+  },
+  "deliveredSoundtrack": {
+    "input_i": "-14.58",
+    "input_tp": "-1.66",
+    "input_lra": "4.60",
+    "input_thresh": "-24.92",
+    "output_i": "-14.42",
+    "output_tp": "-1.80",
+    "output_lra": "4.10",
+    "output_thresh": "-24.67",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "insertedSilenceFrames": 6,
+  "plannedMusic": {
+    "type": "original generated synth riser into 92 BPM hip-hop/electronic beat",
+    "dropFrame": 480,
+    "requested": true,
+    "mixGain": 0.16
+  },
+  "sfxCueCount": 9,
+  "musicRequestedByCreator": true,
+  "silenceDetector": {
+    "thresholdDb": -42,
+    "minimumDurationSeconds": 0.35
+  },
+  "detectedDialogueSilences": [
+    {
+      "startSeconds": 6.20237,
+      "endSeconds": 6.77333,
+      "durationSeconds": 0.571
+    },
+    {
+      "startSeconds": 7.47412,
+      "endSeconds": 8.09327,
+      "durationSeconds": 0.6192
+    },
+    {
+      "startSeconds": 41.2504,
+      "endSeconds": 41.6444,
+      "durationSeconds": 0.394
+    },
+    {
+      "startSeconds": 58.5963,
+      "endSeconds": 58.9709,
+      "durationSeconds": 0.3746
+    }
+  ]
+}
