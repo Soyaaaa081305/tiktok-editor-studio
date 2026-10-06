@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "studio": "remotion studio --no-open",
+    "studio": "node scripts/update-repo.mjs && pnpm install --frozen-lockfile && pnpm run assets:restore -- --media-only && pnpm run check:project && pnpm run audio:ashwagandha-v2-gapless && remotion studio --no-open",
     "studio:legacy": "remotion studio src/index.jsx --port=3002 --no-open",
     "render": "remotion render ATCFishOilV2 outputs/atc-fish-oil-social-v2.mp4",
     "render:v3": "node scripts/render-v3.mjs",
@@ -15,6 +15,7 @@
     "render:ashwagandha": "node scripts/render-ashwagandha-clean.mjs",
     "prepare:ashwagandha-v4": "node scripts/prepare-ashwagandha-v4.mjs",
     "audio:ashwagandha-v4": "node scripts/render-ashwagandha-gapless-v4.mjs --audio-only",
+    "audio:ashwagandha-v2-gapless": "node scripts/prepare-ashwagandha-v2-gapless.mjs",
     "render:ashwagandha-v4": "node scripts/render-ashwagandha-gapless-v4.mjs",
     "prepare:fish-oil-v4": "node scripts/prepare-fish-oil-v4.mjs",
     "audio:fish-oil-v4": "node scripts/render-fish-oil-v4.mjs --audio-only",

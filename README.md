@@ -16,6 +16,22 @@ bash scripts/setup-mac.sh --studio
 
 The setup installs the pinned Node and pnpm versions, downloads and checks the original private media plus the v2 additions, restores the finished export archive, verifies required sound files, then opens Remotion Studio. The project root contains the Remotion configuration and registered third-party element catalog.
 
+## Download on Windows
+
+Install Git, Node.js 24.19.0, pnpm 11.19.0 and GitHub CLI. Sign in to GitHub with an account that has access to this private repository, then run these commands in PowerShell:
+
+```powershell
+gh auth login --hostname github.com --git-protocol https --web
+gh repo clone Soyaaaa081305/tiktok-production-studio
+Set-Location tiktok-production-studio
+pnpm install --frozen-lockfile
+pnpm run assets:restore -- --media-only
+pnpm run check:project
+pnpm studio
+```
+
+`pnpm studio` checks GitHub for updates every time it starts, fast-forwards only when the local tracked files are clean, verifies the required media, rebuilds the V2 gapless soundtrack, and opens Studio with `AshwagandhaEditorialV2` selected first. If a GitHub update would conflict with local edits, it stops and preserves those edits. Windows installs its own native dependencies; never copy `node_modules` from the Mac.
+
 To download finished videos only, sign in to GitHub and download `exports-v2.0.0.zip` from the private repository’s **Releases** page. The archive contains both current edits, 4K archive masters, 1080p60 upload copies and covers. Restore the ZIP to `outputs/baseline/` with:
 
 ```sh
@@ -47,9 +63,12 @@ bash scripts/run-mac.sh reproduce:fish-oil
 
 Compositions: `AshwagandhaEditorialGaplessV4` and `ATCFishOilV4`. Studio starts on port 3000 by default. Start it from this project root so the Remotion config and element registry load.
 
+The desktop launcher opens `AshwagandhaEditorialV2`, the selected V2 visual style with long narration pauses removed. `pnpm studio` checks for GitHub updates, installs any locked dependency changes, restores required source media, rebuilds its local gapless soundtrack from the V2 voice, ambient bed and sound cues, then starts Studio.
+
 ```sh
 pnpm install --frozen-lockfile
 pnpm setup:project
+pnpm audio:ashwagandha-v2-gapless
 pnpm studio
 pnpm prepare:ashwagandha-v4
 pnpm render:ashwagandha-v4
@@ -61,11 +80,14 @@ Reproduction uses the preserved final voice/SFX mixes. It does not rerun transcr
 
 ## Prompt and operating kit
 
+All reusable prompts are grouped under [`prompts/`](prompts/). Start with [`prompts/ALWAYS-ON-PROMPT.md`](prompts/ALWAYS-ON-PROMPT.md) for every task, then choose the script or production prompt below. The folder also contains the research, reference-refresh, workflow, creator-operations, and Spark prompts, plus historical job examples.
+
 | File | Purpose |
 |---|---|
+| `prompts/ALWAYS-ON-PROMPT.md` | Persistent V2, dialogue, language, model, evidence and delivery preferences |
 | `prompts/03-topic-to-script-prompt.md` | Focused web/PubMed research, evidence map and a read-aloud 45–60-second Taglish script |
 | `prompts/04-master-production-system-prompt.md` | Source analysis, continuous speech EDL, exact blueprint, Remotion build, review and export |
-| `prompts/07-approved-editorial-reference.md` | Keeps the approved clean Ashwagandha motion-graphics standard consistent and prevents silent placeholder gaps |
+| `prompts/07-approved-editorial-reference.md` | Keeps the selected AshwagandhaEditorialV2 style consistent and prevents silent placeholder gaps |
 | `prompts/house-style.json` | Shared settings for research, picture layers, captions, cover, SFX, output and review |
 | `prompts/creator-operations-context.md` | Account cadence, affiliate/income context, automation phases and nightly/morning work packet |
 | `prompts/gemini-spark-start-here.md` | Main context and output format for Gemini Spark |

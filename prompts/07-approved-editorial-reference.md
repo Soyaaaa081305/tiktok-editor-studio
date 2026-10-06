@@ -1,8 +1,8 @@
 # Approved editorial reference · Noda.lifts
 
-Version 1.0 · 6 October 2026
+Version 1.1 · 6 October 2026
 
-Use this as the production reference for future Noda.lifts recordings. The creator approved the Ashwagandha gapless motion-graphics edit as the style he wants to keep consistent. The ATC Fish Oil v4 edit is being brought into this same visual system.
+Use this as the production reference for future Noda.lifts recordings. The creator selected `AshwagandhaEditorialV2` as the preferred visual output and asked to keep that look. V2 is the default visual reference unless the user names another version or gives a different direction. The later Ashwagandha V4 prompt remains a historical speech-continuity example, not the default visual target. The ATC Fish Oil V4 video remains the current Fish Oil content/export reference; use the V2 visual language when matching the selected style.
 
 ## Keep consistent
 

@@ -52,6 +52,7 @@
   },
   "visual": {
     "style": "minimal editorial; actual footage and accurate explanatory graphics",
+    "preferred_reference": "AshwagandhaEditorialV2",
     "modes": [
       "presenter",
       "stacked",

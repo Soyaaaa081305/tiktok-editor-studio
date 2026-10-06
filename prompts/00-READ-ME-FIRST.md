@@ -1,15 +1,18 @@
-# Your two-prompt TikTok workflow
+# Always-on prompt + two-prompt TikTok workflow
 
-Version 6.1.0 · Updated 6 October 2026
+Version 6.1.1 · Updated 6 October 2026
+
+Start every TikTok Editor task with [ALWAYS-ON-PROMPT.md](ALWAYS-ON-PROMPT.md), then choose one task prompt below. The always-on file records the creator's persistent preferences; the newest direct request still wins.
 
 ## Use these two files
 
 | File | What you supply | What you receive |
 |---|---|---|
+| [Always-on preferences](ALWAYS-ON-PROMPT.md) | Use with every task in this project | V2 visual preference, continuous dialogue, Taglish, evidence, model and delivery defaults |
 | [03 — Science scripting](03-topic-to-script-prompt.md) | A topic, study link/PDF or clear product photo; optional personal notes | Researched 45–60-second Taglish script, 1–3 selected studies, source/claim map and recording-to-edit handoff |
 | [04 — Production master](04-master-production-system-prompt.md) | Your recording; optional script/research package, photos and B-roll | Exact source-specific blueprint and execution prompt, edited MP4, cover and documented review |
 
-Both prompts stand alone. The production master contains the saved reference grammar, planning process, design rules, implementation architecture, sound requirements and quality filter. You do not need to paste the older reference, blueprint and review prompts each time.
+Both task prompts stand alone. The production master contains the saved reference grammar, planning process, design rules, implementation architecture, sound requirements and quality filter. You do not need to paste the older reference, blueprint and review prompts each time. Apply the short always-on prompt as user-specific context for either task.
 
 **The everyday flow:** topic + evidence → clean-read script → your recording → speech-first source EDL → exact beat/layer blueprint → Remotion edit → narration/silence audit → final-file review → delivery.
 
@@ -77,12 +80,13 @@ Your canonical folder is `prompts/` in this repository. Continue using 03 and 04
 Supporting files are records, not extra required prompts:
 
 - `01-style-card-smartfit-enver.md`: cached observations and evidence limits.
-- `07-approved-editorial-reference.md`: the approved Ashwagandha motion-graphics look and speech-continuity rules.
+- `07-approved-editorial-reference.md`: the selected AshwagandhaEditorialV2 look and speech-continuity rules.
 - `house-style.json`: machine-readable defaults and review weights matching the prompts.
 - `WORKFLOW-REVIEW.md`: this upgrade's requirements and scenario review.
 - `SOURCES-AND-IMPLEMENTATION-NOTES.md`: documentation checked and current local project context.
 - `creator-operations-context.md`: account cadence, verified performance snapshot and income-planning guardrails.
 - `gemini-spark-start-here.md` and `gemini-spark-nightly-packet.md`: modular operating context and repeatable daily planning request. They preserve Spark's existing voice memory instead of trying to replace it.
+- `historical-job-prompts/`: exact copies of completed V4 job prompts, grouped here for reference. Treat them as historical examples; the always-on prompt and current task request take precedence.
 
 Old standalone reference/blueprint/filter prompts are replaced by short redirects to the master. Their previous contents are preserved in the canonical folder's Archive. Older ZIPs, videos and project files remain historical versions.
 

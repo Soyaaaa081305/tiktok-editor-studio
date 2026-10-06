@@ -64,9 +64,9 @@ export const CoverExit=()=>{
  }}><Freeze frame={5}><Poster/></Freeze></AbsoluteFill>;
 };
 
-export const CaptionLane=()=>{
+export const CaptionLane=({pages=edit.pages})=>{
  const frame=useCurrentFrame();const {fps}=useVideoConfig();const now=frame/fps*1000;
- const page=edit.pages.find(p=>now>=p.startMs&&now<p.endMs);
+ const page=pages.find(p=>now>=p.startMs&&now<p.endMs);
  if(!page)return null;
  return <div style={{position:'absolute',zIndex:50,left:156,top:1290,width:768,padding:'10px 24px',boxSizing:'border-box',transform:'translateY(-50%)',display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center',gap:'8px 13px',fontFamily:'Inter, Arial, sans-serif',fontSize:58,fontWeight:900,lineHeight:1.1,textAlign:'center',pointerEvents:'none'}}>
   {page.words.map((w,i)=>{const active=now>=w.startMs&&now<w.endMs;const local=frame-w.startMs/1000*fps;const scale=active?1+.12*Math.sin(Math.PI*Math.min(1,Math.max(0,local)/9)):1;

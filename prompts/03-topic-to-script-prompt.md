@@ -2,7 +2,7 @@
 
 Version 6.1.0 · 6 October 2026 · Standalone Prompt B
 
-Use this whole file before recording. A topic, study link or product photo is enough to start. Research first; write a natural script I can read in one take; give me the actual studies and a production handoff. Do not require the editing master or old reference clips to produce the script.
+Use this whole file before recording, together with `ALWAYS-ON-PROMPT.md` for the creator's persistent preferences. A topic, study link or product photo is enough to start. Research first; write a natural script I can read in one take; give me the actual studies and a production handoff. Do not require the editing master or old reference clips to produce the script.
 
 ## 1. Role and outcome
 

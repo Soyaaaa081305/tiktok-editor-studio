@@ -48,10 +48,10 @@ export const LabelScene=()=>{
  </Paper>;
 };
 
-export const CapsulesScene=()=>{
+export const CapsulesScene=({durationInFrames=120})=>{
  const f=useCurrentFrame();
  return <ClipFrame whip><Paper dark>
-  <Video name="User's own capsule close-up B-roll" src={staticFile('ashwagandha/source.mp4')} trimBefore={5496} trimAfter={5616} muted style={{position:'absolute',inset:0,width:1080,height:1920,transform:`scale(${ease(f,0,120,1.02,1.07)})`,transformOrigin:'50% 55%'}}/>
+  <Video name="User's own capsule close-up B-roll" src={staticFile('ashwagandha/source.mp4')} trimBefore={5496} trimAfter={5496+durationInFrames} muted style={{position:'absolute',inset:0,width:1080,height:1920,transform:`scale(${ease(f,0,durationInFrames,1.02,1.07)})`,transformOrigin:'50% 55%'}}/>
   <AbsoluteFill style={{background:'linear-gradient(180deg,rgba(15,30,21,.88),transparent 38%,transparent 65%,rgba(15,30,21,.80))'}}/>
   <div style={{position:'absolute',left:74,top:160}}><Eyebrow color={C.lilac}>Inside the bottle</Eyebrow><Title size={142} color={C.paper} style={{marginTop:30}}>60<span style={{fontSize:68,marginLeft:18}}>capsules</span></Title><div style={{marginTop:15,fontSize:42,fontWeight:800,color:C.paper}}>Per bottle · as stated on the label</div></div>
   <div style={{position:'absolute',left:74,top:1530,width:820,fontSize:40,fontWeight:800,color:C.paper}}>Check the label for serving directions.</div>

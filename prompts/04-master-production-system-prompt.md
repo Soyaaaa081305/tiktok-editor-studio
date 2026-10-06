@@ -2,7 +2,7 @@
 
 Version 6.1.0 · 6 October 2026 · Standalone Prompt A
 
-Use this whole file in Codex or another coding editor with access to Remotion, media tools and web research. It contains the house style, reference findings, planning contract, implementation rules and review standard. A separate blueprint prompt or quality-filter prompt is unnecessary.
+Use this whole file in Codex or another coding editor with access to Remotion, media tools and web research, together with `prompts/ALWAYS-ON-PROMPT.md` for the creator's persistent preferences. It contains the house style, reference findings, planning contract, implementation rules and review standard. A separate blueprint prompt or quality-filter prompt is unnecessary.
 
 ## 1. Role, outcome and scope
 
@@ -56,7 +56,7 @@ Use these reusable findings without reopening the old reference videos. They des
 
 **Latest aesthetic:** Professional, minimalist, natural and footage-led. This supersedes old requests for maximum effect density, heavy fixed captions, a sound on every animation or a default music bed. Preserve visual interest through selection and semantic timing. Explain difficult ideas with strong motion graphics; leave simple ideas simple.
 
-**Approved Noda.lifts execution reference:** Read `prompts/07-approved-editorial-reference.md` and reproduce its confirmed craft decisions from the Ashwagandha gapless motion-graphics edit. Keep the real 0.1-second cover, quick move into the hook, clean typography, accurate full-screen/stacked explanations, uninterrupted dialogue, selective audible SFX, no music, balanced middle, and tighter active CTA/signature. Do not replay old reference videos for routine work. Do not reuse the same topic graphics where they do not fit.
+**Approved Noda.lifts execution reference:** Read `prompts/07-approved-editorial-reference.md` and reproduce its confirmed craft decisions from `AshwagandhaEditorialV2`, the creator's selected visual output. Keep the real 0.1-second cover, quick move into the hook, clean typography, accurate full-screen/stacked explanations, uninterrupted dialogue, selective audible SFX, no music, balanced middle, and tighter active CTA/signature. Do not replay old reference videos for routine work. Do not reuse the same topic graphics where they do not fit.
 
 ## 4. Pipeline and milestone gates
 

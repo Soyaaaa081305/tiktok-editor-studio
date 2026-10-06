@@ -16,6 +16,6 @@ for (const name of ['src/sound-design-v3.json', 'src/sound-design-v4.json', 'src
   for (const cue of design.cues) await access(path.join(root, 'public', cue.src));
   cueCount += design.cues.length;
 }
-for (const name of ['03-topic-to-script-prompt.md', '04-master-production-system-prompt.md', '07-approved-editorial-reference.md', 'creator-operations-context.md', 'gemini-spark-start-here.md', 'gemini-spark-nightly-packet.md', 'house-style.json']) await access(path.join(root, 'prompts', name));
-console.log(JSON.stringify({status: 'ready', platform: process.platform, architecture: process.arch, node: process.version, remotion: installed, ffmpeg: getFfmpegPath(), verifiedMediaFiles: media.count, mappedSoundCues: cueCount, entry: 'src/index-v2.jsx', studio: 'http://localhost:3000/ATCFishOilV4'}, null, 2));
+for (const name of ['ALWAYS-ON-PROMPT.md', '03-topic-to-script-prompt.md', '04-master-production-system-prompt.md', '07-approved-editorial-reference.md', 'creator-operations-context.md', 'gemini-spark-start-here.md', 'gemini-spark-nightly-packet.md', 'house-style.json']) await access(path.join(root, 'prompts', name));
+console.log(JSON.stringify({status: 'ready', platform: process.platform, architecture: process.arch, node: process.version, remotion: installed, ffmpeg: getFfmpegPath(), verifiedMediaFiles: media.count, mappedSoundCues: cueCount, entry: 'src/index-v2.jsx', studio: 'http://localhost:3000/AshwagandhaEditorialV2'}, null, 2));
 console.log('Assets and tools are ready. Inspect a rendered file before calling a new export reviewed.');

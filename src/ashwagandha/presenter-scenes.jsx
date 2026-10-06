@@ -71,10 +71,10 @@ const Herb=()=>{
  </svg>;
 };
 
-export const StressScene=()=>{
+export const StressScene=({sourceStartFrame=2326,sourceEndFrame=2553})=>{
  const f=useCurrentFrame();
  return <Paper>
-  <SpeakerWindow><Video name="Ashwagandha context — synced presenter" src={staticFile('ashwagandha/source.mp4')} trimBefore={2326} trimAfter={2553} muted style={videoStyle}/></SpeakerWindow>
+  <SpeakerWindow><Video name="Ashwagandha context — synced presenter" src={staticFile('ashwagandha/source.mp4')} trimBefore={sourceStartFrame} trimAfter={sourceEndFrame} muted style={videoStyle}/></SpeakerWindow>
   <div style={{position:'absolute',left:0,top:0,width:1080,height:720,overflow:'hidden',background:C.paper}}>
    <div style={{position:'absolute',left:74,top:145}}><Eyebrow>Ingredient 02 · herb</Eyebrow><Title size={75} style={{marginTop:25}}>Ashwagandha</Title></div><Herb/>
    <div style={{position:'absolute',left:74,top:342,width:570,height:180}}><SoftBlurIn text="Stress support?" fontSize={62} color={C.green} fontWeight={800}/></div>

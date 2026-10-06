@@ -10,6 +10,7 @@ jobs/**/*.m4a
 jobs/**/*.wav
 jobs/**/*.png
 jobs/**/*.jpg
+jobs/ashwagandha-v2-gapless/
 public/**
 !public/README.md
 assets/

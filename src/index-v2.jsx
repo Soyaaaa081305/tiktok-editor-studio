@@ -8,9 +8,9 @@ import {AshwagandhaCleanEdit, AshwagandhaGaplessEditV4, CleanPoster, CleanMinera
 
 const RemotionRoot = () => (
   <>
+    <Composition id="AshwagandhaEditorialV2" component={AshwagandhaEditorial} durationInFrames={1454} fps={60} width={1080} height={1920}/>
     <Composition id="AshwagandhaEditorial" component={AshwagandhaCleanEdit} durationInFrames={2014} fps={60} width={1080} height={1920}/>
     <Composition id="AshwagandhaEditorialGaplessV4" component={AshwagandhaGaplessEditV4} durationInFrames={1615} fps={60} width={1080} height={1920}/>
-    <Composition id="AshwagandhaEditorialV2" component={AshwagandhaEditorial} durationInFrames={2014} fps={60} width={1080} height={1920}/>
     <Composition id="AshwagandhaCover" component={CleanPoster} durationInFrames={6} fps={60} width={1080} height={1920}/>
     <Composition id="AshwagandhaMineralExplainer" component={CleanMineral} durationInFrames={230} fps={60} width={1080} height={1920}/>
     <Composition
