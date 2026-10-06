@@ -377,6 +377,39 @@
           "sha256": "b81f2e02511d59f90e81675c3fcc6486da0c8f750374dd780ab8ca9ac3509f9b"
         }
       ]
+    },
+    {
+      "kind": "media",
+      "file": "media-creatine-v2.zip",
+      "bytes": 11011910,
+      "sha256": "a45452d0857def60ba74c7c67a83490dc4a1ab6a2b1496087dbd9ea46c4b2d13",
+      "entries": [
+        {
+          "path": "public/creatine/voice-edit-v2.wav",
+          "bytes": 20102502,
+          "sha256": "7cf062b359c77723c041f609b59705ef032f72116c025e454e0561d4a380576c"
+        }
+      ],
+      "release": "creatine-v2.0.0"
+    },
+    {
+      "kind": "exports",
+      "file": "exports-creatine-v2.zip",
+      "bytes": 114869793,
+      "sha256": "fc8df7fbaa64845f255ab1aa98495556a5ffb4bc910d150eb96040e80154084a",
+      "entries": [
+        {
+          "path": "outputs/creatine-tiktok-v2.mp4",
+          "bytes": 112531988,
+          "sha256": "dba7d8164d943f72ef343c7fb9f5bdd14dbe7225664f60003a200d1487f0ed95"
+        },
+        {
+          "path": "outputs/creatine-cover-v2.png",
+          "bytes": 2326267,
+          "sha256": "a0ba57b4ab00b5e3e89efe3b21888b2260636388ba23b15ea4e1b3ed7a40618f"
+        }
+      ],
+      "release": "creatine-v2.0.0"
     }
   ]
 }

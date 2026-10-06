@@ -6,6 +6,7 @@ import {ATCFishOilEditV4} from './ATCFishOilV4.jsx';
 import {AshwagandhaEditorial} from './ashwagandha/AshwagandhaEditorial.jsx';
 import {AshwagandhaCleanEdit, AshwagandhaGaplessEditV4, CleanPoster, CleanMineral} from './ashwagandha/editorial-clean.jsx';
 import {CreatineMythsV1, CREATINE_DURATION_IN_FRAMES} from './CreatineMythsV1.jsx';
+import {CreatineMythsV2, CREATINE_V2_DURATION_IN_FRAMES} from './CreatineMythsV2.jsx';
 
 const RemotionRoot = () => (
   <>
@@ -15,6 +16,7 @@ const RemotionRoot = () => (
     <Composition id="AshwagandhaCover" component={CleanPoster} durationInFrames={6} fps={60} width={1080} height={1920}/>
     <Composition id="AshwagandhaMineralExplainer" component={CleanMineral} durationInFrames={230} fps={60} width={1080} height={1920}/>
     <Composition id="CreatineMythsV1" component={CreatineMythsV1} durationInFrames={CREATINE_DURATION_IN_FRAMES} fps={60} width={1080} height={1920}/>
+    <Composition id="CreatineMythsV2" component={CreatineMythsV2} durationInFrames={CREATINE_V2_DURATION_IN_FRAMES} fps={60} width={1080} height={1920}/>
     <Composition
       id="ATCFishOilV2"
       component={ATCFishOilEditV2}

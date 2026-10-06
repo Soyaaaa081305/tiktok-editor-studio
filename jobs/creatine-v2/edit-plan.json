@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "compositionId": "CreatineMythsV2",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 4188,
+  "durationSeconds": 69.8,
+  "source": "public/creatine/source-recording.mp4",
+  "voiceTrack": "public/creatine/voice-edit-v2.wav",
+  "segments": [
+    {
+      "id": "hook",
+      "label": "Hook · baldness and kidney question",
+      "sourceStartFrame": 65,
+      "sourceEndFrame": 390,
+      "durationInFrames": 325,
+      "timelineStartFrame": 0
+    },
+    {
+      "id": "research-claim",
+      "label": "Natural research aside · qualified on screen",
+      "sourceStartFrame": 498,
+      "sourceEndFrame": 814,
+      "durationInFrames": 316,
+      "timelineStartFrame": 325
+    },
+    {
+      "id": "three-myths",
+      "label": "Three-myth setup",
+      "sourceStartFrame": 817,
+      "sourceEndFrame": 1179,
+      "durationInFrames": 362,
+      "timelineStartFrame": 641
+    },
+    {
+      "id": "hair-origin",
+      "label": "2009 rugby/DHT context",
+      "sourceStartFrame": 1499,
+      "sourceEndFrame": 1987,
+      "durationInFrames": 488,
+      "timelineStartFrame": 1003
+    },
+    {
+      "id": "hair-evidence",
+      "label": "Hair outcome · direct 2025 trial",
+      "sourceStartFrame": 2445,
+      "sourceEndFrame": 2690,
+      "durationInFrames": 245,
+      "timelineStartFrame": 1491
+    },
+    {
+      "id": "hair-review",
+      "label": "Natural aside · meta-study",
+      "sourceStartFrame": 2690,
+      "sourceEndFrame": 2802,
+      "durationInFrames": 112,
+      "timelineStartFrame": 1736
+    },
+    {
+      "id": "kidney-question",
+      "label": "Kidney myth question · animated asset overlay",
+      "sourceStartFrame": 3181,
+      "sourceEndFrame": 3312,
+      "durationInFrames": 131,
+      "timelineStartFrame": 1848
+    },
+    {
+      "id": "kidney-explain",
+      "label": "Creatinine explanation and natural pause",
+      "sourceStartFrame": 3318,
+      "sourceEndFrame": 3919,
+      "durationInFrames": 601,
+      "timelineStartFrame": 1979
+    },
+    {
+      "id": "weight-myth",
+      "label": "Weight and bloating question",
+      "sourceStartFrame": 4524,
+      "sourceEndFrame": 4680,
+      "durationInFrames": 156,
+      "timelineStartFrame": 2580
+    },
+    {
+      "id": "water-study",
+      "label": "Water weight and body-fat study screenshot",
+      "sourceStartFrame": 5001,
+      "sourceEndFrame": 5184,
+      "durationInFrames": 183,
+      "timelineStartFrame": 2736
+    },
+    {
+      "id": "water-explain",
+      "label": "Intracellular-water explanation",
+      "sourceStartFrame": 5184,
+      "sourceEndFrame": 5679,
+      "durationInFrames": 495,
+      "timelineStartFrame": 2919
+    },
+    {
+      "id": "dose",
+      "label": "Recorded dose and product label",
+      "sourceStartFrame": 5756,
+      "sourceEndFrame": 5977,
+      "durationInFrames": 221,
+      "timelineStartFrame": 3414
+    },
+    {
+      "id": "cta",
+      "label": "Personal product CTA · full natural clause pause",
+      "sourceStartFrame": 5995,
+      "sourceEndFrame": 6366,
+      "durationInFrames": 371,
+      "timelineStartFrame": 3635
+    },
+    {
+      "id": "signoff",
+      "label": "Recorded social signoff",
+      "sourceStartFrame": 6367,
+      "sourceEndFrame": 6549,
+      "durationInFrames": 182,
+      "timelineStartFrame": 4006
+    }
+  ],
+  "removedSourceRanges": [
+    {
+      "startFrame": 390,
+      "endFrame": 498,
+      "reason": "Trims the 1.8-second pause between the complete hook and the creator’s complete, naturally spoken research thought."
+    },
+    {
+      "startFrame": 814,
+      "endFrame": 817,
+      "reason": "Removes only about 0.05 seconds at a clean phrase boundary."
+    },
+    {
+      "startFrame": 1179,
+      "endFrame": 1499,
+      "reason": "Removes long dead air before the first study explanation."
+    },
+    {
+      "startFrame": 1987,
+      "endFrame": 2445,
+      "reason": "Removes the inaccurate claim that 12 follow-up studies replicated or disproved hair-loss outcomes; the referenced review covered hormone measures, not direct hair-loss trials."
+    },
+    {
+      "startFrame": 2802,
+      "endFrame": 3181,
+      "reason": "Removes a repeated meta-study take, on-set directions and long dead air after retaining the first natural aside."
+    },
+    {
+      "startFrame": 3312,
+      "endFrame": 3318,
+      "reason": "Tightens only the brief handoff, retaining about 0.18 seconds of natural pause across the selected handles."
+    },
+    {
+      "startFrame": 3919,
+      "endFrame": 4524,
+      "reason": "Removes the unqualified guarantee that kidney function stays completely normal and the surrounding dead air."
+    },
+    {
+      "startFrame": 4680,
+      "endFrame": 5001,
+      "reason": "Removes the inaccurate claim that zero calories makes body-fat gain physically impossible."
+    },
+    {
+      "startFrame": 5679,
+      "endFrame": 5756,
+      "reason": "Removes the dead-air gap while retaining quiet phrase handles."
+    },
+    {
+      "startFrame": 5977,
+      "endFrame": 5995,
+      "reason": "Tightens a short section transition; complete words and the natural CTA clause pause remain."
+    },
+    {
+      "startFrame": 6366,
+      "endFrame": 6367,
+      "reason": "Keeps the recorded handoff into the spoken signoff."
+    }
+  ],
+  "voiceRules": {
+    "sourceLanguage": "Taglish with English research terms",
+    "playbackRate": 1,
+    "voiceTrack": "public/creatine/voice-edit-v2.wav",
+    "addedMusic": false,
+    "speechRetainedAtNaturalSpeed": true,
+    "preservedNaturalAsides": [
+      "Creatine is literally the single most researched supplement in human history.",
+      "Nakaroon din niya ng meta study."
+    ],
+    "preservedNaturalPausesSeconds": [
+      0.66,
+      0.78
+    ],
+    "excludedClaims": [
+      "The unsupported single-most ranking is explicitly qualified on screen as one of the most widely studied ergogenic aids, not a verified world ranking.",
+      "The follow-up-study hair-replication assertion is omitted because the cited review did not study hair-loss outcomes.",
+      "The absolute kidney-function guarantee is omitted.",
+      "The zero-calorie body-fat impossibility claim is omitted."
+    ]
+  },
+  "pictureLanes": {
+    "assets": [
+      "public/creatine/user-asset-baldman.avif",
+      "public/creatine/user-asset-kidney.gif",
+      "public/creatine/research/2021-review.png",
+      "public/creatine/research/2013-kidney-trial.png",
+      "public/creatine/research/2003-body-composition.png"
+    ],
+    "distinction": "Supplied still/GIF/article images are shown as labeled media overlays. Original custom motion graphics explain relationships separately; one does not substitute for the other."
+  },
+  "notes": [
+    "The new 69.8-second cut retains the user-requested natural spoken aside and clause pacing; it does not target one minute.",
+    "Source-frame boundaries align to the 60 fps recording; 48 kHz audio trims align to 800 samples per frame.",
+    "The supplied celebrity photo is a labeled illustrative portrait only and is never linked causally to creatine. The kidney GIF is labeled an anatomy illustration, not evidence of injury.",
+    "The 2021 review screenshot is shown with a clear note that its hormone studies are not direct hair-loss trials."
+  ]
+}

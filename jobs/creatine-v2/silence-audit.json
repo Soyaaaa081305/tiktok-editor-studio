@@ -1,0 +1,52 @@
+{
+  "method": "Source-frame EDL assembled at 48 kHz with 8 ms edge fades. Render review threshold: -45 dB for gaps of at least 0.35 seconds; each flag is assessed against source timing and speech handles.",
+  "preservedNaturalPauses": [
+    {"sourceStartSeconds":59.80,"sourceEndSeconds":60.46,"durationSeconds":0.66,"context":"Natural pause between two recorded kidney-marker sentences."},
+    {"sourceStartSeconds":103.50,"sourceEndSeconds":104.28,"durationSeconds":0.78,"context":"Natural pause between the two recorded personal CTA clauses."}
+  ],
+  "longDeadAirRemoved": [
+    {"sourceStartSeconds":6.50,"sourceEndSeconds":8.30,"reason":"Retains the full hook and the next complete natural thought; trims only the empty interval between them."},
+    {"sourceStartSeconds":19.65,"sourceEndSeconds":24.98,"reason":"Long pause before the first hair-study explanation."},
+    {"sourceStartSeconds":33.12,"sourceEndSeconds":40.75,"reason":"Excludes the unsupported 12-study hair-replication assertion, then resumes at a complete sentence."},
+    {"sourceStartSeconds":46.70,"sourceEndSeconds":53.02,"reason":"Excludes a repeated meta-study take, on-set directions and long dead air."},
+    {"sourceStartSeconds":65.32,"sourceEndSeconds":75.40,"reason":"Excludes a universal kidney-function guarantee and surrounding pause."},
+    {"sourceStartSeconds":78.00,"sourceEndSeconds":83.35,"reason":"Excludes the false zero-calorie/body-fat impossibility claim and surrounding pause."}
+  ],
+  "renderedAudit": {
+    "track": "public/creatine/voice-edit-v2.wav",
+    "durationSeconds": 69.8,
+    "thresholdDbFS": -45,
+    "minimumSilenceSeconds": 0.35,
+    "flags": [
+      {
+        "outputStartSeconds": 5.80342,
+        "outputEndSeconds": 6.57046,
+        "durationSeconds": 0.76704,
+        "sourceEquivalentStartSeconds": 8.68675,
+        "sourceEquivalentEndSeconds": 9.45379,
+        "context": "Falls within the natural research aside; the recognizer assigns the surrounding word across this interval.",
+        "action": "Retained to avoid cutting a possible quiet syllable or breath; confirm by listening."
+      },
+      {
+        "outputStartSeconds": 64.0086,
+        "outputEndSeconds": 64.8721,
+        "durationSeconds": 0.8635,
+        "sourceEquivalentStartSeconds": 103.3419,
+        "sourceEquivalentEndSeconds": 104.2054,
+        "context": "The source CTA pause is approximately 0.78 seconds between complete clauses.",
+        "action": "Retained as natural original pacing."
+      },
+      {
+        "outputStartSeconds": 69.2721,
+        "outputEndSeconds": 69.8,
+        "durationSeconds": 0.5279,
+        "sourceEquivalentStartSeconds": 108.6221,
+        "sourceEquivalentEndSeconds": 109.15,
+        "context": "Quiet tail at the end of the recorded signoff.",
+        "action": "Retained to protect the final spoken words and natural decay."
+      }
+    ],
+    "result": "No other threshold-flagged pauses longer than 0.35 seconds occur in the voice edit."
+  },
+  "knownLimitation": "The -45 dB scan cannot distinguish quiet speech or a breath from non-speech by itself. No subjective full-length listening review was performed; ASR timings and captions remain provisional for Taglish/code-switching."
+}

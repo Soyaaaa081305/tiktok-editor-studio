@@ -1,6 +1,6 @@
 # TikTok Production Studio
 
-Portable private Remotion project for the creator’s original science-based Taglish videos. It includes the editable Ashwagandha and ATC Fish Oil cuts, reusable research and production prompts, creator/Spark context, and the local animation library.
+Portable private Remotion project for the creator’s original science-based Taglish videos. It includes editable Ashwagandha, ATC Fish Oil, Creatine myths, and Somatotypes cuts, reusable research and production prompts, creator/Spark context, and the local animation library.
 
 ## Download on Mac
 
@@ -14,7 +14,7 @@ cd tiktok-production-studio
 bash scripts/setup-mac.sh --studio
 ```
 
-The setup installs the pinned Node and pnpm versions, downloads and checks the original private media plus the v2 additions, restores the finished export archive, verifies required sound files, then opens Remotion Studio. The project root contains the Remotion configuration and registered third-party element catalog.
+The setup installs the pinned Node and pnpm versions, downloads and checks the original private media plus the v2 additions, restores the finished export archive, verifies required sound files, then opens Remotion Studio. The project root contains the Remotion configuration and registered third-party element catalog. The Somatotypes export is a separate asset in the latest private release.
 
 ## Download on Windows
 
@@ -48,9 +48,10 @@ Cloning the code alone does not include large recordings or MP4 exports. `pnpm a
 |---|---|---|
 | Ashwagandha | `outputs/baseline/ashwagandha-tiktok-v4-1080p-upload.mp4` | `outputs/baseline/ashwagandha-tiktok-v4-4k-master.mp4` |
 | ATC Fish Oil | `outputs/baseline/atc-fish-oil-v4-1080p-upload.mp4` | `outputs/baseline/atc-fish-oil-v4-4k-master.mp4` |
-| Creatine myths | `outputs/creatine-tiktok-v1.mp4` | — |
+| Creatine myths | `outputs/creatine-tiktok-v2.mp4` | — |
+| Somatotypes | `outputs/somatotypes-tiktok-v1-1080p-upload.mp4` | `outputs/somatotypes-tiktok-v1-4k-master.mp4` |
 
-Both cuts use 60 fps. Their archive masters are 2160 × 3840 upscales from 1080 × 1920 footage; upscaling improves output dimensions but cannot restore detail that was not captured. Use the 1080 × 1920 upload copy in TikTok Studio. TikTok’s current Studio help lists MP4/WebM, at least 720 × 1280, under 10 GB and up to 30 minutes. TikTok can re-encode an upload, so no file can guarantee uncompressed playback. The separate cover is a frame-zero still; choose it in TikTok Studio because automatic cover selection is not guaranteed.
+All listed cuts use 60 fps. The Ashwagandha, Fish Oil, and Somatotypes archive masters are 2160 × 3840 upscales from 1080 × 1920 source footage; upscaling improves output dimensions but cannot restore detail that was not captured. Use the 1080 × 1920 upload copy in TikTok Studio. TikTok can re-encode an upload, so no file can guarantee uncompressed playback. A separate cover is included with each export; choose it in TikTok Studio because automatic cover selection is not guaranteed.
 
 ## Open, preview or reproduce
 
@@ -77,7 +78,9 @@ pnpm prepare:fish-oil-v4
 pnpm render:fish-oil-v4
 ```
 
-The Creatine edit is `CreatineMythsV1`. Its frame-accurate cut plan, phrase captions, claim map and review are in [`jobs/creatine-v1/`](jobs/creatine-v1/). To rebuild its original-speed voice mix and render the video, run `pnpm render:creatine-v1`. The private `creatine-v1.0.0` release contains the source/working media and finished MP4/cover ZIPs; `pnpm assets:restore` verifies and restores both.
+The current Creatine edit is `CreatineMythsV2`. Its frame-accurate cut plan, phrase captions, claim map, asset overlays and review are in [`jobs/creatine-v2/`](jobs/creatine-v2/). To rebuild its original-speed voice mix and render the video, run `pnpm render:creatine-v2`. V2 keeps complete natural asides and clause pauses while removing dead air and inaccurate claims. The user-supplied bald-man photo, kidney GIF and all three evidence screenshots appear as labeled overlays alongside separate custom motion graphics. The private `creatine-v2.0.0` release contains the V2 voice edit and finished MP4/cover ZIPs; `pnpm assets:restore` verifies and restores both Creatine releases.
+
+The Somatotypes edit is `SomatotypesEditorialV1`. Its cut plan, source and evidence notes, SFX cues, silence audit, and quality review are in [`jobs/somatotypes-v1/`](jobs/somatotypes-v1/). Its local-only personal media remains outside Git. After restoring those inputs under `public/somatotypes/`, run `pnpm render:somatotypes-v1`; to reuse the saved local soundtrack, run `pnpm reproduce:somatotypes-v1`. The private `somatotypes-v1.0.0` release includes the upload copy, archive master, and cover.
 
 Reproduction uses the preserved final voice/SFX mixes. It does not rerun transcription or broad research. Render scripts verify file decoding, dimensions, frame rate, pixel format, audio presence and duration. The saved silence audits report whether the edited voice contains unplanned gaps longer than 0.35 seconds.
 
