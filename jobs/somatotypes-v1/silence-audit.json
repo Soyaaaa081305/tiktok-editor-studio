@@ -1,0 +1,84 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "detector": {
+    "thresholdDb": -42,
+    "minimumDurationSeconds": 0.35
+  },
+  "checkedTrack": "voice-normalized original narration before music/SFX",
+  "authoredSilence": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 0.1,
+      "reason": "authentic 0.1-second cover"
+    }
+  ],
+  "detectedRanges": [
+    {
+      "startSeconds": 6.20237,
+      "endSeconds": 6.77333,
+      "durationSeconds": 0.571
+    },
+    {
+      "startSeconds": 7.47415,
+      "endSeconds": 8.09252,
+      "durationSeconds": 0.6184
+    },
+    {
+      "startSeconds": 43.1671,
+      "endSeconds": 43.5611,
+      "durationSeconds": 0.394
+    },
+    {
+      "startSeconds": 51.8634,
+      "endSeconds": 52.2343,
+      "durationSeconds": 0.3709
+    },
+    {
+      "startSeconds": 52.7592,
+      "endSeconds": 53.4479,
+      "durationSeconds": 0.6887
+    },
+    {
+      "startSeconds": 56.4879,
+      "endSeconds": 57.3251,
+      "durationSeconds": 0.8372
+    },
+    {
+      "startSeconds": 58.2117,
+      "endSeconds": 58.8049,
+      "durationSeconds": 0.5932
+    },
+    {
+      "startSeconds": 68.8462,
+      "endSeconds": 69.2209,
+      "durationSeconds": 0.3747
+    },
+    {
+      "startSeconds": 81.9775,
+      "endSeconds": 82.4333,
+      "durationSeconds": 0.4558
+    }
+  ],
+  "reviewedSourcePauses": [
+    {
+      "start": 8.133,
+      "end": 13.4
+    },
+    {
+      "start": 40.6,
+      "end": 43.3
+    },
+    {
+      "start": 60.133,
+      "end": 62.933
+    }
+  ],
+  "protectedQuietSpeech": [
+    {
+      "start": 64.82,
+      "end": 65.72,
+      "note": "complete spoken “Okay?” retained"
+    }
+  ],
+  "subjectiveListening": "UNVERIFIED: no continuous subjective local-audio audition was available to the model."
+}

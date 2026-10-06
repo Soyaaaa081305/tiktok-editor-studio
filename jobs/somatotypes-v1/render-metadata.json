@@ -1,0 +1,91 @@
+{
+  "composition": "SomatotypesEditorialV1",
+  "renderInputFingerprint": "075c3e89e5b58f628ae42d06c9032d69d15939135d7925c670ce60d24126266c",
+  "master": {
+    "file": "outputs/somatotypes-tiktok-v1-4k-master.mp4",
+    "expectedDurationSeconds": 82.43333333333334,
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 2160,
+        "height": 3840,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "r_frame_rate": "60/1"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "82.434000",
+      "size": "399413952",
+      "bit_rate": "38762059"
+    }
+  },
+  "upload": {
+    "file": "outputs/somatotypes-tiktok-v1-1080p-upload.mp4",
+    "expectedDurationSeconds": 82.43333333333334,
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "r_frame_rate": "60/1"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "82.435000",
+      "size": "151924896",
+      "bit_rate": "14743727"
+    }
+  },
+  "cover": {
+    "file": "outputs/somatotypes-tiktok-v1-cover.png",
+    "width": 1080,
+    "height": 1920,
+    "sha256": "f605b5273e3e555b05124cdbd8c2112383eeeccad4a9fd00ec9d6ec69d1f9fa5"
+  },
+  "uploadSha256": "18d4bd6c9f5ba8a88d1fc29190a283cace707af1292a9f88d4e78e8a24d15b4c",
+  "masterSha256": "b59ca799ddde03d564b4a0462cf16964e90b60929610b0f645146247ab72c069",
+  "uploadAudioLoudness": {
+    "input_i": "-14.60",
+    "input_tp": "-1.76",
+    "input_lra": "5.60",
+    "input_thresh": "-25.11",
+    "output_i": "-14.50",
+    "output_tp": "-1.80",
+    "output_lra": "4.40",
+    "output_thresh": "-24.96",
+    "normalization_type": "dynamic",
+    "target_offset": "0.00"
+  },
+  "masterIsUpscale": true,
+  "sourcePresenterResolution": "1080 × 1920; both source footage and the rendered edit are upscaled for the 4K archive master",
+  "tiktokRecompression": "not controllable by the rendered file"
+}
