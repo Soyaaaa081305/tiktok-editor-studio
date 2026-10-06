@@ -4,47 +4,36 @@
   "node": "24.19.0",
   "pnpm": "11.19.0",
   "remotion": "4.0.533",
+  "project_version": "prompt kit v6.1.0; media and export manifest v2",
   "checks": {
-    "frozen_lockfile_install": "passed after explicit build configuration",
-    "dependency_lock_matches_original": true,
-    "composition_source_matches_original": true,
-    "both_main_prompts_match_v5_deliverables": true,
-    "windows_media_restore": "passed",
-    "archive_sha256_checks": 2,
-    "individual_media_sha256_checks": 36,
-    "baseline_export_and_cover_sha256_checks": 4,
-    "all_mapped_sound_cues_resolve": 81,
-    "project_readiness_command": "passed",
-    "node_script_syntax": "passed",
-    "bash_helper_syntax": "passed using bash -n",
-    "runtime_windows_absolute_paths": 0,
-    "credential_marker_scan": "no matching GitHub tokens or private key markers in packaged code",
-    "remotion_composition_discovery": "passed",
-    "still_renders": [
-      {"composition": "AshwagandhaEditorial", "frame": 700, "scale": 0.5, "render": "passed", "visual_inspection": "completed"},
-      {"composition": "ATCFishOilV3", "frame": 830, "scale": 0.5, "render": "passed", "visual_inspection": "completed"}
-    ]
+    "frozen_lockfile_install": "passed in the project preparation session",
+    "project_doctor": "passed; status ready",
+    "verified_local_media_and_export_entries": 53,
+    "asset_entry_sha256_checks": "passed",
+    "remotion_composition_discovery": "passed; includes AshwagandhaEditorialGaplessV4 (1615 frames) and ATCFishOilV4 (2899 frames)",
+    "ashwagandha_v4": {
+      "render": "4K60 H.264 master and 1080p60 H.264/AAC upload rendered, decoded and probed",
+      "duration_seconds": 26.9167,
+      "audio": "AAC stereo 48 kHz; 12 selected SFX; no added music; -14.71 LUFS integrated and -1.75 dBTP measured on delivered file",
+      "speech_gap_scan": "no unplanned gaps over 0.35 seconds detected; six-frame cover silence is intentional",
+      "visual_review": "cover and sampled contact sheet inspected"
+    },
+    "atc_fish_oil_v4": {
+      "render": "4K60 H.264 master and 1080p60 H.264/AAC upload rendered, decoded and probed",
+      "duration_seconds": 48.3167,
+      "audio": "AAC stereo 48 kHz; 24 selected SFX; no added music; -14.61 LUFS integrated and -1.79 dBTP measured on delivered file",
+      "speech_gap_scan": "no unplanned gaps over 0.35 seconds detected; six-frame cover silence is intentional",
+      "visual_review": "frame-zero cover, full-duration contact sheet and first-10-second contact sheet inspected"
+    },
+    "remotion_config_and_elements": "project doctor and composition discovery passed",
+    "prompt_copy": "current prompt pack copied to Documents\\Script",
+    "private_github": "repo visibility verified private before publication; release publication verification pending"
   },
-  "compositions": [
-    {"id": "AshwagandhaEditorial", "fps": 60, "width": 1080, "height": 1920, "frames": 2014},
-    {"id": "AshwagandhaEditorialV2", "fps": 60, "width": 1080, "height": 1920, "frames": 2014},
-    {"id": "AshwagandhaCover", "fps": 60, "width": 1080, "height": 1920, "frames": 6},
-    {"id": "AshwagandhaMineralExplainer", "fps": 60, "width": 1080, "height": 1920, "frames": 230},
-    {"id": "ATCFishOilV2", "fps": 60, "width": 1080, "height": 1920, "frames": 2947},
-    {"id": "ATCFishOilV3", "fps": 60, "width": 1080, "height": 1920, "frames": 2947}
-  ],
-  "repaired_during_packaging": [
-    "absolute Windows output and external scratch paths",
-    "pnpm build decision placeholders and required locked dependency build scripts",
-    "pnpm built-in setup/doctor names replaced by unambiguous project commands",
-    "Windows media extraction replaced by guarded .NET extraction",
-    "added reuse of saved Fish Oil soundtrack for reproduction"
-  ],
   "limits": [
-    "No actual Mac was available; Mac execution is not verified.",
-    "Two sampled stills verify that the packaged compositions render, not a full new audiovisual review.",
-    "Finished exports were copied exactly, not newly rendered or recut in this transfer.",
-    "Older Fish Oil system fonts and encoder implementation can differ across hosts.",
-    "Current Ashwagandha soundtrack preserves the earlier quiet music bed; future v5 defaults disable added music."
+    "No actual Mac was available; Mac installation and playback are not verified.",
+    "Local audio signal and silence checks passed, but subjective listening was unavailable.",
+    "TikTok upload and in-app playback were not performed; TikTok may transcode uploads.",
+    "The 2160x3840 masters upscale 1080x1920 source footage and do not recover uncaptured detail.",
+    "Fish Oil product-specific EPA/DHA quantities were not stated on the manufacturer page; health anecdotes are not product-efficacy evidence."
   ]
 }

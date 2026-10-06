@@ -1,0 +1,105 @@
+{
+  "status": "STRUCTURAL_PASS",
+  "fps": 60,
+  "totalOutputFrames": 2899,
+  "intentionalSilentFrames": [
+    {
+      "start": 0,
+      "end": 6,
+      "reason": "real cover hold"
+    }
+  ],
+  "unplannedInsertedSilentFrames": 0,
+  "editedSpeechCoverage": {
+    "start": 6,
+    "end": 2899,
+    "frames": 2893
+  },
+  "sourceDialogueEdl": [
+    {
+      "id": "clip-01",
+      "sourceStartFrame": 191,
+      "sourceEndFrame": 428,
+      "outputStartFrame": 0,
+      "durationInFrames": 237
+    },
+    {
+      "id": "clip-02",
+      "sourceStartFrame": 455,
+      "sourceEndFrame": 722,
+      "outputStartFrame": 237,
+      "durationInFrames": 267
+    },
+    {
+      "id": "clip-03",
+      "sourceStartFrame": 736,
+      "sourceEndFrame": 997,
+      "outputStartFrame": 504,
+      "durationInFrames": 261
+    },
+    {
+      "id": "clip-04",
+      "sourceStartFrame": 997,
+      "sourceEndFrame": 1424,
+      "outputStartFrame": 765,
+      "durationInFrames": 427
+    },
+    {
+      "id": "clip-05",
+      "sourceStartFrame": 1450,
+      "sourceEndFrame": 1606,
+      "outputStartFrame": 1192,
+      "durationInFrames": 156
+    },
+    {
+      "id": "clip-06",
+      "sourceStartFrame": 1624,
+      "sourceEndFrame": 1862,
+      "outputStartFrame": 1348,
+      "durationInFrames": 238
+    },
+    {
+      "id": "clip-07",
+      "sourceStartFrame": 1862,
+      "sourceEndFrame": 2180,
+      "outputStartFrame": 1586,
+      "durationInFrames": 318
+    },
+    {
+      "id": "clip-08",
+      "sourceStartFrame": 2422,
+      "sourceEndFrame": 2687,
+      "outputStartFrame": 1904,
+      "durationInFrames": 265
+    },
+    {
+      "id": "clip-09",
+      "sourceStartFrame": 2826,
+      "sourceEndFrame": 3178,
+      "outputStartFrame": 2169,
+      "durationInFrames": 352
+    },
+    {
+      "id": "clip-10",
+      "sourceStartFrame": 3334,
+      "sourceEndFrame": 3400,
+      "outputStartFrame": 2521,
+      "durationInFrames": 66
+    },
+    {
+      "id": "clip-11",
+      "sourceStartFrame": 3521,
+      "sourceEndFrame": 3706,
+      "outputStartFrame": 2587,
+      "durationInFrames": 185
+    },
+    {
+      "id": "clip-12",
+      "sourceStartFrame": 4123,
+      "sourceEndFrame": 4244,
+      "outputStartFrame": 2772,
+      "durationInFrames": 121
+    }
+  ],
+  "visualCoverage": "All full-screen scenes are overlays over the same continuous edited voice lane."
+}

@@ -5,6 +5,11 @@ python-packages/
 work/
 work-render/
 outputs/
+jobs/**/*.mp4
+jobs/**/*.m4a
+jobs/**/*.wav
+jobs/**/*.png
+jobs/**/*.jpg
 public/**
 !public/README.md
 assets/

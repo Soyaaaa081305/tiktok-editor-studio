@@ -1,0 +1,1054 @@
+{
+  "fps": 60,
+  "posterFrames": 6,
+  "durationInFrames": 2899,
+  "bodyDurationInFrames": 2893,
+  "edl": [
+    {
+      "id": "clip-01",
+      "name": "Hook · daily routine",
+      "sourceStartFrame": 191,
+      "sourceEndFrame": 428,
+      "outputStartFrame": 0,
+      "durationInFrames": 237
+    },
+    {
+      "id": "clip-02",
+      "name": "01 · EPA + DHA",
+      "sourceStartFrame": 455,
+      "sourceEndFrame": 722,
+      "outputStartFrame": 237,
+      "durationInFrames": 267
+    },
+    {
+      "id": "clip-03",
+      "name": "EPA · signaling",
+      "sourceStartFrame": 736,
+      "sourceEndFrame": 997,
+      "outputStartFrame": 504,
+      "durationInFrames": 261
+    },
+    {
+      "id": "clip-04",
+      "name": "DHA · brain + eyes",
+      "sourceStartFrame": 997,
+      "sourceEndFrame": 1424,
+      "outputStartFrame": 765,
+      "durationInFrames": 427
+    },
+    {
+      "id": "clip-05",
+      "name": "02 · personal experience",
+      "sourceStartFrame": 1450,
+      "sourceEndFrame": 1606,
+      "outputStartFrame": 1192,
+      "durationInFrames": 156
+    },
+    {
+      "id": "clip-06",
+      "name": "Acne · personal anecdote",
+      "sourceStartFrame": 1624,
+      "sourceEndFrame": 1862,
+      "outputStartFrame": 1348,
+      "durationInFrames": 238
+    },
+    {
+      "id": "clip-07",
+      "name": "DOMS · personal anecdote",
+      "sourceStartFrame": 1862,
+      "sourceEndFrame": 2180,
+      "outputStartFrame": 1586,
+      "durationInFrames": 318
+    },
+    {
+      "id": "clip-08",
+      "name": "Individual-results caveat",
+      "sourceStartFrame": 2422,
+      "sourceEndFrame": 2687,
+      "outputStartFrame": 1904,
+      "durationInFrames": 265
+    },
+    {
+      "id": "clip-09",
+      "name": "03 · 100 capsules + value",
+      "sourceStartFrame": 2826,
+      "sourceEndFrame": 3178,
+      "outputStartFrame": 2169,
+      "durationInFrames": 352
+    },
+    {
+      "id": "clip-10",
+      "name": "Blister-pack comparison",
+      "sourceStartFrame": 3334,
+      "sourceEndFrame": 3400,
+      "outputStartFrame": 2521,
+      "durationInFrames": 66
+    },
+    {
+      "id": "clip-11",
+      "name": "Cost per capsule",
+      "sourceStartFrame": 3521,
+      "sourceEndFrame": 3706,
+      "outputStartFrame": 2587,
+      "durationInFrames": 185
+    },
+    {
+      "id": "clip-12",
+      "name": "Yellow Basket CTA",
+      "sourceStartFrame": 4123,
+      "sourceEndFrame": 4244,
+      "outputStartFrame": 2772,
+      "durationInFrames": 121
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 61,
+      "words": [
+        {
+          "text": "bakit",
+          "startFrame": 0,
+          "endFrame": 18
+        },
+        {
+          "text": "nga",
+          "startFrame": 18,
+          "endFrame": 27
+        },
+        {
+          "text": "ba",
+          "startFrame": 27,
+          "endFrame": 36
+        },
+        {
+          "text": "kasama",
+          "startFrame": 36,
+          "endFrame": 61
+        }
+      ]
+    },
+    {
+      "startFrame": 61,
+      "endFrame": 147,
+      "words": [
+        {
+          "text": "palagi",
+          "startFrame": 61,
+          "endFrame": 86
+        },
+        {
+          "text": "itong",
+          "startFrame": 86,
+          "endFrame": 103
+        },
+        {
+          "text": "ATC",
+          "startFrame": 103,
+          "endFrame": 126
+        },
+        {
+          "text": "Fish",
+          "startFrame": 126,
+          "endFrame": 147
+        }
+      ]
+    },
+    {
+      "startFrame": 147,
+      "endFrame": 204,
+      "words": [
+        {
+          "text": "Oil",
+          "startFrame": 147,
+          "endFrame": 162
+        },
+        {
+          "text": "sa",
+          "startFrame": 162,
+          "endFrame": 177
+        },
+        {
+          "text": "daily",
+          "startFrame": 177,
+          "endFrame": 204
+        }
+      ]
+    },
+    {
+      "startFrame": 204,
+      "endFrame": 237,
+      "words": [
+        {
+          "text": "routine",
+          "startFrame": 204,
+          "endFrame": 225
+        },
+        {
+          "text": "ko?",
+          "startFrame": 225,
+          "endFrame": 237
+        }
+      ]
+    },
+    {
+      "startFrame": 237,
+      "endFrame": 309,
+      "words": [
+        {
+          "text": "First",
+          "startFrame": 237,
+          "endFrame": 278
+        },
+        {
+          "text": "reason,",
+          "startFrame": 278,
+          "endFrame": 309
+        }
+      ]
+    },
+    {
+      "startFrame": 322,
+      "endFrame": 438,
+      "words": [
+        {
+          "text": "omega-3,",
+          "startFrame": 322,
+          "endFrame": 358
+        },
+        {
+          "text": "specifically",
+          "startFrame": 371,
+          "endFrame": 407
+        },
+        {
+          "text": "EPA",
+          "startFrame": 407,
+          "endFrame": 438
+        }
+      ]
+    },
+    {
+      "startFrame": 438,
+      "endFrame": 504,
+      "words": [
+        {
+          "text": "and",
+          "startFrame": 438,
+          "endFrame": 471
+        },
+        {
+          "text": "DHA.",
+          "startFrame": 471,
+          "endFrame": 504
+        }
+      ]
+    },
+    {
+      "startFrame": 504,
+      "endFrame": 607,
+      "words": [
+        {
+          "text": "EPA",
+          "startFrame": 504,
+          "endFrame": 541
+        },
+        {
+          "text": "plays",
+          "startFrame": 541,
+          "endFrame": 574
+        },
+        {
+          "text": "a",
+          "startFrame": 574,
+          "endFrame": 585
+        },
+        {
+          "text": "direct",
+          "startFrame": 585,
+          "endFrame": 607
+        }
+      ]
+    },
+    {
+      "startFrame": 607,
+      "endFrame": 672,
+      "words": [
+        {
+          "text": "role",
+          "startFrame": 607,
+          "endFrame": 633
+        },
+        {
+          "text": "sa",
+          "startFrame": 633,
+          "endFrame": 643
+        },
+        {
+          "text": "inflammatory",
+          "startFrame": 643,
+          "endFrame": 672
+        }
+      ]
+    },
+    {
+      "startFrame": 672,
+      "endFrame": 765,
+      "words": [
+        {
+          "text": "response",
+          "startFrame": 672,
+          "endFrame": 712
+        },
+        {
+          "text": "ng",
+          "startFrame": 712,
+          "endFrame": 721
+        },
+        {
+          "text": "katawan",
+          "startFrame": 721,
+          "endFrame": 744
+        },
+        {
+          "text": "natin",
+          "startFrame": 744,
+          "endFrame": 765
+        }
+      ]
+    },
+    {
+      "startFrame": 765,
+      "endFrame": 864,
+      "words": [
+        {
+          "text": "while",
+          "startFrame": 765,
+          "endFrame": 782
+        },
+        {
+          "text": "DHA",
+          "startFrame": 782,
+          "endFrame": 826
+        },
+        {
+          "text": "is",
+          "startFrame": 826,
+          "endFrame": 842
+        },
+        {
+          "text": "actually",
+          "startFrame": 842,
+          "endFrame": 864
+        }
+      ]
+    },
+    {
+      "startFrame": 864,
+      "endFrame": 939,
+      "words": [
+        {
+          "text": "one",
+          "startFrame": 864,
+          "endFrame": 883
+        },
+        {
+          "text": "of",
+          "startFrame": 883,
+          "endFrame": 904
+        },
+        {
+          "text": "the",
+          "startFrame": 904,
+          "endFrame": 914
+        },
+        {
+          "text": "main",
+          "startFrame": 914,
+          "endFrame": 939
+        }
+      ]
+    },
+    {
+      "startFrame": 939,
+      "endFrame": 1046,
+      "words": [
+        {
+          "text": "structural",
+          "startFrame": 939,
+          "endFrame": 968
+        },
+        {
+          "text": "fats",
+          "startFrame": 968,
+          "endFrame": 1003
+        },
+        {
+          "text": "sa",
+          "startFrame": 1003,
+          "endFrame": 1023
+        },
+        {
+          "text": "brain",
+          "startFrame": 1023,
+          "endFrame": 1046
+        }
+      ]
+    },
+    {
+      "startFrame": 1046,
+      "endFrame": 1123,
+      "words": [
+        {
+          "text": "and",
+          "startFrame": 1046,
+          "endFrame": 1064
+        },
+        {
+          "text": "eyes",
+          "startFrame": 1064,
+          "endFrame": 1088
+        },
+        {
+          "text": "natin.",
+          "startFrame": 1088,
+          "endFrame": 1123
+        }
+      ]
+    },
+    {
+      "startFrame": 1137,
+      "endFrame": 1192,
+      "words": [
+        {
+          "text": "Brain",
+          "startFrame": 1137,
+          "endFrame": 1150
+        },
+        {
+          "text": "and",
+          "startFrame": 1150,
+          "endFrame": 1166
+        },
+        {
+          "text": "eye",
+          "startFrame": 1166,
+          "endFrame": 1177
+        },
+        {
+          "text": "health.",
+          "startFrame": 1177,
+          "endFrame": 1192
+        }
+      ]
+    },
+    {
+      "startFrame": 1192,
+      "endFrame": 1258,
+      "words": [
+        {
+          "text": "Second,",
+          "startFrame": 1192,
+          "endFrame": 1212
+        },
+        {
+          "text": "personal",
+          "startFrame": 1231,
+          "endFrame": 1258
+        }
+      ]
+    },
+    {
+      "startFrame": 1258,
+      "endFrame": 1316,
+      "words": [
+        {
+          "text": "experience",
+          "startFrame": 1258,
+          "endFrame": 1300
+        },
+        {
+          "text": "ko",
+          "startFrame": 1300,
+          "endFrame": 1309
+        },
+        {
+          "text": "lang",
+          "startFrame": 1309,
+          "endFrame": 1316
+        }
+      ]
+    },
+    {
+      "startFrame": 1316,
+      "endFrame": 1348,
+      "words": [
+        {
+          "text": "kasi",
+          "startFrame": 1316,
+          "endFrame": 1331
+        },
+        {
+          "text": "talaga.",
+          "startFrame": 1331,
+          "endFrame": 1348
+        }
+      ]
+    },
+    {
+      "startFrame": 1348,
+      "endFrame": 1409,
+      "words": [
+        {
+          "text": "Ever",
+          "startFrame": 1348,
+          "endFrame": 1369
+        },
+        {
+          "text": "since",
+          "startFrame": 1369,
+          "endFrame": 1381
+        },
+        {
+          "text": "I",
+          "startFrame": 1381,
+          "endFrame": 1391
+        },
+        {
+          "text": "stayed",
+          "startFrame": 1391,
+          "endFrame": 1409
+        }
+      ]
+    },
+    {
+      "startFrame": 1409,
+      "endFrame": 1454,
+      "words": [
+        {
+          "text": "consistent",
+          "startFrame": 1409,
+          "endFrame": 1438
+        },
+        {
+          "text": "dito,",
+          "startFrame": 1438,
+          "endFrame": 1454
+        }
+      ]
+    },
+    {
+      "startFrame": 1464,
+      "endFrame": 1532,
+      "words": [
+        {
+          "text": "my",
+          "startFrame": 1464,
+          "endFrame": 1471
+        },
+        {
+          "text": "acne",
+          "startFrame": 1471,
+          "endFrame": 1494
+        },
+        {
+          "text": "feels",
+          "startFrame": 1494,
+          "endFrame": 1516
+        },
+        {
+          "text": "a",
+          "startFrame": 1516,
+          "endFrame": 1532
+        }
+      ]
+    },
+    {
+      "startFrame": 1532,
+      "endFrame": 1586,
+      "words": [
+        {
+          "text": "lot",
+          "startFrame": 1532,
+          "endFrame": 1546
+        },
+        {
+          "text": "calmer",
+          "startFrame": 1546,
+          "endFrame": 1586
+        }
+      ]
+    },
+    {
+      "startFrame": 1586,
+      "endFrame": 1652,
+      "words": [
+        {
+          "text": "and",
+          "startFrame": 1586,
+          "endFrame": 1601
+        },
+        {
+          "text": "mas",
+          "startFrame": 1601,
+          "endFrame": 1618
+        },
+        {
+          "text": "ramdam",
+          "startFrame": 1618,
+          "endFrame": 1636
+        },
+        {
+          "text": "ko",
+          "startFrame": 1636,
+          "endFrame": 1652
+        }
+      ]
+    },
+    {
+      "startFrame": 1652,
+      "endFrame": 1730,
+      "words": [
+        {
+          "text": "yung",
+          "startFrame": 1652,
+          "endFrame": 1664
+        },
+        {
+          "text": "recovery",
+          "startFrame": 1664,
+          "endFrame": 1687
+        },
+        {
+          "text": "ko",
+          "startFrame": 1687,
+          "endFrame": 1704
+        },
+        {
+          "text": "from",
+          "startFrame": 1704,
+          "endFrame": 1730
+        }
+      ]
+    },
+    {
+      "startFrame": 1730,
+      "endFrame": 1846,
+      "words": [
+        {
+          "text": "DOMS",
+          "startFrame": 1730,
+          "endFrame": 1774
+        },
+        {
+          "text": "or",
+          "startFrame": 1774,
+          "endFrame": 1788
+        },
+        {
+          "text": "delayed",
+          "startFrame": 1788,
+          "endFrame": 1817
+        },
+        {
+          "text": "onset",
+          "startFrame": 1817,
+          "endFrame": 1846
+        }
+      ]
+    },
+    {
+      "startFrame": 1846,
+      "endFrame": 1904,
+      "words": [
+        {
+          "text": "muscle",
+          "startFrame": 1846,
+          "endFrame": 1872
+        },
+        {
+          "text": "soreness.",
+          "startFrame": 1872,
+          "endFrame": 1904
+        }
+      ]
+    },
+    {
+      "startFrame": 1904,
+      "endFrame": 1953,
+      "words": [
+        {
+          "text": "of",
+          "startFrame": 1904,
+          "endFrame": 1940
+        },
+        {
+          "text": "course,",
+          "startFrame": 1940,
+          "endFrame": 1953
+        }
+      ]
+    },
+    {
+      "startFrame": 1959,
+      "endFrame": 2032,
+      "words": [
+        {
+          "text": "individual",
+          "startFrame": 1959,
+          "endFrame": 1988
+        },
+        {
+          "text": "results",
+          "startFrame": 1988,
+          "endFrame": 2016
+        },
+        {
+          "text": "pa",
+          "startFrame": 2016,
+          "endFrame": 2027
+        },
+        {
+          "text": "rin",
+          "startFrame": 2027,
+          "endFrame": 2032
+        }
+      ]
+    },
+    {
+      "startFrame": 2032,
+      "endFrame": 2051,
+      "words": [
+        {
+          "text": "naman",
+          "startFrame": 2032,
+          "endFrame": 2043
+        },
+        {
+          "text": "ito,",
+          "startFrame": 2043,
+          "endFrame": 2051
+        }
+      ]
+    },
+    {
+      "startFrame": 2058,
+      "endFrame": 2108,
+      "words": [
+        {
+          "text": "pero",
+          "startFrame": 2058,
+          "endFrame": 2067
+        },
+        {
+          "text": "for",
+          "startFrame": 2067,
+          "endFrame": 2097
+        },
+        {
+          "text": "me,",
+          "startFrame": 2097,
+          "endFrame": 2108
+        }
+      ]
+    },
+    {
+      "startFrame": 2114,
+      "endFrame": 2199,
+      "words": [
+        {
+          "text": "it",
+          "startFrame": 2114,
+          "endFrame": 2140
+        },
+        {
+          "text": "works",
+          "startFrame": 2140,
+          "endFrame": 2160
+        },
+        {
+          "text": "wonderfully",
+          "startFrame": 2160,
+          "endFrame": 2199
+        }
+      ]
+    },
+    {
+      "startFrame": 2169,
+      "endFrame": 2219,
+      "words": [
+        {
+          "text": "Third,",
+          "startFrame": 2169,
+          "endFrame": 2181
+        },
+        {
+          "text": "simple",
+          "startFrame": 2187,
+          "endFrame": 2200
+        },
+        {
+          "text": "math.",
+          "startFrame": 2200,
+          "endFrame": 2219
+        }
+      ]
+    },
+    {
+      "startFrame": 2230,
+      "endFrame": 2285,
+      "words": [
+        {
+          "text": "Isang",
+          "startFrame": 2230,
+          "endFrame": 2242
+        },
+        {
+          "text": "bottle",
+          "startFrame": 2242,
+          "endFrame": 2265
+        },
+        {
+          "text": "lang",
+          "startFrame": 2265,
+          "endFrame": 2276
+        },
+        {
+          "text": "na",
+          "startFrame": 2276,
+          "endFrame": 2285
+        }
+      ]
+    },
+    {
+      "startFrame": 2285,
+      "endFrame": 2361,
+      "words": [
+        {
+          "text": "ito",
+          "startFrame": 2285,
+          "endFrame": 2293
+        },
+        {
+          "text": "is",
+          "startFrame": 2293,
+          "endFrame": 2300
+        },
+        {
+          "text": "already",
+          "startFrame": 2300,
+          "endFrame": 2324
+        },
+        {
+          "text": "100",
+          "startFrame": 2324,
+          "endFrame": 2361
+        }
+      ]
+    },
+    {
+      "startFrame": 2361,
+      "endFrame": 2463,
+      "words": [
+        {
+          "text": "capsules.",
+          "startFrame": 2361,
+          "endFrame": 2411
+        },
+        {
+          "text": "Kung",
+          "startFrame": 2426,
+          "endFrame": 2438
+        },
+        {
+          "text": "i-compare",
+          "startFrame": 2438,
+          "endFrame": 2463
+        }
+      ]
+    },
+    {
+      "startFrame": 2463,
+      "endFrame": 2521,
+      "words": [
+        {
+          "text": "mo",
+          "startFrame": 2463,
+          "endFrame": 2470
+        },
+        {
+          "text": "sa",
+          "startFrame": 2470,
+          "endFrame": 2476
+        },
+        {
+          "text": "pagbili",
+          "startFrame": 2476,
+          "endFrame": 2503
+        },
+        {
+          "text": "ng",
+          "startFrame": 2503,
+          "endFrame": 2521
+        }
+      ]
+    },
+    {
+      "startFrame": 2521,
+      "endFrame": 2587,
+      "words": [
+        {
+          "text": "blister",
+          "startFrame": 2521,
+          "endFrame": 2557
+        },
+        {
+          "text": "packets,",
+          "startFrame": 2557,
+          "endFrame": 2587
+        }
+      ]
+    },
+    {
+      "startFrame": 2587,
+      "endFrame": 2659,
+      "words": [
+        {
+          "text": "this",
+          "startFrame": 2587,
+          "endFrame": 2623
+        },
+        {
+          "text": "works",
+          "startFrame": 2623,
+          "endFrame": 2637
+        },
+        {
+          "text": "out",
+          "startFrame": 2637,
+          "endFrame": 2647
+        },
+        {
+          "text": "way",
+          "startFrame": 2647,
+          "endFrame": 2659
+        }
+      ]
+    },
+    {
+      "startFrame": 2659,
+      "endFrame": 2742,
+      "words": [
+        {
+          "text": "cheaper",
+          "startFrame": 2659,
+          "endFrame": 2683
+        },
+        {
+          "text": "per",
+          "startFrame": 2683,
+          "endFrame": 2707
+        },
+        {
+          "text": "capsule",
+          "startFrame": 2707,
+          "endFrame": 2727
+        },
+        {
+          "text": "in",
+          "startFrame": 2727,
+          "endFrame": 2742
+        }
+      ]
+    },
+    {
+      "startFrame": 2742,
+      "endFrame": 2772,
+      "words": [
+        {
+          "text": "the",
+          "startFrame": 2742,
+          "endFrame": 2749
+        },
+        {
+          "text": "long",
+          "startFrame": 2749,
+          "endFrame": 2760
+        },
+        {
+          "text": "run.",
+          "startFrame": 2760,
+          "endFrame": 2772
+        }
+      ]
+    },
+    {
+      "startFrame": 2772,
+      "endFrame": 2829,
+      "words": [
+        {
+          "text": "So",
+          "startFrame": 2772,
+          "endFrame": 2799
+        },
+        {
+          "text": "if",
+          "startFrame": 2799,
+          "endFrame": 2811
+        },
+        {
+          "text": "you",
+          "startFrame": 2811,
+          "endFrame": 2815
+        },
+        {
+          "text": "want",
+          "startFrame": 2815,
+          "endFrame": 2829
+        }
+      ]
+    },
+    {
+      "startFrame": 2829,
+      "endFrame": 2868,
+      "words": [
+        {
+          "text": "it,",
+          "startFrame": 2829,
+          "endFrame": 2838
+        },
+        {
+          "text": "na",
+          "startFrame": 2845,
+          "endFrame": 2853
+        },
+        {
+          "text": "dyan",
+          "startFrame": 2853,
+          "endFrame": 2861
+        },
+        {
+          "text": "sa",
+          "startFrame": 2861,
+          "endFrame": 2868
+        }
+      ]
+    },
+    {
+      "startFrame": 2868,
+      "endFrame": 2893,
+      "words": [
+        {
+          "text": "yellow",
+          "startFrame": 2868,
+          "endFrame": 2879
+        },
+        {
+          "text": "basket.",
+          "startFrame": 2879,
+          "endFrame": 2893
+        }
+      ]
+    }
+  ]
+}

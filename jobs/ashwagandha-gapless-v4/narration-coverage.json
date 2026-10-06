@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "fps": 60,
+  "durationInFrames": 1615,
+  "dialogueIntervals": [
+    {
+      "id": "hook",
+      "sourceInFrame": 90,
+      "sourceOutFrame": 470,
+      "outputInFrame": 6,
+      "outputOutFrame": 386
+    },
+    {
+      "id": "context",
+      "sourceInFrame": 704,
+      "sourceOutFrame": 862,
+      "outputInFrame": 386,
+      "outputOutFrame": 544
+    },
+    {
+      "id": "product",
+      "sourceInFrame": 868,
+      "sourceOutFrame": 1146,
+      "outputInFrame": 544,
+      "outputOutFrame": 822
+    },
+    {
+      "id": "mineral-voice",
+      "sourceInFrame": 1590,
+      "sourceOutFrame": 1637,
+      "outputInFrame": 822,
+      "outputOutFrame": 869
+    },
+    {
+      "id": "stress",
+      "sourceInFrame": 2326,
+      "sourceOutFrame": 2553,
+      "outputInFrame": 869,
+      "outputOutFrame": 1096
+    },
+    {
+      "id": "label",
+      "sourceInFrame": 3141,
+      "sourceOutFrame": 3318,
+      "outputInFrame": 1096,
+      "outputOutFrame": 1273
+    },
+    {
+      "id": "capsules",
+      "sourceInFrame": 3318,
+      "sourceOutFrame": 3466,
+      "outputInFrame": 1273,
+      "outputOutFrame": 1421
+    },
+    {
+      "id": "personal",
+      "sourceInFrame": 3716,
+      "sourceOutFrame": 3809,
+      "outputInFrame": 1421,
+      "outputOutFrame": 1514
+    },
+    {
+      "id": "cta",
+      "sourceInFrame": 3466,
+      "sourceOutFrame": 3567,
+      "outputInFrame": 1514,
+      "outputOutFrame": 1615
+    }
+  ],
+  "authoredSilence": [
+    {
+      "id": "genuine-cover",
+      "outputInFrame": 0,
+      "outputOutFrame": 6,
+      "reason": "0.1-second platform-cover image"
+    }
+  ],
+  "removedSourceSilence": [
+    {
+      "id": "personal-leading-pause",
+      "sourceInFrame": 3668,
+      "sourceOutFrame": 3716,
+      "sourceSilenceDetectSeconds": 0.811646
+    }
+  ],
+  "expectedUnexplainedDialogueGaps": 0
+}

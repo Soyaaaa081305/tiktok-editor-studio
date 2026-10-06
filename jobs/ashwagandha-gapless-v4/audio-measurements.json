@@ -1,0 +1,35 @@
+{
+  "durationSeconds": 26.916666666666668,
+  "voice": "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\files-pasted-by-the-user-master\\work\\tiktok-production-studio\\work-render\\ashwagandha-gapless-v4\\voice-normalized.wav",
+  "master": "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\files-pasted-by-the-user-master\\work\\tiktok-production-studio\\jobs\\ashwagandha-gapless-v4\\soundtrack-gapless-v4.m4a",
+  "voiceBeforeMaster": {
+    "input_i": "-21.69",
+    "input_tp": "-3.19",
+    "input_lra": "3.10",
+    "input_thresh": "-31.83",
+    "output_i": "-15.84",
+    "output_tp": "-2.40",
+    "output_lra": "2.30",
+    "output_thresh": "-26.00",
+    "normalization_type": "dynamic",
+    "target_offset": "0.84"
+  },
+  "deliveredFile": {
+    "input_i": "-14.71",
+    "input_tp": "-1.75",
+    "input_lra": "2.60",
+    "input_thresh": "-24.85",
+    "output_i": "-14.61",
+    "output_tp": "-1.80",
+    "output_lra": "2.20",
+    "output_thresh": "-24.75",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "insertedSilenceFrames": 0,
+  "coverSilentFrames": 6,
+  "silenceDetectThreshold": "-42dB / 0.35s (natural speech breaths may register)",
+  "silenceEvents": [],
+  "sfxCueCount": 12,
+  "music": false
+}

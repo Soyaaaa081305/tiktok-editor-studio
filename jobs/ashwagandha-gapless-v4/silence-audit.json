@@ -1,0 +1,23 @@
+{
+  "status": "NO_UNPLANNED_GAP_OVER_0.35S_DETECTED",
+  "detector": {
+    "thresholdDb": -42,
+    "minimumDurationSeconds": 0.35
+  },
+  "checkedTrack": "rendered normalized original dialogue before SFX",
+  "authoredSilence": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 0.1,
+      "reason": "intentional genuine cover"
+    }
+  ],
+  "detectedRanges": [],
+  "knownTrimmedSourcePause": {
+    "sourceStartSeconds": 61.13333333333333,
+    "sourceEndSeconds": 61.93333333333333,
+    "measuredSilenceSeconds": 0.811646,
+    "action": "trimmed before the personal-experience line"
+  },
+  "subjectiveListening": "UNVERIFIED: the current environment cannot audition local audio to the model"
+}

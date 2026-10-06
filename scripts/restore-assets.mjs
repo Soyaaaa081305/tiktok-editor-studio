@@ -36,8 +36,9 @@ for (const archive of archives) {
   }
   if (!existsSync(file)) {
     if (fromIndex >= 0) throw new Error(`Missing downloaded archive: ${file}`);
-    console.log(`Downloading ${archive.kind} from the private ${manifest.release} release...`);
-    run('gh', ['release', 'download', manifest.release, '--repo', manifest.repository, '--pattern', archive.file, '--dir', directory]);
+    const release = archive.release ?? manifest.release;
+    console.log(`Downloading ${archive.kind} from the private ${release} release...`);
+    run('gh', ['release', 'download', release, '--repo', manifest.repository, '--pattern', archive.file, '--dir', directory]);
   }
   if (await sha256(file) !== archive.sha256) throw new Error(`Archive checksum mismatch: ${archive.file}`);
   console.log(`Extracting verified ${archive.file}...`);

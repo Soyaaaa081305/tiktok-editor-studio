@@ -1,6 +1,6 @@
 # Science scripting — topic to clean-read Taglish
 
-Version 5.0.0 · 6 October 2026 · Standalone Prompt B
+Version 6.1.0 · 6 October 2026 · Standalone Prompt B
 
 Use this whole file before recording. A topic, study link or product photo is enough to start. Research first; write a natural script I can read in one take; give me the actual studies and a production handoff. Do not require the editing master or old reference clips to produce the script.
 
@@ -29,6 +29,7 @@ Optional fields; infer sensible editorial choices when blank:
 - RESEARCH: web search and source reading enabled with the tools actually available.
 - CHRIS BEARDSLEY: consult relevant accessible posts or supplied excerpts/graphs when helpful; verify against underlying studies.
 - MUSIC: no music is planned by default; the production handoff uses dialogue and selective SFX.
+- NODA.LIFTS SIGNATURE: say “Like and follow for more science-based lifting advice. God bless!” as the default spoken ending. Do not use this line on noda.smells, noda.rides or sciencebasedsupplement unless I ask.
 
 If I provide a clear product photo only, identify what is actually readable and choose one defensible ingredient/feature topic. If identification is uncertain, say so briefly and avoid unverified brand, dose, price and benefit claims. A blurry label does not become a guessed ingredient table.
 
@@ -131,6 +132,8 @@ Use my actual prior speaking pace when a representative sample is available. Oth
 
 Calculate `estimatedSeconds = spokenWordCount / assumedWordsPerMinute * 60 + plannedPauseSeconds`. Count spoken study attributions and CTA, and account for EPA/DHA being spelled aloud where appropriate. The 0.1-second visual cover is separate from this reading estimate. Give a plausible duration range, not false millisecond precision. Aim for a comfortable 45–60 seconds without rushing; shorten overlong explanations instead of deleting the material qualification.
 
+For Noda.lifts, count the exact spoken signature “Like and follow for more science-based lifting advice. God bless!” in the word count and duration estimate. Place it as the actual final line of the clean-read script whenever the topic supports it. If it pushes the script over 60 seconds, tighten earlier wording while keeping scientific qualifiers; do not omit the signature silently. It must be recorded audio in a new script, not only a graphic.
+
 The final **clean-read script** contains only words I should speak: no timestamps, citations in brackets, stage directions, SFX labels, camera instructions, graphic notes or source IDs. Keep production planning in the handoff. If mentioning a study, include the actual short attribution in the spoken sentence.
 
 ## 8. Required output and saved handoff
@@ -153,7 +156,7 @@ For every substantive script assertion, list claim ID, exact script phrase, sour
 
 Save a short beat table: exact script phrase, provisional time band, useful picture/insert, optional upper-insert/lower-presenter layout, full-screen explanation or evidence/keyword beat, concise on-screen copy, citation and selective SFX landing. No music. Prefer real footage and accurate source material. The later production master chooses exact frames from the recording; do not pretend these estimated times are frame-accurate edits.
 
-Use light phrase captions with adaptive negative-space placement, ordinary sentence case and selective large terms such as FISH OIL, EPA or DHA. Do not instruct a fixed heavy lower caption block, repeated boxed headings or unnecessary provenance labels. The cover is a genuine image, fully visible at frame 0 for approximately 0.1 second, followed immediately by the moving hook.
+Use light phrase captions with adaptive negative-space placement, ordinary sentence case and selective large terms such as FISH OIL, EPA or DHA. Do not instruct a fixed heavy lower caption block, repeated boxed headings or unnecessary provenance labels. The cover is a genuine image, fully visible at frame 0 for approximately 0.1 second, followed immediately by the moving hook. For Noda.lifts, the production handoff places the spoken signature over the final active CTA; it does not create a separate silent end card.
 
 ### 5. Research notes and assumptions
 
@@ -167,7 +170,7 @@ Save a compact query/candidate log, source access dates, contrary findings, opti
 - `production-handoff.md`: approximate beat/asset/motion/SFX opportunities.
 - `research-package.json`: machine-readable IDs linking script, claims, sources and visual opportunities.
 
-The JSON must use real values, not unfinished placeholder citations. Include prompt version 5.0.0, topic, language, target/estimated duration, pace, script text, word count, claims and sources. Each source needs a stable ID, verified direct URL, identity, access level, relevant finding, limitations and access date. Each claim needs exact script text and evidence/source IDs. Use null for genuinely unknown optional values and explain them in the notes. Give supplied label/experience evidence its own ID; do not mislabel it as a study.
+The JSON must use real values, not unfinished placeholder citations. Include prompt version 6.1.0, topic, language, target/estimated duration, pace, script text, word count, claims and sources. Each source needs a stable ID, verified direct URL, identity, access level, relevant finding, limitations and access date. Each claim needs exact script text and evidence/source IDs. Use null for genuinely unknown optional values and explain them in the notes. Give supplied label/experience evidence its own ID; do not mislabel it as a study.
 
 ## 9. Research and writing acceptance check
 

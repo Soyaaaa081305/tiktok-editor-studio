@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "repository": "Soyaaaa081305/tiktok-production-studio",
-  "release": "v1.0.0",
+  "release": "v2.0.0",
   "created": "2026-10-06",
   "archives": [
     {
@@ -190,7 +190,8 @@
           "bytes": 1184515,
           "sha256": "dbcbfad4de828858bcba57ee0f6e410548c8897e3346ea09e14133fcc877dfaf"
         }
-      ]
+      ],
+      "release": "v1.0.0"
     },
     {
       "kind": "exports",
@@ -217,6 +218,90 @@
           "path": "outputs/baseline/atc-fish-oil-tiktok-v3-cover.jpg",
           "bytes": 168964,
           "sha256": "1d135341c220545e720d0cd979ea254092c83250359e84e2e18c3bf6a67d461b"
+        }
+      ],
+      "release": "v1.0.0"
+    },
+    {
+      "kind": "media",
+      "file": "media-v2.0.0.zip",
+      "release": "v2.0.0",
+      "bytes": 2513973,
+      "sha256": "354d390fee390dfa1035561b32e1974f556ed89cedf55263a0e4975e9813d56d",
+      "entries": [
+        {
+          "path": "public/ashwagandha/soundtrack-gapless-v4.m4a",
+          "bytes": 893458,
+          "sha256": "148439a3af28601c66b24eb12941f066c4517f88b2928e6edc3493483c992b61"
+        },
+        {
+          "path": "public/fish-oil-v4/inter-600.woff2",
+          "bytes": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "path": "public/fish-oil-v4/inter-700.woff2",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "path": "public/fish-oil-v4/licenses/Inter-OFL.txt",
+          "bytes": 4377,
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+        },
+        {
+          "path": "public/sound-track-v4-sfx.m4a",
+          "bytes": 1566564,
+          "sha256": "aad993f44a699894df0862221fee161d8b003be8db6e10fe845509ceb23aab99"
+        }
+      ]
+    },
+    {
+      "kind": "exports",
+      "file": "exports-v2.0.0.zip",
+      "release": "v2.0.0",
+      "bytes": 456831897,
+      "sha256": "9c42d019bdb8cba07087bdc0c74506e782f3b725d870239838ec19881868aa2c",
+      "entries": [
+        {
+          "path": "outputs/baseline/ashwagandha-tiktok-v4-4k-master.mp4",
+          "bytes": 251321641,
+          "sha256": "071bb10306913a11591ea580e3cb705993ee10adf11d5b48eda109bea13e3856"
+        },
+        {
+          "path": "outputs/baseline/ashwagandha-tiktok-v4-1080p-upload.mp4",
+          "bytes": 53959213,
+          "sha256": "a83ee4b243ac2402f80d77eafbef76e7231ab9ff33c4ffd178f48bff23f495ed"
+        },
+        {
+          "path": "outputs/baseline/ashwagandha-tiktok-v4-cover.png",
+          "bytes": 7496527,
+          "sha256": "161bad664938e65d91c70f3a6685a0ec6f7ff595c9dc63d1b8215a4481321125"
+        },
+        {
+          "path": "outputs/baseline/ashwagandha-tiktok-v4-cover.jpg",
+          "bytes": 252970,
+          "sha256": "3320d7b6fc0b11d45f7b9e654a9951c4b11763f75fdc541e1f781c4c5ca9f14b"
+        },
+        {
+          "path": "outputs/baseline/atc-fish-oil-v4-4k-master.mp4",
+          "bytes": 112111886,
+          "sha256": "03fd707804d10cb97d15cd5ebbb24d33058b3187c3f507e585d525737fbc4d33"
+        },
+        {
+          "path": "outputs/baseline/atc-fish-oil-v4-1080p-upload.mp4",
+          "bytes": 25290546,
+          "sha256": "61418b15592f10379429e26e7a956a164fd586559056b8036ee203d2293c28d8"
+        },
+        {
+          "path": "outputs/baseline/atc-fish-oil-v4-cover.png",
+          "bytes": 6208221,
+          "sha256": "b0ad264263fcd94b5f1ee581ad1fe447bd98a6142f4632873f26430ac166cd64"
+        },
+        {
+          "path": "outputs/baseline/atc-fish-oil-v4-cover.jpg",
+          "bytes": 189499,
+          "sha256": "fcf3d765631c90108ace91bdd42f8fb5292bf0042eb0b9f6c47b1e54f44bd213"
         }
       ]
     }

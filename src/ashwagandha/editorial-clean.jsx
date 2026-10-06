@@ -2,6 +2,7 @@ import {Audio, Video} from '@remotion/media';
 import {AbsoluteFill, Easing, Freeze, Img, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {loadFont} from '@remotion/fonts';
 import edit from './edit-clean.json';
+import gaplessEdit from './edit-gapless-v4.json';
 
 loadFont({family:'Editorial',url:staticFile('ashwagandha/inter-500.woff2'),weight:'500'});
 loadFont({family:'Editorial',url:staticFile('ashwagandha/inter-700.woff2'),weight:'700'});
@@ -101,11 +102,11 @@ const Evidence=()=>{
  </AbsoluteFill>;
 };
 
-const Label=()=>{
+const Label=({duration=181})=>{
  const f=useCurrentFrame();const {fps}=useVideoConfig();
  return <AbsoluteFill style={{background:P.ink,fontFamily:font,color:P.white}}>
   <Sequence name="Front-bottle detail" from={0} durationInFrames={90} premountFor={fps}><Video src={staticFile('ashwagandha/source.mp4')} trimBefore={3960} trimAfter={4050} muted premountFor={fps} style={{position:'absolute',left:0,top:0,...photo}}/></Sequence>
-  <Sequence name="Label still for readability" from={90} durationInFrames={91} premountFor={fps}><Img src={staticFile('ashwagandha/front-still.jpg')} style={{position:'absolute',left:0,top:0,...photo,scale:move(f,90,181,1,1.02)}}/></Sequence>
+  <Sequence name="Label still for readability" from={90} durationInFrames={duration-90} premountFor={fps}><Img src={staticFile('ashwagandha/front-still.jpg')} style={{position:'absolute',left:0,top:0,...photo,scale:move(f,90,duration,1,1.02)}}/></Sequence>
   <Shade top={.78} bottom={.12}/>
   <div style={{position:'absolute',left:82,top:185,width:805,opacity:move(f,0,12),translate:`0 ${move(f,0,12,8,0)}px`}}>
    <div style={{fontSize:116,...heading}}>1,400 <span style={{fontSize:62,fontWeight:500}}>mg</span></div>
@@ -114,10 +115,10 @@ const Label=()=>{
  </AbsoluteFill>;
 };
 
-const Capsules=()=>{
+const Capsules=({duration=120})=>{
  const f=useCurrentFrame();const {fps}=useVideoConfig();
  return <AbsoluteFill style={{background:P.ink,color:P.white,fontFamily:font}}>
-  <Video name="Capsule close-up" src={staticFile('ashwagandha/source.mp4')} trimBefore={5496} trimAfter={5616} muted premountFor={fps} style={{position:'absolute',inset:0,...photo,scale:move(f,0,120,1.01,1.035),transformOrigin:'50% 55%'}}/>
+  <Video name="Capsule close-up during the spoken directions" src={staticFile('ashwagandha/source.mp4')} trimBefore={5496} trimAfter={5496+duration} muted premountFor={fps} style={{position:'absolute',inset:0,...photo,scale:move(f,0,duration,1.01,1.035),transformOrigin:'50% 55%'}}/>
   <Shade top={.67} bottom={.06}/>
   <div style={{position:'absolute',left:82,top:185,width:805,opacity:move(f,0,12)}}>
    <div style={{fontSize:100,...heading}}>60 <span style={{fontSize:67,fontWeight:500}}>capsules</span></div>
@@ -126,10 +127,10 @@ const Capsules=()=>{
  </AbsoluteFill>;
 };
 
-const Personal=()=>{
+const Personal=({sourceStart=3694,sourceEnd=3814})=>{
  const {fps}=useVideoConfig();
  return <AbsoluteFill style={{background:P.ink}}>
-  <Presenter scale={1.03}><Video name="Personal experience speech" src={staticFile('ashwagandha/source.mp4')} trimBefore={3694} trimAfter={3814} muted premountFor={fps} style={photo}/></Presenter>
+  <Presenter scale={1.03}><Video name="Personal experience speech" src={staticFile('ashwagandha/source.mp4')} trimBefore={sourceStart} trimAfter={sourceEnd} muted premountFor={fps} style={photo}/></Presenter>
   <div style={{position:'absolute',left:82,top:1510,color:P.white,fontFamily:font,fontSize:35,fontWeight:500}}>Results vary.</div>
  </AbsoluteFill>;
 };
@@ -162,6 +163,23 @@ const Captions=()=>{
  </div>;
 };
 
+const GaplessCaptions=()=>{
+ const f=useCurrentFrame(),{fps}=useVideoConfig(),now=f/fps*1000;
+ const page=gaplessEdit.pages.find(p=>now>=p.startMs&&now<p.endMs);
+ if(!page)return null;
+ return <div style={{position:'absolute',zIndex:50,left:156,top:1290,width:768,padding:'10px 24px',boxSizing:'border-box',translate:'0 -50%',display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center',gap:'8px 13px',fontFamily:'Inter, Arial, sans-serif',fontSize:58,fontWeight:900,lineHeight:1.1,textAlign:'center',pointerEvents:'none'}}>
+  {page.words.map(w=><span key={`${w.clipId}-${w.startMs}`} style={{whiteSpace:'pre',color:now>=w.startMs&&now<w.endMs?P.gold:P.white,WebkitTextStroke:'3px #151515',paintOrder:'stroke fill',textShadow:'0 2px 5px rgba(0,0,0,.25)'}}>{w.text.trim().toUpperCase()}</span>)}
+ </div>;
+};
+
+const TrademarkDuringSpeech=()=>{
+ const f=useCurrentFrame(),{fps}=useVideoConfig();
+ const enter=interpolate(f,[0,10],[0,1],{...bounds});
+ return <div style={{position:'absolute',left:68,top:570,width:944,boxSizing:'border-box',padding:'12px 15px',fontFamily:font,fontWeight:700,fontSize:31,lineHeight:1.1,color:P.white,textShadow:'0 2px 7px rgba(0,0,0,.82)',opacity:enter,translate:`0 ${(1-enter)*9}px`,textAlign:'left',pointerEvents:'none'}}>
+  Like and follow for more<br/><span style={{color:P.gold}}>science-based lifting advice. God bless!</span>
+ </div>;
+};
+
 export const AshwagandhaCleanEdit=()=>{
  const {fps}=useVideoConfig();
  return <AbsoluteFill style={{background:P.ink,overflow:'hidden',fontFamily:font}}>
@@ -180,5 +198,24 @@ export const AshwagandhaCleanEdit=()=>{
   <Sequence name="Ending" from={1921} durationInFrames={93} premountFor={fps}><Outro/></Sequence>
   <Sequence name="Quick cover dissolve" from={6} durationInFrames={6} premountFor={fps}><CoverDissolve/></Sequence>
   <Captions/>
+ </AbsoluteFill>;
+};
+
+export const AshwagandhaGaplessEditV4=()=>{
+ const {fps}=useVideoConfig();
+ return <AbsoluteFill style={{background:P.ink,overflow:'hidden',fontFamily:font}}>
+  <Audio name="Continuous original dialogue + 12 purposeful SFX, no music" src={staticFile('ashwagandha/soundtrack-gapless-v4.m4a')} premountFor={fps}/>
+  <Sequence name="Real-frame cover · 0.1 sec" from={0} durationInFrames={6} premountFor={fps}><CleanPoster/></Sequence>
+  <Sequence name="Highest effort first ten seconds · running speech" from={6} durationInFrames={380} premountFor={fps}><Hook/></Sequence>
+  <Sequence name="Word-led camera section · recorded speech" from={386} durationInFrames={158} premountFor={fps}><Context/></Sequence>
+  <Sequence name="Full-screen authentic product B-roll + voice" from={544} durationInFrames={278} premountFor={fps}><ProductIntro/></Sequence>
+  <Sequence name="Magnesium glycinate · word-sized speech beat" from={822} durationInFrames={47} premountFor={fps}><CleanMineral/></Sequence>
+  <Sequence name="Ashwagandha stress line · full relevant insert" from={869} durationInFrames={227} premountFor={fps}><Stress/></Sequence>
+  <Sequence name="1,400 mg per serving · real label footage" from={1096} durationInFrames={177} premountFor={fps}><Label duration={177}/></Sequence>
+  <Sequence name="Spoken capsule directions over full-screen capsules" from={1273} durationInFrames={148} premountFor={fps}><Capsules duration={148}/></Sequence>
+  <Sequence name="Complete personal experience · original voice" from={1421} durationInFrames={93} premountFor={fps}><Personal sourceStart={3716} sourceEnd={3809}/></Sequence>
+  <Sequence name="Recorded yellow-basket CTA · audible to final frame" from={1514} durationInFrames={101} premountFor={fps}><CTA/><TrademarkDuringSpeech/></Sequence>
+  <Sequence name="6-frame zoom dissolve over already moving footage" from={6} durationInFrames={6} premountFor={fps}><CoverDissolve/></Sequence>
+  <GaplessCaptions/>
  </AbsoluteFill>;
 };

@@ -1,6 +1,6 @@
 # Your two-prompt TikTok workflow
 
-Version 5.0.0 · Updated 6 October 2026
+Version 6.1.0 · Updated 6 October 2026
 
 ## Use these two files
 
@@ -11,7 +11,7 @@ Version 5.0.0 · Updated 6 October 2026
 
 Both prompts stand alone. The production master contains the saved reference grammar, planning process, design rules, implementation architecture, sound requirements and quality filter. You do not need to paste the older reference, blueprint and review prompts each time.
 
-**The everyday flow:** topic + evidence → clean-read script → your recording → exact blueprint → Remotion edit → final-file review → delivery.
+**The everyday flow:** topic + evidence → clean-read script → your recording → speech-first source EDL → exact beat/layer blueprint → Remotion edit → narration/silence audit → final-file review → delivery.
 
 ## Before recording
 
@@ -54,11 +54,11 @@ What changes with the topic: sources, picture choice, crops, visual explanation,
 
 ## Model and working setup
 
-Keep your chosen **GPT-6.1 Sol / Max** for substantial research, planning and complex edit work. OpenAI's current model page lists support for `max` reasoning effort. This kit preserves that model choice; it does not change the app's selector. [Official model documentation](https://developers.openai.com/api/docs/models/gpt-6.1-sol).
+Use **GPT-6 Luna at Max** as your current choice. Select it in the Codex app; these prompt files cannot change the app's model selector. If you change models later, the edit plan, evidence map, speech coverage checks and export review remain the same.
 
 For a finished video, use an execution-capable workflow with file access, web research, Remotion and media inspection tools. The production prompt saves an architecture plan before building; a separate planning-only run is optional. In a text-only chat the agent can write scripts and blueprints, but it cannot truthfully claim a local render without the necessary tools.
 
-The prompts specify concrete deliverables, stage gates and review evidence. They avoid repeated “think harder” demands and requests to expose hidden reasoning. This follows the general direction of [OpenAI's prompting guidance](https://developers.openai.com/api/docs/guides/reasoning-best-practices). Higher reasoning effort is a tool for the work; the standard of the output still depends on the source, assets, evidence and review.
+The prompts specify concrete deliverables, stage gates and review evidence. They avoid repeated “think harder” demands and requests to expose hidden reasoning. Higher reasoning effort supports the work; source continuity, evidence, assets and final review determine what the video can actually support.
 
 100/100 is the target, with no automatic perfect rating. The workflow aims to reduce drift and repair observable defects. A consistent review process cannot guarantee the same aesthetic or audience response for every recording.
 
@@ -77,9 +77,12 @@ Your canonical folder is `prompts/` in this repository. Continue using 03 and 04
 Supporting files are records, not extra required prompts:
 
 - `01-style-card-smartfit-enver.md`: cached observations and evidence limits.
+- `07-approved-editorial-reference.md`: the approved Ashwagandha motion-graphics look and speech-continuity rules.
 - `house-style.json`: machine-readable defaults and review weights matching the prompts.
 - `WORKFLOW-REVIEW.md`: this upgrade's requirements and scenario review.
 - `SOURCES-AND-IMPLEMENTATION-NOTES.md`: documentation checked and current local project context.
+- `creator-operations-context.md`: account cadence, verified performance snapshot and income-planning guardrails.
+- `gemini-spark-start-here.md` and `gemini-spark-nightly-packet.md`: modular operating context and repeatable daily planning request. They preserve Spark's existing voice memory instead of trying to replace it.
 
 Old standalone reference/blueprint/filter prompts are replaced by short redirects to the master. Their previous contents are preserved in the canonical folder's Archive. Older ZIPs, videos and project files remain historical versions.
 

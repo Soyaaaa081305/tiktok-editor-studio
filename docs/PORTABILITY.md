@@ -59,10 +59,11 @@ are available source files; each component still needs integration into a
 specific scene and review. Current compositions can be reproduced without
 opening the old TikTok reference videos or downloading the optional models.
 
-The original Fish Oil layouts use system Arial/Arial Black. Availability and
-rasterization can differ across hosts; download the included baseline MP4 to
-get its exact original picture. The clean Ashwagandha layout has local Inter
-font files. Do not redistribute proprietary system fonts as a workaround.
+The current Fish Oil v4 and Ashwagandha v4 compositions use local Inter font
+files included in the private media delta. The older Fish Oil v2/v3 compositions
+use system Arial/Arial Black; rendering those legacy compositions may differ
+across hosts. Download the included MP4s for the exact final pictures. Do not
+redistribute proprietary system fonts as a workaround.
 
 ## Official references
 
