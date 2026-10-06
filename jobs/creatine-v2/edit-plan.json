@@ -208,12 +208,22 @@
       "public/creatine/research/2013-kidney-trial.png",
       "public/creatine/research/2003-body-composition.png"
     ],
-    "distinction": "Supplied still/GIF/article images are shown as labeled media overlays. Original custom motion graphics explain relationships separately; one does not substitute for the other."
+    "distinction": "Supplied still/GIF/article images are shown as labeled media overlays. Original custom motion graphics explain relationships separately; one does not substitute for the other.",
+    "originalProductDemonstration": {
+      "segmentId": "dose",
+      "source": "public/creatine/source-recording.mp4",
+      "sourceStartFrame": 240,
+      "sourceStartSeconds": 4,
+      "durationInFrames": 221,
+      "treatment": "Muted moving overlay; use the creator's real shot holding and showing the creatine pouch."
+    },
+    "ctaPictureRule": "Keep the continuous source CTA footage full-screen. Do not place the unrelated idle presenter still on top; the live source shot shows the creator holding the pouch near the end."
   },
   "notes": [
     "The new 69.8-second cut retains the user-requested natural spoken aside and clause pacing; it does not target one minute.",
     "Source-frame boundaries align to the 60 fps recording; 48 kHz audio trims align to 800 samples per frame.",
     "The supplied celebrity photo is a labeled illustrative portrait only and is never linked causally to creatine. The kidney GIF is labeled an anatomy illustration, not evidence of injury.",
-    "The 2021 review screenshot is shown with a clear note that its hormone studies are not direct hair-loss trials."
+    "The 2021 review screenshot is shown with a clear note that its hormone studies are not direct hair-loss trials.",
+    "The previous idle package-frame still is not used in CreatineMythsV2: the dose card uses muted moving footage from source frame 240, and the duplicate static inset is removed from the CTA."
   ]
 }

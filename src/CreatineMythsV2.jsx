@@ -166,24 +166,24 @@ const WaterWeightGraphic=()=>{
   </PaperPanel>;
 };
 
-const DoseCard=()=> <PaperPanel top={56} height={850}>
-  <Kicker>Simple maintenance dose</Kicker>
-  <Title size={58} style={{marginTop:20}}>3–5 g daily</Title>
-  <div style={{marginTop:15,width:535,fontSize:26,fontWeight:700,lineHeight:1.22}}>A common maintenance range in the 2021 review. The product label says 5 g per serving.</div>
-  <div style={{position:'absolute',top:34,right:29,width:302,height:524,overflow:'hidden',borderRadius:18,border:'4px solid '+C.paper,boxShadow:'0 4px 15px rgba(0,0,0,.19)'}}><Img src={staticFile('creatine/package-frame.jpg')} style={{width:'100%',height:'100%',objectFit:'cover'}} /></div>
-  <div style={{position:'absolute',left:52,right:52,bottom:29,color:C.muted,fontSize:20,fontWeight:700}}>Label information is a product fact, not medical endorsement · Antonio et al. · 2021 · PMID 33557850</div>
-</PaperPanel>;
+const DoseCard=()=>{
+  const {fps}=useVideoConfig();
+  return <PaperPanel top={56} height={850}>
+    <Kicker>Simple maintenance dose</Kicker>
+    <Title size={58} style={{marginTop:20}}>3–5 g daily</Title>
+    <div style={{marginTop:15,width:535,fontSize:26,fontWeight:700,lineHeight:1.22}}>A common maintenance range in the 2021 review. The product label says 5 g per serving.</div>
+    <div style={{position:'absolute',top:34,right:29,width:302,height:524,overflow:'hidden',borderRadius:18,border:'4px solid '+C.paper,boxShadow:'0 4px 15px rgba(0,0,0,.19)'}}><Video name="Original product demo · creator holds creatine" src={SOURCE} trimBefore={4*fps} muted premountFor={fps} objectFit="cover" style={{width:'100%',height:'100%'}} /></div>
+    <div style={{position:'absolute',left:52,right:52,bottom:29,color:C.muted,fontSize:20,fontWeight:700}}>Label information is a product fact, not medical endorsement · Antonio et al. · 2021 · PMID 33557850</div>
+  </PaperPanel>;
+};
 
 const ProductCTA=()=>{
-  const frame=useCurrentFrame();
-  const drift=Math.sin(frame/24)*5;
   return <>
     <div style={{position:'absolute',zIndex:18,top:105,left:50,width:610,padding:'32px 36px',background:C.paper,borderRadius:23,color:C.ink,fontFamily:FONT,boxShadow:'0 15px 45px rgba(0,0,0,.28)'}}>
       <Kicker color={C.green}>Creator’s personal pick</Kicker><Title size={51} style={{marginTop:18}}>Link in the comments</Title>
       <div style={{fontSize:25,lineHeight:1.23,fontWeight:700,marginTop:15}}>Dr. Daily · Creatine Monohydrate<br/>150 g · 30 servings · 5 g per serving</div>
       <div style={{marginTop:14,color:C.muted,fontSize:18,fontWeight:700}}>No approved therapeutic claims</div>
     </div>
-    <div style={{position:'absolute',zIndex:19,right:40,top:810,width:345,height:680,border:'7px solid '+C.paper,borderRadius:24,overflow:'hidden',boxShadow:'0 12px 44px rgba(0,0,0,.3)',transform:'rotate(2deg)'}}><Img src={staticFile('creatine/package-frame.jpg')} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale(1.02) translateY('+drift+'px)'}} /></div>
   </>;
 };
 

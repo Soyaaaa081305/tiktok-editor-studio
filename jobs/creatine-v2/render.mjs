@@ -9,8 +9,10 @@ const edit = JSON.parse(await readFile(new URL('./edit-plan.json', import.meta.u
 const sfxData = JSON.parse(await readFile(new URL('./sfx-cues.json', import.meta.url), 'utf8'));
 const outputDir = path.join(root, 'outputs');
 const tempDir = path.join(root, 'work', 'creatine-v2-render');
-const videoOnly = path.join(tempDir, 'creatine-v2-video-only.mp4');
-const finalVideo = path.join(outputDir, 'creatine-tiktok-v2.mp4');
+const outputName = process.argv[2] ?? 'creatine-tiktok-v2.mp4';
+if (path.basename(outputName) !== outputName || !/^creatine-tiktok-v[0-9]+\.mp4$/.test(outputName)) throw new Error('Pass a safe Creatine output filename such as creatine-tiktok-v3.mp4.');
+const videoOnly = path.join(tempDir, `${path.parse(outputName).name}-video-only.mp4`);
+const finalVideo = path.join(outputDir, outputName);
 await mkdir(outputDir, {recursive: true});
 await mkdir(tempDir, {recursive: true});
 

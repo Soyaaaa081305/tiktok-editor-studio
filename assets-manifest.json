@@ -410,6 +410,39 @@
         }
       ],
       "release": "creatine-v2.0.0"
+    },
+    {
+      "kind": "media",
+      "file": "media-creatine-v3.zip",
+      "bytes": 11011910,
+      "sha256": "a45452d0857def60ba74c7c67a83490dc4a1ab6a2b1496087dbd9ea46c4b2d13",
+      "entries": [
+        {
+          "path": "public/creatine/voice-edit-v2.wav",
+          "bytes": 20102502,
+          "sha256": "7cf062b359c77723c041f609b59705ef032f72116c025e454e0561d4a380576c"
+        }
+      ],
+      "release": "creatine-v2.0.1"
+    },
+    {
+      "kind": "exports",
+      "file": "exports-creatine-v3.zip",
+      "bytes": 116132545,
+      "sha256": "75ce8080000342e7d077a539123e168a72a565d25709d1898dc1a888692ef483",
+      "entries": [
+        {
+          "path": "outputs/creatine-tiktok-v3.mp4",
+          "bytes": 113794545,
+          "sha256": "9affe2e7e779a528d80c301f6a92b5f1fe7f809aa28dd6d7f4f92b6b3849f7a8"
+        },
+        {
+          "path": "outputs/creatine-cover-v3.png",
+          "bytes": 2326267,
+          "sha256": "a0ba57b4ab00b5e3e89efe3b21888b2260636388ba23b15ea4e1b3ed7a40618f"
+        }
+      ],
+      "release": "creatine-v2.0.1"
     }
   ]
 }
