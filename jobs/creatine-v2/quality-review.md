@@ -23,6 +23,13 @@
 - The V3 full-export contact sheet was inspected; the earlier evidence, hair, kidney, and body-composition visuals remain present. The cover was extracted from the corrected export and visually inspected.
 - The V2 MP4 remains unchanged. V3 passed full-file decode and the audio/loudness checks above.
 
+## 4K60 archive master
+
+- Created `outputs/creatine-tiktok-v3-4k-master.mp4` from the verified V3 upload export using Lanczos scaling to 2160 × 3840. This is an upscale from the 1080 × 1920 source and adds no captured detail.
+- H.264, 2160 × 3840, constant 60 fps, 4,188 frames, 69.800 seconds, yuv420p, Rec.709; AAC stereo at 48 kHz copied from V3 without re-encoding. File size: 422,811,897 bytes. SHA-256: `3b6488541f8046d9a63751303de87616f03900a8a70142f789c21c445bbcb782`.
+- Full-file decode passed. The AAC bitstream hash matched V3 exactly. Extracted a 2160 × 3840 cover and inspected it; also inspected a 16-frame contact sheet across the full 4K export. Existing V3 visuals, including the moving product demo and corrected full-screen CTA, are intact.
+- The previous V3 audio measurement remains applicable because its encoded audio stream is identical: −17.03 LUFS integrated, −0.99 dBTP. No new subjective listen-through was performed for this resolution-only export.
+
 ## Claims and editorial checks
 
 - Retains the creator's natural research aside and the first meta-study aside, plus the kidney explanation pause, CTA clause pause, and recorded signoff. Runtime is 69.8 seconds; the edit does not target an exact one-minute length.

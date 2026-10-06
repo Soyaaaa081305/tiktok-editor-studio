@@ -25,6 +25,7 @@
     "audio:creatine-v2": "node jobs/creatine-v2/build-audio.mjs",
     "render:creatine-v2": "pnpm run audio:creatine-v2 && node jobs/creatine-v2/render.mjs",
     "render:creatine-v3": "pnpm run audio:creatine-v2 && node jobs/creatine-v2/render.mjs creatine-tiktok-v3.mp4",
+    "master:creatine-v3-4k": "node jobs/creatine-v2/render-4k-master.mjs",
     "audio:somatotypes-v1": "node jobs/somatotypes-v1/build-audio.mjs",
     "captions:somatotypes-v1": "node jobs/somatotypes-v1/export-captions.mjs",
     "render:somatotypes-v1": "node jobs/somatotypes-v1/render.mjs",

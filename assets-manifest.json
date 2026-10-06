@@ -443,6 +443,25 @@
         }
       ],
       "release": "creatine-v2.0.1"
+    },
+    {
+      "kind": "exports",
+      "file": "exports-creatine-v3-4k.zip",
+      "bytes": 428923746,
+      "sha256": "025c2d767568d8d34737278c74ccfc237314800bafc560ac2e7b5c1db7f1c5c3",
+      "entries": [
+        {
+          "path": "outputs/creatine-tiktok-v3-4k-master.mp4",
+          "bytes": 422811897,
+          "sha256": "3b6488541f8046d9a63751303de87616f03900a8a70142f789c21c445bbcb782"
+        },
+        {
+          "path": "outputs/creatine-cover-v3-4k.png",
+          "bytes": 6098252,
+          "sha256": "7e1e3481dc1bcedbd6c78a92529bcaa0dc8ab0378753eae6063c1c154987246f"
+        }
+      ],
+      "release": "creatine-v2.0.2"
     }
   ]
 }
