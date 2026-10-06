@@ -1,0 +1,95 @@
+{
+  "version": "5.0.0",
+  "updated": "2026-10-06",
+  "role": "supporting defaults; the two standalone prompts contain the operating instructions",
+  "core_prompts": {
+    "script": "03-topic-to-script-prompt.md",
+    "production": "04-master-production-system-prompt.md"
+  },
+  "modes": ["EDIT_AND_EXPORT", "PLAN_ONLY", "REFERENCE_UPDATE"],
+  "language": "Taglish",
+  "duration_seconds": {"min": 45, "max": 60, "pad_to_minimum": false, "speed_up_dialogue": false},
+  "research": {
+    "selected_study_target": {"min": 1, "max": 3},
+    "invent_to_meet_quota": false,
+    "primary_search": "PubMed and original publisher/full-text sources",
+    "include_challenging_evidence": true,
+    "access_levels": ["FULL TEXT", "ABSTRACT ONLY", "USER EXCERPT", "NOT ACCESSED"],
+    "chris_beardsley_role": "optional interpretation and source lead; verify underlying research",
+    "locked_post_fallback": "use accessible research; record not accessed",
+    "cache_reference_style": true,
+    "freeze_science_permanently": false
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "color_space": "Rec.709 SDR",
+    "fps_policy": "prefer suitable source rate; ordinarily 30 or 60; document conversions",
+    "key_content_working_bounds": {"left": 80, "right": 900, "top": 160, "bottom": 1640},
+    "native_tiktok_ui_guarantee": false
+  },
+  "visual": {
+    "style": "minimal editorial; actual footage and accurate explanatory graphics",
+    "modes": ["presenter", "stacked", "full_screen_insert", "full_screen_explanation", "keyword"],
+    "stacked_upper_height_fraction": {"min": 0.35, "max": 0.5},
+    "default_transition": "direct cut",
+    "default_font": "Inter",
+    "body_weight": 600,
+    "headline_weight": 700,
+    "accent_color": "#F1C75B",
+    "hero_keyword_font_px": {"min": 96, "max": 144},
+    "default_cartoon_orbit_card_decorations": false,
+    "synthetic_people_or_products": false,
+    "motion_quota": null
+  },
+  "captions": {
+    "format": "Remotion Caption-compatible JSON; final audible dialogue",
+    "default_case": "sentence case",
+    "font_size_px": {"min": 48, "max": 58},
+    "words_per_phrase_starting_range": {"min": 3, "max": 7},
+    "max_lines": 2,
+    "default_center_y_px": 1280,
+    "placement": "choose negative-space anchor per shot/semantic boundary; stable within phrase",
+    "fixed_lane_required": false,
+    "per_word_bounce": false,
+    "selective_keyword_enlargement": true,
+    "duplicate_keyword_headline_and_caption": false,
+    "starting_outline_px": 2
+  },
+  "cover": {
+    "clear_hold_seconds": 0.1,
+    "frames_formula": "max(1, round(0.1 * outputFps))",
+    "all_elements_visible_frame_zero": true,
+    "genuine_image_required": true,
+    "optional_transition_seconds": 0.1,
+    "transition_over_moving_hook": true,
+    "extra_static_hold": false,
+    "guaranteed_automatic_platform_selection": false
+  },
+  "audio": {
+    "dialogue": "original voice at natural pace",
+    "sfx_enabled": true,
+    "sfx_policy": "meaningful selected events; real licensed/owned assets; verify final mix",
+    "music": {"enabled": false, "enable_only_on_explicit_user_request": true},
+    "integrated_lufs_target": {"min": -16, "max": -14},
+    "true_peak_ceiling_dbtp": -1.5,
+    "preview_export_shared_mix": true,
+    "signal_energy_alone_proves_perceptual_audibility": false
+  },
+  "review": {
+    "statuses": ["PASS", "REVISE", "BLOCKED", "UNVERIFIED", "NOT APPLICABLE"],
+    "weights": {
+      "brief_format_source": 10,
+      "story_pacing_delivery": 15,
+      "science_sources_nuance": 20,
+      "footage_explanatory_graphics": 20,
+      "captions_type_readability": 10,
+      "cuts_motion_continuity_color": 10,
+      "dialogue_sfx_mix": 10,
+      "export_documented_review": 5
+    },
+    "automatic_perfect_score": false,
+    "unverified_checks_get_assumed_points": false,
+    "repair_remediable_critical_defects": true
+  }
+}

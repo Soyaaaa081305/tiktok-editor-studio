@@ -1,0 +1,33 @@
+import {Composition, registerRoot} from 'remotion';
+import editData from './edit-data-v2.json';
+import {ATCFishOilEditV2} from './ATCFishOilV2.jsx';
+import {ATCFishOilEditV3} from './ATCFishOilV3.jsx';
+import {AshwagandhaEditorial} from './ashwagandha/AshwagandhaEditorial.jsx';
+import {AshwagandhaCleanEdit, CleanPoster, CleanMineral} from './ashwagandha/editorial-clean.jsx';
+
+const RemotionRoot = () => (
+  <>
+    <Composition id="AshwagandhaEditorial" component={AshwagandhaCleanEdit} durationInFrames={2014} fps={60} width={1080} height={1920}/>
+    <Composition id="AshwagandhaEditorialV2" component={AshwagandhaEditorial} durationInFrames={2014} fps={60} width={1080} height={1920}/>
+    <Composition id="AshwagandhaCover" component={CleanPoster} durationInFrames={6} fps={60} width={1080} height={1920}/>
+    <Composition id="AshwagandhaMineralExplainer" component={CleanMineral} durationInFrames={230} fps={60} width={1080} height={1920}/>
+    <Composition
+      id="ATCFishOilV2"
+      component={ATCFishOilEditV2}
+      durationInFrames={editData.durationInFrames}
+      fps={editData.fps}
+      width={1080}
+      height={1920}
+    />
+    <Composition
+      id="ATCFishOilV3"
+      component={ATCFishOilEditV3}
+      durationInFrames={editData.durationInFrames}
+      fps={editData.fps}
+      width={1080}
+      height={1920}
+    />
+  </>
+);
+
+registerRoot(RemotionRoot);

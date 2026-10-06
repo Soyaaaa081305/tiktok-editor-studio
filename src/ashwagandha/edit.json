@@ -1,0 +1,1617 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "posterFrames": 6,
+  "durationInFrames": 2014,
+  "edl": [
+    {
+      "id": "poster",
+      "from": 0,
+      "durationInFrames": 6,
+      "sourceStartFrame": null,
+      "sourceEndFrame": null,
+      "purpose": "Real-photo cover, six clear frames (0.1s); live hook starts immediately afterward"
+    },
+    {
+      "id": "hook",
+      "from": 6,
+      "durationInFrames": 380,
+      "sourceStartFrame": 90,
+      "sourceEndFrame": 470,
+      "purpose": "Quality-sleep question; camera to stacked animated night/morning comparison"
+    },
+    {
+      "id": "context",
+      "from": 386,
+      "durationInFrames": 158,
+      "sourceStartFrame": 704,
+      "sourceEndFrame": 862,
+      "purpose": "Workout / stressful-day context; stacked literal noun visuals"
+    },
+    {
+      "id": "product",
+      "from": 544,
+      "durationInFrames": 278,
+      "sourceStartFrame": 868,
+      "sourceEndFrame": 1146,
+      "purpose": "Dr. Daily product introduction; genuine upper close-up, speaker below"
+    },
+    {
+      "id": "mineral-voice",
+      "from": 822,
+      "durationInFrames": 47,
+      "sourceStartFrame": 1590,
+      "sourceEndFrame": 1637,
+      "purpose": "Magnesium glycinate ingredient name; full-screen illustration"
+    },
+    {
+      "id": "mineral-hold",
+      "from": 869,
+      "durationInFrames": 183,
+      "sourceStartFrame": null,
+      "sourceEndFrame": null,
+      "purpose": "Read normal nerve and muscle function; no sleep guarantee"
+    },
+    {
+      "id": "stress",
+      "from": 1052,
+      "durationInFrames": 227,
+      "sourceStartFrame": 2326,
+      "sourceEndFrame": 2553,
+      "purpose": "Ashwagandha stress-related ingredient context; speaker below"
+    },
+    {
+      "id": "evidence",
+      "from": 1279,
+      "durationInFrames": 120,
+      "sourceStartFrame": null,
+      "sourceEndFrame": null,
+      "purpose": "Research qualification: may help; preparation and results vary"
+    },
+    {
+      "id": "label",
+      "from": 1399,
+      "durationInFrames": 181,
+      "sourceStartFrame": 3137,
+      "sourceEndFrame": 3318,
+      "purpose": "1,400 mg total per serving as front-label statement, not elemental magnesium"
+    },
+    {
+      "id": "capsules",
+      "from": 1580,
+      "durationInFrames": 120,
+      "sourceStartFrame": null,
+      "sourceEndFrame": null,
+      "purpose": "Genuine capsule close-up; 60-capsule bottle count from visible label"
+    },
+    {
+      "id": "personal",
+      "from": 1700,
+      "durationInFrames": 120,
+      "sourceStartFrame": 3694,
+      "sourceEndFrame": 3814,
+      "purpose": "This really helped me, sa totoo lang; clearly personal experience"
+    },
+    {
+      "id": "cta",
+      "from": 1820,
+      "durationInFrames": 101,
+      "sourceStartFrame": 3466,
+      "sourceEndFrame": 3567,
+      "purpose": "Recorded Yellow Basket call to action"
+    },
+    {
+      "id": "outro",
+      "from": 1921,
+      "durationInFrames": 93,
+      "sourceStartFrame": null,
+      "sourceEndFrame": null,
+      "purpose": "Read product name and CTA; no unverified urgency"
+    }
+  ],
+  "captions": [
+    {
+      "text": " if",
+      "startMs": 140,
+      "endMs": 260,
+      "timestampMs": 200,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " you",
+      "startMs": 260,
+      "endMs": 340,
+      "timestampMs": 300,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " want",
+      "startMs": 340,
+      "endMs": 480,
+      "timestampMs": 410,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " to",
+      "startMs": 480,
+      "endMs": 600,
+      "timestampMs": 540,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " have",
+      "startMs": 600,
+      "endMs": 760,
+      "timestampMs": 680,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " a",
+      "startMs": 760,
+      "endMs": 900,
+      "timestampMs": 830,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " better",
+      "startMs": 900,
+      "endMs": 1140,
+      "timestampMs": 1020,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " quality",
+      "startMs": 1140,
+      "endMs": 1540,
+      "timestampMs": 1340,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " sleep,",
+      "startMs": 1540,
+      "endMs": 1940,
+      "timestampMs": 1740,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " hindi",
+      "startMs": 1940,
+      "endMs": 2200,
+      "timestampMs": 2070,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " yung",
+      "startMs": 2200,
+      "endMs": 2360,
+      "timestampMs": 2280,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " knockout",
+      "startMs": 2360,
+      "endMs": 2880,
+      "timestampMs": 2620,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " ka",
+      "startMs": 2880,
+      "endMs": 3020,
+      "timestampMs": 2950,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " lang",
+      "startMs": 3020,
+      "endMs": 3160,
+      "timestampMs": 3090,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " pero",
+      "startMs": 3160,
+      "endMs": 3360,
+      "timestampMs": 3260,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " pag",
+      "startMs": 3360,
+      "endMs": 3580,
+      "timestampMs": 3470,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " gising",
+      "startMs": 3580,
+      "endMs": 3880,
+      "timestampMs": 3730,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " mo,",
+      "startMs": 3880,
+      "endMs": 4020,
+      "timestampMs": 3950,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " pagod",
+      "startMs": 4100,
+      "endMs": 4360,
+      "timestampMs": 4230,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " ka",
+      "startMs": 4360,
+      "endMs": 4460,
+      "timestampMs": 4410,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " pa",
+      "startMs": 4460,
+      "endMs": 4640,
+      "timestampMs": 4550,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " rin.",
+      "startMs": 4640,
+      "endMs": 4820,
+      "timestampMs": 4730,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " Ito",
+      "startMs": 4920,
+      "endMs": 5100,
+      "timestampMs": 5010,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " yung",
+      "startMs": 5100,
+      "endMs": 5180,
+      "timestampMs": 5140,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " kailangan",
+      "startMs": 5180,
+      "endMs": 5620,
+      "timestampMs": 5400,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " mong",
+      "startMs": 5620,
+      "endMs": 5800,
+      "timestampMs": 5710,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " intindihan.",
+      "startMs": 5800,
+      "endMs": 6380,
+      "timestampMs": 6090,
+      "confidence": null,
+      "clipId": "hook"
+    },
+    {
+      "text": " especially",
+      "startMs": 6433,
+      "endMs": 6750,
+      "timestampMs": 6592,
+      "confidence": 0.9998113512992859,
+      "clipId": "context"
+    },
+    {
+      "text": " kung",
+      "startMs": 6750,
+      "endMs": 6950,
+      "timestampMs": 6850,
+      "confidence": 0.8911066651344299,
+      "clipId": "context"
+    },
+    {
+      "text": " nag",
+      "startMs": 6950,
+      "endMs": 7110,
+      "timestampMs": 7030,
+      "confidence": 0.9400477409362793,
+      "clipId": "context"
+    },
+    {
+      "text": " workout",
+      "startMs": 7110,
+      "endMs": 7550,
+      "timestampMs": 7330,
+      "confidence": 0.8769833246866862,
+      "clipId": "context"
+    },
+    {
+      "text": " ka",
+      "startMs": 7550,
+      "endMs": 7690,
+      "timestampMs": 7620,
+      "confidence": 0.9897109866142273,
+      "clipId": "context"
+    },
+    {
+      "text": " or",
+      "startMs": 7690,
+      "endMs": 7850,
+      "timestampMs": 7770,
+      "confidence": 0.9237059354782104,
+      "clipId": "context"
+    },
+    {
+      "text": " high",
+      "startMs": 7850,
+      "endMs": 8070,
+      "timestampMs": 7960,
+      "confidence": 0.996282160282135,
+      "clipId": "context"
+    },
+    {
+      "text": " stress",
+      "startMs": 8070,
+      "endMs": 8390,
+      "timestampMs": 8230,
+      "confidence": 0.9210464954376221,
+      "clipId": "context"
+    },
+    {
+      "text": " yung",
+      "startMs": 8390,
+      "endMs": 8570,
+      "timestampMs": 8480,
+      "confidence": 0.9994666874408722,
+      "clipId": "context"
+    },
+    {
+      "text": " araw",
+      "startMs": 8570,
+      "endMs": 8830,
+      "timestampMs": 8700,
+      "confidence": 0.9797336757183075,
+      "clipId": "context"
+    },
+    {
+      "text": " mo.",
+      "startMs": 8830,
+      "endMs": 8950,
+      "timestampMs": 8890,
+      "confidence": 0.9983356595039368,
+      "clipId": "context"
+    },
+    {
+      "text": " But,",
+      "startMs": 9130,
+      "endMs": 9430,
+      "timestampMs": 9280,
+      "confidence": 0.9997974038124084,
+      "clipId": "product"
+    },
+    {
+      "text": " when",
+      "startMs": 9590,
+      "endMs": 9830,
+      "timestampMs": 9710,
+      "confidence": 0.9996521472930908,
+      "clipId": "product"
+    },
+    {
+      "text": " you",
+      "startMs": 9830,
+      "endMs": 9930,
+      "timestampMs": 9880,
+      "confidence": 0.9999616146087646,
+      "clipId": "product"
+    },
+    {
+      "text": " talk",
+      "startMs": 9930,
+      "endMs": 10130,
+      "timestampMs": 10030,
+      "confidence": 0.9998394250869751,
+      "clipId": "product"
+    },
+    {
+      "text": " Dr.",
+      "startMs": 10130,
+      "endMs": 10330,
+      "timestampMs": 10230,
+      "confidence": 0.2726346552371979,
+      "clipId": "product"
+    },
+    {
+      "text": " Daily",
+      "startMs": 11170,
+      "endMs": 11410,
+      "timestampMs": 11290,
+      "confidence": 0.9404478073120117,
+      "clipId": "product"
+    },
+    {
+      "text": " Ashwagandha",
+      "startMs": 11410,
+      "endMs": 12070,
+      "timestampMs": 11740,
+      "confidence": 0.8351373553276062,
+      "clipId": "product"
+    },
+    {
+      "text": " plus",
+      "startMs": 12070,
+      "endMs": 12270,
+      "timestampMs": 12170,
+      "confidence": 0.9980734586715698,
+      "clipId": "product"
+    },
+    {
+      "text": " magnesium,",
+      "startMs": 12270,
+      "endMs": 12770,
+      "timestampMs": 12520,
+      "confidence": 0.9716506600379944,
+      "clipId": "product"
+    },
+    {
+      "text": " look",
+      "startMs": 12970,
+      "endMs": 13090,
+      "timestampMs": 13030,
+      "confidence": 0.9990392923355103,
+      "clipId": "product"
+    },
+    {
+      "text": " at",
+      "startMs": 13090,
+      "endMs": 13230,
+      "timestampMs": 13160,
+      "confidence": 0.9999862909317017,
+      "clipId": "product"
+    },
+    {
+      "text": " that",
+      "startMs": 13230,
+      "endMs": 13430,
+      "timestampMs": 13330,
+      "confidence": 0.999832272529602,
+      "clipId": "product"
+    },
+    {
+      "text": " bro,",
+      "startMs": 13430,
+      "endMs": 13650,
+      "timestampMs": 13540,
+      "confidence": 0.8050137758255005,
+      "clipId": "product"
+    },
+    {
+      "text": " Magnesium",
+      "startMs": 13710,
+      "endMs": 14050,
+      "timestampMs": 13880,
+      "confidence": 0.9432197213172913,
+      "clipId": "mineral-voice"
+    },
+    {
+      "text": " glycinate",
+      "startMs": 14050,
+      "endMs": 14483,
+      "timestampMs": 14267,
+      "confidence": 0.9417940179506937,
+      "clipId": "mineral-voice"
+    },
+    {
+      "text": " And",
+      "startMs": 17537,
+      "endMs": 17837,
+      "timestampMs": 17687,
+      "confidence": 0.9870603084564209,
+      "clipId": "stress"
+    },
+    {
+      "text": " yung",
+      "startMs": 17837,
+      "endMs": 18097,
+      "timestampMs": 17967,
+      "confidence": 0.9826736152172089,
+      "clipId": "stress"
+    },
+    {
+      "text": " ashwagandha",
+      "startMs": 18097,
+      "endMs": 18857,
+      "timestampMs": 18477,
+      "confidence": 0.8780637979507446,
+      "clipId": "stress"
+    },
+    {
+      "text": " naman",
+      "startMs": 18857,
+      "endMs": 19057,
+      "timestampMs": 18957,
+      "confidence": 0.9977650344371796,
+      "clipId": "stress"
+    },
+    {
+      "text": " is",
+      "startMs": 19057,
+      "endMs": 19277,
+      "timestampMs": 19167,
+      "confidence": 0.9986302852630615,
+      "clipId": "stress"
+    },
+    {
+      "text": " more",
+      "startMs": 19277,
+      "endMs": 19477,
+      "timestampMs": 19377,
+      "confidence": 0.9999818801879883,
+      "clipId": "stress"
+    },
+    {
+      "text": " on",
+      "startMs": 19477,
+      "endMs": 19677,
+      "timestampMs": 19577,
+      "confidence": 0.9999796152114868,
+      "clipId": "stress"
+    },
+    {
+      "text": " the",
+      "startMs": 19677,
+      "endMs": 19797,
+      "timestampMs": 19737,
+      "confidence": 0.9999862909317017,
+      "clipId": "stress"
+    },
+    {
+      "text": " stress",
+      "startMs": 19797,
+      "endMs": 20217,
+      "timestampMs": 20007,
+      "confidence": 0.9999425411224365,
+      "clipId": "stress"
+    },
+    {
+      "text": " relieving",
+      "startMs": 20217,
+      "endMs": 20817,
+      "timestampMs": 20517,
+      "confidence": 0.9417891701062521,
+      "clipId": "stress"
+    },
+    {
+      "text": " side.",
+      "startMs": 20817,
+      "endMs": 21237,
+      "timestampMs": 21027,
+      "confidence": 0.999929666519165,
+      "clipId": "stress"
+    },
+    {
+      "text": " 1,400",
+      "startMs": 23383,
+      "endMs": 24763,
+      "timestampMs": 24073,
+      "confidence": 0.647757351398468,
+      "clipId": "label"
+    },
+    {
+      "text": " mg",
+      "startMs": 24763,
+      "endMs": 25243,
+      "timestampMs": 25003,
+      "confidence": 0.5424169898033142,
+      "clipId": "label"
+    },
+    {
+      "text": " total",
+      "startMs": 25243,
+      "endMs": 25663,
+      "timestampMs": 25453,
+      "confidence": 0.9974914789199829,
+      "clipId": "label"
+    },
+    {
+      "text": " per",
+      "startMs": 25663,
+      "endMs": 25943,
+      "timestampMs": 25803,
+      "confidence": 0.9508199691772461,
+      "clipId": "label"
+    },
+    {
+      "text": " serving",
+      "startMs": 25943,
+      "endMs": 26323,
+      "timestampMs": 26133,
+      "confidence": 0.9957960844039917,
+      "clipId": "label"
+    },
+    {
+      "text": " This",
+      "startMs": 28477,
+      "endMs": 28877,
+      "timestampMs": 28677,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " really",
+      "startMs": 28877,
+      "endMs": 29177,
+      "timestampMs": 29027,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " helped",
+      "startMs": 29177,
+      "endMs": 29597,
+      "timestampMs": 29387,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " me",
+      "startMs": 29597,
+      "endMs": 29757,
+      "timestampMs": 29677,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " sa",
+      "startMs": 29757,
+      "endMs": 29917,
+      "timestampMs": 29837,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " totoo",
+      "startMs": 29917,
+      "endMs": 30157,
+      "timestampMs": 30037,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " lang.",
+      "startMs": 30157,
+      "endMs": 30297,
+      "timestampMs": 30227,
+      "confidence": null,
+      "clipId": "personal"
+    },
+    {
+      "text": " Check",
+      "startMs": 30337,
+      "endMs": 30677,
+      "timestampMs": 30507,
+      "confidence": 0.19085879623889923,
+      "clipId": "cta"
+    },
+    {
+      "text": " the",
+      "startMs": 30677,
+      "endMs": 30837,
+      "timestampMs": 30757,
+      "confidence": 0.9978081583976746,
+      "clipId": "cta"
+    },
+    {
+      "text": " yellow",
+      "startMs": 30837,
+      "endMs": 31017,
+      "timestampMs": 30927,
+      "confidence": 0.9875219464302063,
+      "clipId": "cta"
+    },
+    {
+      "text": " basket",
+      "startMs": 31017,
+      "endMs": 31397,
+      "timestampMs": 31207,
+      "confidence": 0.9937776327133179,
+      "clipId": "cta"
+    },
+    {
+      "text": " down",
+      "startMs": 31397,
+      "endMs": 31677,
+      "timestampMs": 31537,
+      "confidence": 0.9897491335868835,
+      "clipId": "cta"
+    },
+    {
+      "text": " below",
+      "startMs": 31677,
+      "endMs": 32017,
+      "timestampMs": 31847,
+      "confidence": 0.9998608827590942,
+      "clipId": "cta"
+    }
+  ],
+  "pages": [
+    {
+      "startMs": 140,
+      "endMs": 600,
+      "words": [
+        {
+          "text": " if",
+          "startMs": 140,
+          "endMs": 260,
+          "timestampMs": 200,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " you",
+          "startMs": 260,
+          "endMs": 340,
+          "timestampMs": 300,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " want",
+          "startMs": 340,
+          "endMs": 480,
+          "timestampMs": 410,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " to",
+          "startMs": 480,
+          "endMs": 600,
+          "timestampMs": 540,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 600,
+      "endMs": 1540,
+      "words": [
+        {
+          "text": " have",
+          "startMs": 600,
+          "endMs": 760,
+          "timestampMs": 680,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " a",
+          "startMs": 760,
+          "endMs": 900,
+          "timestampMs": 830,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " better",
+          "startMs": 900,
+          "endMs": 1140,
+          "timestampMs": 1020,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " quality",
+          "startMs": 1140,
+          "endMs": 1540,
+          "timestampMs": 1340,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 1540,
+      "endMs": 1940,
+      "words": [
+        {
+          "text": " sleep,",
+          "startMs": 1540,
+          "endMs": 1940,
+          "timestampMs": 1740,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 1940,
+      "endMs": 2880,
+      "words": [
+        {
+          "text": " hindi",
+          "startMs": 1940,
+          "endMs": 2200,
+          "timestampMs": 2070,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " yung",
+          "startMs": 2200,
+          "endMs": 2360,
+          "timestampMs": 2280,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " knockout",
+          "startMs": 2360,
+          "endMs": 2880,
+          "timestampMs": 2620,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 2880,
+      "endMs": 3160,
+      "words": [
+        {
+          "text": " ka",
+          "startMs": 2880,
+          "endMs": 3020,
+          "timestampMs": 2950,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " lang",
+          "startMs": 3020,
+          "endMs": 3160,
+          "timestampMs": 3090,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 3160,
+      "endMs": 4020,
+      "words": [
+        {
+          "text": " pero",
+          "startMs": 3160,
+          "endMs": 3360,
+          "timestampMs": 3260,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " pag",
+          "startMs": 3360,
+          "endMs": 3580,
+          "timestampMs": 3470,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " gising",
+          "startMs": 3580,
+          "endMs": 3880,
+          "timestampMs": 3730,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " mo,",
+          "startMs": 3880,
+          "endMs": 4020,
+          "timestampMs": 3950,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 4100,
+      "endMs": 4820,
+      "words": [
+        {
+          "text": " pagod",
+          "startMs": 4100,
+          "endMs": 4360,
+          "timestampMs": 4230,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " ka",
+          "startMs": 4360,
+          "endMs": 4460,
+          "timestampMs": 4410,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " pa",
+          "startMs": 4460,
+          "endMs": 4640,
+          "timestampMs": 4550,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " rin.",
+          "startMs": 4640,
+          "endMs": 4820,
+          "timestampMs": 4730,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 4920,
+      "endMs": 5620,
+      "words": [
+        {
+          "text": " Ito",
+          "startMs": 4920,
+          "endMs": 5100,
+          "timestampMs": 5010,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " yung",
+          "startMs": 5100,
+          "endMs": 5180,
+          "timestampMs": 5140,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " kailangan",
+          "startMs": 5180,
+          "endMs": 5620,
+          "timestampMs": 5400,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 5620,
+      "endMs": 6380,
+      "words": [
+        {
+          "text": " mong",
+          "startMs": 5620,
+          "endMs": 5800,
+          "timestampMs": 5710,
+          "confidence": null,
+          "clipId": "hook"
+        },
+        {
+          "text": " intindihan.",
+          "startMs": 5800,
+          "endMs": 6380,
+          "timestampMs": 6090,
+          "confidence": null,
+          "clipId": "hook"
+        }
+      ]
+    },
+    {
+      "startMs": 6433,
+      "endMs": 6950,
+      "words": [
+        {
+          "text": " especially",
+          "startMs": 6433,
+          "endMs": 6750,
+          "timestampMs": 6592,
+          "confidence": 0.9998113512992859,
+          "clipId": "context"
+        },
+        {
+          "text": " kung",
+          "startMs": 6750,
+          "endMs": 6950,
+          "timestampMs": 6850,
+          "confidence": 0.8911066651344299,
+          "clipId": "context"
+        }
+      ]
+    },
+    {
+      "startMs": 6950,
+      "endMs": 7690,
+      "words": [
+        {
+          "text": " nag",
+          "startMs": 6950,
+          "endMs": 7110,
+          "timestampMs": 7030,
+          "confidence": 0.9400477409362793,
+          "clipId": "context"
+        },
+        {
+          "text": " workout",
+          "startMs": 7110,
+          "endMs": 7550,
+          "timestampMs": 7330,
+          "confidence": 0.8769833246866862,
+          "clipId": "context"
+        },
+        {
+          "text": " ka",
+          "startMs": 7550,
+          "endMs": 7690,
+          "timestampMs": 7620,
+          "confidence": 0.9897109866142273,
+          "clipId": "context"
+        }
+      ]
+    },
+    {
+      "startMs": 7690,
+      "endMs": 8390,
+      "words": [
+        {
+          "text": " or",
+          "startMs": 7690,
+          "endMs": 7850,
+          "timestampMs": 7770,
+          "confidence": 0.9237059354782104,
+          "clipId": "context"
+        },
+        {
+          "text": " high",
+          "startMs": 7850,
+          "endMs": 8070,
+          "timestampMs": 7960,
+          "confidence": 0.996282160282135,
+          "clipId": "context"
+        },
+        {
+          "text": " stress",
+          "startMs": 8070,
+          "endMs": 8390,
+          "timestampMs": 8230,
+          "confidence": 0.9210464954376221,
+          "clipId": "context"
+        }
+      ]
+    },
+    {
+      "startMs": 8390,
+      "endMs": 8950,
+      "words": [
+        {
+          "text": " yung",
+          "startMs": 8390,
+          "endMs": 8570,
+          "timestampMs": 8480,
+          "confidence": 0.9994666874408722,
+          "clipId": "context"
+        },
+        {
+          "text": " araw",
+          "startMs": 8570,
+          "endMs": 8830,
+          "timestampMs": 8700,
+          "confidence": 0.9797336757183075,
+          "clipId": "context"
+        },
+        {
+          "text": " mo.",
+          "startMs": 8830,
+          "endMs": 8950,
+          "timestampMs": 8890,
+          "confidence": 0.9983356595039368,
+          "clipId": "context"
+        }
+      ]
+    },
+    {
+      "startMs": 9130,
+      "endMs": 10130,
+      "words": [
+        {
+          "text": " But,",
+          "startMs": 9130,
+          "endMs": 9430,
+          "timestampMs": 9280,
+          "confidence": 0.9997974038124084,
+          "clipId": "product"
+        },
+        {
+          "text": " when",
+          "startMs": 9590,
+          "endMs": 9830,
+          "timestampMs": 9710,
+          "confidence": 0.9996521472930908,
+          "clipId": "product"
+        },
+        {
+          "text": " you",
+          "startMs": 9830,
+          "endMs": 9930,
+          "timestampMs": 9880,
+          "confidence": 0.9999616146087646,
+          "clipId": "product"
+        },
+        {
+          "text": " talk",
+          "startMs": 9930,
+          "endMs": 10130,
+          "timestampMs": 10030,
+          "confidence": 0.9998394250869751,
+          "clipId": "product"
+        }
+      ]
+    },
+    {
+      "startMs": 10130,
+      "endMs": 11410,
+      "words": [
+        {
+          "text": " Dr.",
+          "startMs": 10130,
+          "endMs": 10330,
+          "timestampMs": 10230,
+          "confidence": 0.2726346552371979,
+          "clipId": "product"
+        },
+        {
+          "text": " Daily",
+          "startMs": 11170,
+          "endMs": 11410,
+          "timestampMs": 11290,
+          "confidence": 0.9404478073120117,
+          "clipId": "product"
+        }
+      ]
+    },
+    {
+      "startMs": 11410,
+      "endMs": 12770,
+      "words": [
+        {
+          "text": " Ashwagandha",
+          "startMs": 11410,
+          "endMs": 12070,
+          "timestampMs": 11740,
+          "confidence": 0.8351373553276062,
+          "clipId": "product"
+        },
+        {
+          "text": " plus",
+          "startMs": 12070,
+          "endMs": 12270,
+          "timestampMs": 12170,
+          "confidence": 0.9980734586715698,
+          "clipId": "product"
+        },
+        {
+          "text": " magnesium,",
+          "startMs": 12270,
+          "endMs": 12770,
+          "timestampMs": 12520,
+          "confidence": 0.9716506600379944,
+          "clipId": "product"
+        }
+      ]
+    },
+    {
+      "startMs": 12970,
+      "endMs": 13650,
+      "words": [
+        {
+          "text": " look",
+          "startMs": 12970,
+          "endMs": 13090,
+          "timestampMs": 13030,
+          "confidence": 0.9990392923355103,
+          "clipId": "product"
+        },
+        {
+          "text": " at",
+          "startMs": 13090,
+          "endMs": 13230,
+          "timestampMs": 13160,
+          "confidence": 0.9999862909317017,
+          "clipId": "product"
+        },
+        {
+          "text": " that",
+          "startMs": 13230,
+          "endMs": 13430,
+          "timestampMs": 13330,
+          "confidence": 0.999832272529602,
+          "clipId": "product"
+        },
+        {
+          "text": " bro,",
+          "startMs": 13430,
+          "endMs": 13650,
+          "timestampMs": 13540,
+          "confidence": 0.8050137758255005,
+          "clipId": "product"
+        }
+      ]
+    },
+    {
+      "startMs": 13710,
+      "endMs": 14483,
+      "words": [
+        {
+          "text": " Magnesium",
+          "startMs": 13710,
+          "endMs": 14050,
+          "timestampMs": 13880,
+          "confidence": 0.9432197213172913,
+          "clipId": "mineral-voice"
+        },
+        {
+          "text": " glycinate",
+          "startMs": 14050,
+          "endMs": 14483,
+          "timestampMs": 14267,
+          "confidence": 0.9417940179506937,
+          "clipId": "mineral-voice"
+        }
+      ]
+    },
+    {
+      "startMs": 17537,
+      "endMs": 18857,
+      "words": [
+        {
+          "text": " And",
+          "startMs": 17537,
+          "endMs": 17837,
+          "timestampMs": 17687,
+          "confidence": 0.9870603084564209,
+          "clipId": "stress"
+        },
+        {
+          "text": " yung",
+          "startMs": 17837,
+          "endMs": 18097,
+          "timestampMs": 17967,
+          "confidence": 0.9826736152172089,
+          "clipId": "stress"
+        },
+        {
+          "text": " ashwagandha",
+          "startMs": 18097,
+          "endMs": 18857,
+          "timestampMs": 18477,
+          "confidence": 0.8780637979507446,
+          "clipId": "stress"
+        }
+      ]
+    },
+    {
+      "startMs": 18857,
+      "endMs": 19677,
+      "words": [
+        {
+          "text": " naman",
+          "startMs": 18857,
+          "endMs": 19057,
+          "timestampMs": 18957,
+          "confidence": 0.9977650344371796,
+          "clipId": "stress"
+        },
+        {
+          "text": " is",
+          "startMs": 19057,
+          "endMs": 19277,
+          "timestampMs": 19167,
+          "confidence": 0.9986302852630615,
+          "clipId": "stress"
+        },
+        {
+          "text": " more",
+          "startMs": 19277,
+          "endMs": 19477,
+          "timestampMs": 19377,
+          "confidence": 0.9999818801879883,
+          "clipId": "stress"
+        },
+        {
+          "text": " on",
+          "startMs": 19477,
+          "endMs": 19677,
+          "timestampMs": 19577,
+          "confidence": 0.9999796152114868,
+          "clipId": "stress"
+        }
+      ]
+    },
+    {
+      "startMs": 19677,
+      "endMs": 21237,
+      "words": [
+        {
+          "text": " the",
+          "startMs": 19677,
+          "endMs": 19797,
+          "timestampMs": 19737,
+          "confidence": 0.9999862909317017,
+          "clipId": "stress"
+        },
+        {
+          "text": " stress",
+          "startMs": 19797,
+          "endMs": 20217,
+          "timestampMs": 20007,
+          "confidence": 0.9999425411224365,
+          "clipId": "stress"
+        },
+        {
+          "text": " relieving",
+          "startMs": 20217,
+          "endMs": 20817,
+          "timestampMs": 20517,
+          "confidence": 0.9417891701062521,
+          "clipId": "stress"
+        },
+        {
+          "text": " side.",
+          "startMs": 20817,
+          "endMs": 21237,
+          "timestampMs": 21027,
+          "confidence": 0.999929666519165,
+          "clipId": "stress"
+        }
+      ]
+    },
+    {
+      "startMs": 23383,
+      "endMs": 25663,
+      "words": [
+        {
+          "text": " 1,400",
+          "startMs": 23383,
+          "endMs": 24763,
+          "timestampMs": 24073,
+          "confidence": 0.647757351398468,
+          "clipId": "label"
+        },
+        {
+          "text": " mg",
+          "startMs": 24763,
+          "endMs": 25243,
+          "timestampMs": 25003,
+          "confidence": 0.5424169898033142,
+          "clipId": "label"
+        },
+        {
+          "text": " total",
+          "startMs": 25243,
+          "endMs": 25663,
+          "timestampMs": 25453,
+          "confidence": 0.9974914789199829,
+          "clipId": "label"
+        }
+      ]
+    },
+    {
+      "startMs": 25663,
+      "endMs": 26323,
+      "words": [
+        {
+          "text": " per",
+          "startMs": 25663,
+          "endMs": 25943,
+          "timestampMs": 25803,
+          "confidence": 0.9508199691772461,
+          "clipId": "label"
+        },
+        {
+          "text": " serving",
+          "startMs": 25943,
+          "endMs": 26323,
+          "timestampMs": 26133,
+          "confidence": 0.9957960844039917,
+          "clipId": "label"
+        }
+      ]
+    },
+    {
+      "startMs": 28477,
+      "endMs": 29757,
+      "words": [
+        {
+          "text": " This",
+          "startMs": 28477,
+          "endMs": 28877,
+          "timestampMs": 28677,
+          "confidence": null,
+          "clipId": "personal"
+        },
+        {
+          "text": " really",
+          "startMs": 28877,
+          "endMs": 29177,
+          "timestampMs": 29027,
+          "confidence": null,
+          "clipId": "personal"
+        },
+        {
+          "text": " helped",
+          "startMs": 29177,
+          "endMs": 29597,
+          "timestampMs": 29387,
+          "confidence": null,
+          "clipId": "personal"
+        },
+        {
+          "text": " me",
+          "startMs": 29597,
+          "endMs": 29757,
+          "timestampMs": 29677,
+          "confidence": null,
+          "clipId": "personal"
+        }
+      ]
+    },
+    {
+      "startMs": 29757,
+      "endMs": 30297,
+      "words": [
+        {
+          "text": " sa",
+          "startMs": 29757,
+          "endMs": 29917,
+          "timestampMs": 29837,
+          "confidence": null,
+          "clipId": "personal"
+        },
+        {
+          "text": " totoo",
+          "startMs": 29917,
+          "endMs": 30157,
+          "timestampMs": 30037,
+          "confidence": null,
+          "clipId": "personal"
+        },
+        {
+          "text": " lang.",
+          "startMs": 30157,
+          "endMs": 30297,
+          "timestampMs": 30227,
+          "confidence": null,
+          "clipId": "personal"
+        }
+      ]
+    },
+    {
+      "startMs": 30337,
+      "endMs": 31397,
+      "words": [
+        {
+          "text": " Check",
+          "startMs": 30337,
+          "endMs": 30677,
+          "timestampMs": 30507,
+          "confidence": 0.19085879623889923,
+          "clipId": "cta"
+        },
+        {
+          "text": " the",
+          "startMs": 30677,
+          "endMs": 30837,
+          "timestampMs": 30757,
+          "confidence": 0.9978081583976746,
+          "clipId": "cta"
+        },
+        {
+          "text": " yellow",
+          "startMs": 30837,
+          "endMs": 31017,
+          "timestampMs": 30927,
+          "confidence": 0.9875219464302063,
+          "clipId": "cta"
+        },
+        {
+          "text": " basket",
+          "startMs": 31017,
+          "endMs": 31397,
+          "timestampMs": 31207,
+          "confidence": 0.9937776327133179,
+          "clipId": "cta"
+        }
+      ]
+    },
+    {
+      "startMs": 31397,
+      "endMs": 32017,
+      "words": [
+        {
+          "text": " down",
+          "startMs": 31397,
+          "endMs": 31677,
+          "timestampMs": 31537,
+          "confidence": 0.9897491335868835,
+          "clipId": "cta"
+        },
+        {
+          "text": " below",
+          "startMs": 31677,
+          "endMs": 32017,
+          "timestampMs": 31847,
+          "confidence": 0.9998608827590942,
+          "clipId": "cta"
+        }
+      ]
+    }
+  ],
+  "captionStyle": {
+    "anchorY": 1290,
+    "centerX": 540,
+    "width": 768,
+    "fontSize": 58,
+    "fontFamily": "Inter",
+    "base": "#ffffff",
+    "active": "#ffe600"
+  },
+  "sources": {
+    "recording": "public/ashwagandha/source.mp4",
+    "reference": "Download (1).mp4 — historical reference, not a render input"
+  },
+  "claims": {
+    "product": "Dr. Daily Ashwagandha + Magnesium",
+    "frontLabelTotal": "1,400 mg per serving",
+    "bottleCount": "60 capsules",
+    "elementalMagnesium": "UNVERIFIED \u2014 omitted"
+  },
+  "openingTransition": {
+    "from": 6,
+    "durationInFrames": 6,
+    "type": "quick zoom dissolve",
+    "liveHookStartsAt": 6,
+    "fullyClearAt": 11
+  }
+}

@@ -1,0 +1,55 @@
+"use client";;
+import { useCurrentFrame } from "remotion";
+
+export function InfiniteMarquee({
+  text = "ship · build animate",
+  fontSize = 120,
+  color = "#171717",
+  fontWeight = 900,
+  pixelsPerFrame = 4,
+  stroke = false,
+  strokeColor = "#171717",
+  speed = 1,
+  className
+}) {
+  const frame = useCurrentFrame() * speed;
+
+  const approxWidth = text.length * fontSize * 0.55;
+  const offset = -((frame * pixelsPerFrame) % approxWidth);
+
+  const spanStyle = {
+    fontSize,
+    fontWeight,
+    fontFamily:
+      "var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif",
+    color: stroke ? "transparent" : color,
+    WebkitTextStroke: stroke ? `2px ${strokeColor}` : undefined,
+    paddingRight: "0.4em",
+    letterSpacing: "-0.03em",
+  };
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        className={className}
+        style={{
+          display: "flex",
+          whiteSpace: "nowrap",
+          translate: `${offset}px`,
+        }}
+      >
+        <span style={spanStyle}>{text}</span>
+        <span style={spanStyle}>{text}</span>
+        <span style={spanStyle}>{text}</span>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,217 @@
+{
+  "voiceTargetLufs": -15,
+  "finalTargetLufs": -14.5,
+  "peakLimitDb": -1.5,
+  "cues": [
+    {
+      "id": "cover punctuation",
+      "frame": 0,
+      "src": "ashwagandha/sfx/original-hit.wav",
+      "volume": 0.25,
+      "durationInFrames": 9
+    },
+    {
+      "id": "cover-to-camera zoom dissolve",
+      "frame": 5,
+      "src": "sfx/remotion/whoosh.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "quality sleep underline",
+      "frame": 90,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "night visual build",
+      "frame": 130,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.18,
+      "durationInFrames": 8
+    },
+    {
+      "id": "morning alarm",
+      "frame": 229,
+      "src": "ashwagandha/sfx/original-chime.wav",
+      "volume": 0.17,
+      "durationInFrames": 33
+    },
+    {
+      "id": "pagod emphasis",
+      "frame": 249,
+      "src": "ashwagandha/sfx/original-hit.wav",
+      "volume": 0.23,
+      "durationInFrames": 13
+    },
+    {
+      "id": "context panel change",
+      "frame": 386,
+      "src": "sfx/remotion/whip.wav",
+      "volume": 0.28,
+      "durationInFrames": 11
+    },
+    {
+      "id": "workout icon",
+      "frame": 414,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.25,
+      "durationInFrames": 8
+    },
+    {
+      "id": "stress icon",
+      "frame": 483,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "product match cut",
+      "frame": 542,
+      "src": "sfx/remotion/whoosh.wav",
+      "volume": 0.42,
+      "durationInFrames": 10
+    },
+    {
+      "id": "ashwagandha label",
+      "frame": 684,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.25,
+      "durationInFrames": 8
+    },
+    {
+      "id": "magnesium label",
+      "frame": 737,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "mineral takeover",
+      "frame": 819,
+      "src": "sfx/remotion/whip.wav",
+      "volume": 0.32,
+      "durationInFrames": 11
+    },
+    {
+      "id": "magnesium center landing",
+      "frame": 837,
+      "src": "ashwagandha/sfx/original-hit.wav",
+      "volume": 0.27,
+      "durationInFrames": 13
+    },
+    {
+      "id": "nerve pathway connect",
+      "frame": 898,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.25,
+      "durationInFrames": 8
+    },
+    {
+      "id": "muscle pathway connect",
+      "frame": 926,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "ashwagandha scene",
+      "frame": 1050,
+      "src": "sfx/remotion/whoosh.wav",
+      "volume": 0.36,
+      "durationInFrames": 10
+    },
+    {
+      "id": "plant name reveal",
+      "frame": 1089,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.22,
+      "durationInFrames": 8
+    },
+    {
+      "id": "stress research highlight",
+      "frame": 1194,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.2,
+      "durationInFrames": 8
+    },
+    {
+      "id": "evidence card arrival",
+      "frame": 1277,
+      "src": "sfx/remotion/whip.wav",
+      "volume": 0.29,
+      "durationInFrames": 11
+    },
+    {
+      "id": "results vary marker",
+      "frame": 1303,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.24,
+      "durationInFrames": 8
+    },
+    {
+      "id": "genuine label close-up",
+      "frame": 1396,
+      "src": "sfx/remotion/whoosh.wav",
+      "volume": 0.44,
+      "durationInFrames": 10
+    },
+    {
+      "id": "1400 total count stop",
+      "frame": 1494,
+      "src": "ashwagandha/sfx/original-hit.wav",
+      "volume": 0.25,
+      "durationInFrames": 13
+    },
+    {
+      "id": "capsule detail cut",
+      "frame": 1580,
+      "src": "sfx/remotion/whip.wav",
+      "volume": 0.3,
+      "durationInFrames": 11
+    },
+    {
+      "id": "60 capsules proof",
+      "frame": 1607,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.24,
+      "durationInFrames": 8
+    },
+    {
+      "id": "personal camera reset",
+      "frame": 1698,
+      "src": "sfx/remotion/whoosh.wav",
+      "volume": 0.3,
+      "durationInFrames": 10
+    },
+    {
+      "id": "testimonial underline",
+      "frame": 1755,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.17,
+      "durationInFrames": 8
+    },
+    {
+      "id": "yellow basket entrance",
+      "frame": 1818,
+      "src": "ashwagandha/sfx/original-pop.wav",
+      "volume": 0.28,
+      "durationInFrames": 8
+    },
+    {
+      "id": "basket pointer",
+      "frame": 1858,
+      "src": "ashwagandha/sfx/original-tick.wav",
+      "volume": 0.18,
+      "durationInFrames": 8
+    },
+    {
+      "id": "final product punctuation",
+      "frame": 1930,
+      "src": "ashwagandha/sfx/original-chime.wav",
+      "volume": 0.21,
+      "durationInFrames": 33
+    }
+  ]
+}

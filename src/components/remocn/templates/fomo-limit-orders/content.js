@@ -1,0 +1,32 @@
+export const fomoContent = {
+  intro: "New in Order Flow",
+  feature: "Plan your next exit",
+  audience: "Before the market moves",
+  ticker: "DEMO",
+  assetName: "Demo Market",
+  leverage: "5x",
+  position: "2x Long",
+  positionValue: "$12,640.00",
+  positionProfit: "+$640.00",
+  positionSize: "$12.64K",
+  positionQuantity: "160 DEMO",
+  positionReturn: "10.67%",
+  entryPrice: "$75.00",
+  liquidationPrice: "$37.50",
+  marketPrice: "$79.00",
+  change: "1.28%",
+  openInterest: "$24M OI",
+  limitPrice: "$82.00",
+  margin: "$6,000.00",
+  orderSize: "$12.64K",
+  action: "Set an exit price",
+  closing: "Your price. next move.",
+};
+
+export const fomoTheme = {
+  ink: "#121310",
+  panel: "#20221c",
+  paper: "#f6f1e7",
+  accent: "#e8b45a",
+  positive: "#80bf97",
+};
