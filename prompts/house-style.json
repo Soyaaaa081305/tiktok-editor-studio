@@ -1,17 +1,21 @@
 {
-  "version": "6.1.0",
-  "updated": "2026-10-06",
-  "role": "supporting defaults; the two standalone prompts contain the operating instructions",
+  "version": "7.0.0",
+  "updated": "2026-10-09",
+  "role": "supporting defaults; the three streamlined prompts contain operating instructions",
   "core_prompts": {
-    "script": "03-topic-to-script-prompt.md",
-    "production": "04-master-production-system-prompt.md"
+    "always_on": "ALWAYS-ON.md",
+    "editor": "TIKTOK-EDITOR.md",
+    "script_generator": "SCRIPT-GENERATOR.md"
   },
   "modes": [
     "EDIT_AND_EXPORT",
-    "PLAN_ONLY",
-    "REFERENCE_UPDATE"
+    "PLAN_ONLY"
   ],
   "language": "Taglish",
+  "pacing": {
+    "zero_dead_air": true,
+    "max_pause_seconds": 0.2
+  },
   "duration_seconds": {
     "min": 45,
     "max": 60,
@@ -25,92 +29,61 @@
     },
     "invent_to_meet_quota": false,
     "primary_search": "PubMed and original publisher/full-text sources",
-    "include_challenging_evidence": true,
-    "access_levels": [
-      "FULL TEXT",
-      "ABSTRACT ONLY",
-      "USER EXCERPT",
-      "NOT ACCESSED"
-    ],
-    "chris_beardsley_role": "optional interpretation and source lead; verify underlying research",
-    "locked_post_fallback": "use accessible research; record not accessed",
-    "cache_reference_style": true,
-    "freeze_science_permanently": false
+    "include_challenging_evidence": true
   },
   "canvas": {
     "width": 1080,
     "height": 1920,
     "color_space": "Rec.709 SDR",
-    "fps_policy": "prefer suitable source rate; ordinarily 30 or 60; document conversions",
+    "fps": 60,
     "key_content_working_bounds": {
       "left": 80,
-      "right": 900,
-      "top": 160,
-      "bottom": 1640
-    },
-    "native_tiktok_ui_guarantee": false
+      "right": 1000,
+      "top": 120,
+      "bottom": 1720
+    }
   },
   "visual": {
-    "style": "minimal editorial; actual footage and accurate explanatory graphics",
-    "preferred_reference": "AshwagandhaEditorialV2",
-    "modes": [
-      "presenter",
-      "stacked",
-      "full_screen_insert",
-      "full_screen_explanation",
-      "keyword"
-    ],
-    "stacked_upper_height_fraction": {
-      "min": 0.35,
-      "max": 0.5
-    },
+    "style": "News Daddy 55/45 vertical split with Smartfit Taglish delivery",
+    "format": "55/45 vertical split (Top 55% B-roll/proof, 10px gold divider, Bottom 45% presenter)",
+    "stacked_upper_height_fraction": 0.55,
+    "top_split_height_px": 1056,
+    "bottom_split_height_px": 864,
+    "divider_px": 10,
+    "divider_color": "#FFE600",
+    "divider_y_px": 1056,
     "default_transition": "direct cut",
-    "default_font": "Inter",
-    "body_weight": 600,
-    "headline_weight": 700,
-    "accent_color": "#F1C75B",
-    "hero_keyword_font_px": {
-      "min": 96,
-      "max": 144
-    },
-    "default_cartoon_orbit_card_decorations": false,
-    "synthetic_people_or_products": false,
-    "motion_quota": null
+    "default_font": "Inter, Arial Black, sans-serif",
+    "body_weight": 700,
+    "headline_weight": 900,
+    "accent_color": "#FFE600"
   },
   "captions": {
-    "format": "Remotion Caption-compatible JSON; final audible dialogue",
+    "format": "Remotion Caption-compatible JSON with word-level spring timings",
     "default_case": "sentence case",
     "font_size_px": {
       "min": 48,
-      "max": 58
+      "max": 56
     },
     "words_per_phrase_starting_range": {
       "min": 3,
-      "max": 7
+      "max": 6
     },
     "max_lines": 2,
-    "default_center_y_px": 1280,
-    "placement": "choose negative-space anchor per shot/semantic boundary; stable within phrase",
-    "fixed_lane_required": false,
-    "per_word_bounce": false,
-    "selective_keyword_enlargement": true,
-    "duplicate_keyword_headline_and_caption": false,
-    "starting_outline_px": 2
+    "default_center_y_px": 1380,
+    "highlight_color": "#FFE600",
+    "word_spring": true,
+    "starting_outline_px": 3
   },
   "cover": {
     "clear_hold_seconds": 0.1,
     "frames_formula": "max(1, round(0.1 * outputFps))",
-    "all_elements_visible_frame_zero": true,
-    "genuine_image_required": true,
-    "optional_transition_seconds": 0.1,
-    "transition_over_moving_hook": true,
-    "extra_static_hold": false,
-    "guaranteed_automatic_platform_selection": false
+    "genuine_image_required": true
   },
   "audio": {
-    "dialogue": "original voice at natural pace",
+    "dialogue": "original voice at natural pace; zero dead air (>0.2s cuts)",
     "sfx_enabled": true,
-    "sfx_policy": "meaningful selected events; real licensed/owned assets; verify final mix",
+    "sfx_policy": "meaningful events on visual cuts and evidence reveals; -14 dB relative to dialogue",
     "music": {
       "enabled": false,
       "enable_only_on_explicit_user_request": true
@@ -119,73 +92,21 @@
       "min": -16,
       "max": -14
     },
-    "true_peak_ceiling_dbtp": -1.5,
-    "preview_export_shared_mix": true,
-    "signal_energy_alone_proves_perceptual_audibility": false
-  },
-  "review": {
-    "statuses": [
-      "PASS",
-      "REVISE",
-      "BLOCKED",
-      "UNVERIFIED",
-      "NOT APPLICABLE"
-    ],
-    "weights": {
-      "brief_format_source": 10,
-      "story_pacing_delivery": 15,
-      "science_sources_nuance": 20,
-      "footage_explanatory_graphics": 20,
-      "captions_type_readability": 10,
-      "cuts_motion_continuity_color": 10,
-      "dialogue_sfx_mix": 10,
-      "export_documented_review": 5
-    },
-    "automatic_perfect_score": false,
-    "unverified_checks_get_assumed_points": false,
-    "repair_remediable_critical_defects": true
-  },
-  "story_effort": {
-    "first_seconds": 10,
-    "first_priority": "highest craft: immediate hook, early payoff, semantic cuts and strongest explanatory reveal",
-    "middle": "balanced and speech-led",
-    "ending": "tighten for takeaway, requested CTA and Noda.lifts signature",
-    "effects_quota": null
-  },
-  "narration_coverage": {
-    "dialogue_track_independent_of_picture": true,
-    "full_screen_broll_keeps_dialogue": true,
-    "source_speech_edl_is_timeline_truth": true,
-    "authored_dialogue_gaps_allowed": 0,
-    "natural_source_pauses": "preserve only when intentional and logged",
-    "default_authored_silence": "cover only",
-    "cover_silence_seconds": 0.1,
-    "fabricated_or_cloned_voiceover": false,
-    "require_narration_coverage_json": true,
-    "require_silence_audit": true
+    "true_peak_ceiling_dbtp": -1.5
   },
   "trademark": {
     "account": "noda.lifts",
     "spoken_line": "Like and follow for more science-based lifting advice. God bless!",
-    "default": "include in clean-read script, record and count toward duration",
-    "visual_when_already_recorded": "show during live relevant speech, never as a silent standalone end card",
-    "apply_to_other_accounts": false
+    "default": "include in clean-read script, record and count toward duration"
   },
   "exports": {
     "vertical": {
       "width": 1080,
       "height": 1920,
-      "fps": "source-matched; preserve 60 when source supports it",
+      "fps": 60,
       "container": "MP4",
       "video": "H.264, yuv420p, Rec.709",
       "audio": "AAC, 48 kHz"
-    },
-    "master": {
-      "optional_4k": true,
-      "preserve_1080p_upload": true,
-      "disclose_upscale_when_source_is_1080p": true
-    },
-    "platform_recompression": "expected; no file can guarantee uncompressed TikTok playback",
-    "source_is_quality_ceiling": true
+    }
   }
 }

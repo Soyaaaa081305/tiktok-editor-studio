@@ -3,13 +3,13 @@
 This is the user's private, portable TikTok production project. Read
 `README.md` and inspect the current files before working. Use the saved prompts:
 
-- For every TikTok Editor task, apply `prompts/ALWAYS-ON-PROMPT.md` first.
+- For every TikTok Editor task, apply `prompts/ALWAYS-ON.md` first.
 - Then select the relevant task prompt below. The latest direct user instruction
   takes precedence over all saved defaults and historical examples.
 
-- For a topic or a new script, apply `prompts/03-topic-to-script-prompt.md`.
-- For a recording to edit, apply `prompts/04-master-production-system-prompt.md`.
-- Use `prompts/house-style.json`, `prompts/07-approved-editorial-reference.md` and the cached reference record for consistency.
+- For a daily slot or a new script, apply `prompts/SCRIPT-GENERATOR.md`.
+- For a recording to edit, apply `prompts/TIKTOK-EDITOR.md`.
+- Use `prompts/house-style.json` for machine-readable 55/45 split and caption defaults.
 - The latest direct user instruction takes precedence over these defaults.
 
 Save each new recording's exact edit blueprint, execution prompt, edit plan,
