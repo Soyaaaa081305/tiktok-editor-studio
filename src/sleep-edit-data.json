@@ -1,0 +1,1037 @@
+{
+  "totalFrames": 2943,
+  "fps": 60,
+  "presenterSrc": "newvid.mp4",
+  "coverSrc": "product-hero.jpg",
+  "presenterOffsetY": -160,
+  "presenterScale": 1.05,
+  "topSegments": [
+    {
+      "id": "beat-1",
+      "name": "Hook: Sleep Optimizer Revelation",
+      "timelineStartFrame": 0,
+      "durationInFrames": 340,
+      "topAsset": {
+        "type": "stat",
+        "eyebrow": "SLEEP OPTIMIZER",
+        "statNumber": "ASHWA + MAG",
+        "statLabel": "The #1 supplement stack for deep sleep recovery",
+        "cardEyebrow": "PERSONAL TEST",
+        "cardTitle": "Sa lahat ng supplements, eto lang talaga gumana"
+      }
+    },
+    {
+      "id": "beat-2",
+      "name": "Synergy & Honest Review",
+      "timelineStartFrame": 340,
+      "durationInFrames": 440,
+      "topAsset": {
+        "type": "comparison",
+        "leftBadge": "HONEST REVIEW \ud83d\udcaf",
+        "leftText": "100% Personal experience, zero sales pitch",
+        "rightBadge": "PROVEN STACK \u2705",
+        "rightText": "Ashwagandha lowers cortisol + Magnesium relaxes nerves"
+      }
+    },
+    {
+      "id": "beat-3",
+      "name": "Light Sleep vs Deep Sleep",
+      "timelineStartFrame": 780,
+      "durationInFrames": 460,
+      "topAsset": {
+        "type": "comparison",
+        "leftBadge": "BEFORE \u274c",
+        "leftText": "Mabilis makatulog pero mababaw, laging nagigising sa gabi",
+        "rightBadge": "DEEP SLEEP \u2705",
+        "rightText": "Stage 3-4 Slow Wave Sleep para sa tunay na muscle recovery"
+      }
+    },
+    {
+      "id": "beat-4",
+      "name": "Sleep Duration Data: 8.5 Hours",
+      "timelineStartFrame": 1240,
+      "durationInFrames": 680,
+      "topAsset": {
+        "type": "stat",
+        "eyebrow": "SLEEP DATA LOG",
+        "statNumber": "8.5 HOURS",
+        "statLabel": "Complete uninterrupted rest \u00b7 Zero night awakenings",
+        "cardEyebrow": "DEEP REST",
+        "cardTitle": "Continuous physiological muscle & brain reset"
+      }
+    },
+    {
+      "id": "beat-5",
+      "name": "REM Cycles & Lucid Dreams",
+      "timelineStartFrame": 1920,
+      "durationInFrames": 520,
+      "topAsset": {
+        "type": "stat",
+        "eyebrow": "REM CYCLE ACTIVATION",
+        "statNumber": "LUCID DREAMS",
+        "statLabel": "Deeper REM phases & enhanced mental recovery",
+        "cardEyebrow": "DEEP REM SLEEP",
+        "cardTitle": "Pinakamasarap na gising pagkaumaga"
+      }
+    },
+    {
+      "id": "beat-6",
+      "name": "Price & Yellow Basket CTA",
+      "timelineStartFrame": 2440,
+      "durationInFrames": 503,
+      "topAsset": {
+        "type": "stat",
+        "eyebrow": "DAILY NUTRITION",
+        "statNumber": "YELLOW BASKET",
+        "statLabel": "Sulit price & verified authentic Ashwagandha + Magnesium",
+        "cardEyebrow": "NODA.LIFTS",
+        "cardTitle": "Like & follow for science lifting advice. God bless!"
+      }
+    }
+  ],
+  "presenterClips": [
+    {
+      "id": "clip-1",
+      "name": "Speech cut 1",
+      "timelineStartFrame": 0,
+      "durationInFrames": 286,
+      "sourceStartFrame": 17,
+      "sourceEndFrame": 303
+    },
+    {
+      "id": "clip-2",
+      "name": "Speech cut 2",
+      "timelineStartFrame": 286,
+      "durationInFrames": 56,
+      "sourceStartFrame": 321,
+      "sourceEndFrame": 377
+    },
+    {
+      "id": "clip-3",
+      "name": "Speech cut 3",
+      "timelineStartFrame": 342,
+      "durationInFrames": 209,
+      "sourceStartFrame": 416,
+      "sourceEndFrame": 625
+    },
+    {
+      "id": "clip-4",
+      "name": "Speech cut 4",
+      "timelineStartFrame": 551,
+      "durationInFrames": 29,
+      "sourceStartFrame": 633,
+      "sourceEndFrame": 662
+    },
+    {
+      "id": "clip-5",
+      "name": "Speech cut 5",
+      "timelineStartFrame": 580,
+      "durationInFrames": 334,
+      "sourceStartFrame": 692,
+      "sourceEndFrame": 1026
+    },
+    {
+      "id": "clip-6",
+      "name": "Speech cut 6",
+      "timelineStartFrame": 914,
+      "durationInFrames": 20,
+      "sourceStartFrame": 1056,
+      "sourceEndFrame": 1076
+    },
+    {
+      "id": "clip-7",
+      "name": "Speech cut 7",
+      "timelineStartFrame": 934,
+      "durationInFrames": 117,
+      "sourceStartFrame": 1089,
+      "sourceEndFrame": 1206
+    },
+    {
+      "id": "clip-8",
+      "name": "Speech cut 8",
+      "timelineStartFrame": 1051,
+      "durationInFrames": 73,
+      "sourceStartFrame": 1221,
+      "sourceEndFrame": 1294
+    },
+    {
+      "id": "clip-9",
+      "name": "Speech cut 9",
+      "timelineStartFrame": 1124,
+      "durationInFrames": 83,
+      "sourceStartFrame": 1312,
+      "sourceEndFrame": 1395
+    },
+    {
+      "id": "clip-10",
+      "name": "Speech cut 10",
+      "timelineStartFrame": 1207,
+      "durationInFrames": 479,
+      "sourceStartFrame": 1435,
+      "sourceEndFrame": 1915
+    },
+    {
+      "id": "clip-11",
+      "name": "Speech cut 11",
+      "timelineStartFrame": 1686,
+      "durationInFrames": 24,
+      "sourceStartFrame": 1927,
+      "sourceEndFrame": 1951
+    },
+    {
+      "id": "clip-12",
+      "name": "Speech cut 12",
+      "timelineStartFrame": 1710,
+      "durationInFrames": 135,
+      "sourceStartFrame": 1976,
+      "sourceEndFrame": 2111
+    },
+    {
+      "id": "clip-13",
+      "name": "Speech cut 13",
+      "timelineStartFrame": 1845,
+      "durationInFrames": 112,
+      "sourceStartFrame": 2130,
+      "sourceEndFrame": 2242
+    },
+    {
+      "id": "clip-14",
+      "name": "Speech cut 14",
+      "timelineStartFrame": 1957,
+      "durationInFrames": 133,
+      "sourceStartFrame": 2273,
+      "sourceEndFrame": 2407
+    },
+    {
+      "id": "clip-15",
+      "name": "Speech cut 15",
+      "timelineStartFrame": 2090,
+      "durationInFrames": 247,
+      "sourceStartFrame": 2416,
+      "sourceEndFrame": 2662
+    },
+    {
+      "id": "clip-16",
+      "name": "Speech cut 16",
+      "timelineStartFrame": 2337,
+      "durationInFrames": 242,
+      "sourceStartFrame": 2683,
+      "sourceEndFrame": 2925
+    },
+    {
+      "id": "clip-17",
+      "name": "Speech cut 17",
+      "timelineStartFrame": 2579,
+      "durationInFrames": 256,
+      "sourceStartFrame": 2943,
+      "sourceEndFrame": 3199
+    },
+    {
+      "id": "clip-18",
+      "name": "Speech cut 18",
+      "timelineStartFrame": 2835,
+      "durationInFrames": 15,
+      "sourceStartFrame": 3216,
+      "sourceEndFrame": 3231
+    },
+    {
+      "id": "clip-19",
+      "name": "Speech cut 19",
+      "timelineStartFrame": 2850,
+      "durationInFrames": 93,
+      "sourceStartFrame": 3250,
+      "sourceEndFrame": 3342
+    }
+  ],
+  "captions": [
+    {
+      "id": "cap-1",
+      "startFrame": 0,
+      "endFrame": 253,
+      "text": "Alam niyo guys sa lahat ng supplement na meron ako",
+      "words": [
+        {
+          "word": "Alam",
+          "startFrame": 0,
+          "endFrame": 25
+        },
+        {
+          "word": "niyo",
+          "startFrame": 25,
+          "endFrame": 50
+        },
+        {
+          "word": "guys",
+          "startFrame": 50,
+          "endFrame": 75
+        },
+        {
+          "word": "sa",
+          "startFrame": 75,
+          "endFrame": 100
+        },
+        {
+          "word": "lahat",
+          "startFrame": 100,
+          "endFrame": 125
+        },
+        {
+          "word": "ng",
+          "startFrame": 125,
+          "endFrame": 150
+        },
+        {
+          "word": "supplement",
+          "startFrame": 150,
+          "endFrame": 175
+        },
+        {
+          "word": "na",
+          "startFrame": 175,
+          "endFrame": 200
+        },
+        {
+          "word": "meron",
+          "startFrame": 200,
+          "endFrame": 225
+        },
+        {
+          "word": "ako",
+          "startFrame": 225,
+          "endFrame": 250
+        }
+      ]
+    },
+    {
+      "id": "cap-2",
+      "startFrame": 253,
+      "endFrame": 340,
+      "text": "eto lang talaga yung pinakanakatulong sa tulog ko",
+      "words": [
+        {
+          "word": "eto",
+          "startFrame": 253,
+          "endFrame": 264
+        },
+        {
+          "word": "lang",
+          "startFrame": 264,
+          "endFrame": 275
+        },
+        {
+          "word": "talaga",
+          "startFrame": 275,
+          "endFrame": 286
+        },
+        {
+          "word": "yung",
+          "startFrame": 286,
+          "endFrame": 297
+        },
+        {
+          "word": "pinakanakatulong",
+          "startFrame": 297,
+          "endFrame": 308
+        },
+        {
+          "word": "sa",
+          "startFrame": 308,
+          "endFrame": 319
+        },
+        {
+          "word": "tulog",
+          "startFrame": 319,
+          "endFrame": 330
+        },
+        {
+          "word": "ko",
+          "startFrame": 330,
+          "endFrame": 340
+        }
+      ]
+    },
+    {
+      "id": "cap-3",
+      "startFrame": 343,
+      "endFrame": 466,
+      "text": "Ashwagandha plus Magnesium bro",
+      "words": [
+        {
+          "word": "Ashwagandha",
+          "startFrame": 343,
+          "endFrame": 374
+        },
+        {
+          "word": "plus",
+          "startFrame": 374,
+          "endFrame": 405
+        },
+        {
+          "word": "Magnesium",
+          "startFrame": 405,
+          "endFrame": 436
+        },
+        {
+          "word": "bro",
+          "startFrame": 436,
+          "endFrame": 466
+        }
+      ]
+    },
+    {
+      "id": "cap-4",
+      "startFrame": 466,
+      "endFrame": 578,
+      "text": "I'm not even trying to sell it okay?",
+      "words": [
+        {
+          "word": "I'm",
+          "startFrame": 466,
+          "endFrame": 480
+        },
+        {
+          "word": "not",
+          "startFrame": 480,
+          "endFrame": 494
+        },
+        {
+          "word": "even",
+          "startFrame": 494,
+          "endFrame": 508
+        },
+        {
+          "word": "trying",
+          "startFrame": 508,
+          "endFrame": 522
+        },
+        {
+          "word": "to",
+          "startFrame": 522,
+          "endFrame": 536
+        },
+        {
+          "word": "sell",
+          "startFrame": 536,
+          "endFrame": 550
+        },
+        {
+          "word": "it",
+          "startFrame": 550,
+          "endFrame": 564
+        },
+        {
+          "word": "okay?",
+          "startFrame": 564,
+          "endFrame": 578
+        }
+      ]
+    },
+    {
+      "id": "cap-5",
+      "startFrame": 581,
+      "endFrame": 698,
+      "text": "I'm just sharing my personal experience",
+      "words": [
+        {
+          "word": "I'm",
+          "startFrame": 581,
+          "endFrame": 601
+        },
+        {
+          "word": "just",
+          "startFrame": 601,
+          "endFrame": 621
+        },
+        {
+          "word": "sharing",
+          "startFrame": 621,
+          "endFrame": 641
+        },
+        {
+          "word": "my",
+          "startFrame": 641,
+          "endFrame": 661
+        },
+        {
+          "word": "personal",
+          "startFrame": 661,
+          "endFrame": 681
+        },
+        {
+          "word": "experience",
+          "startFrame": 681,
+          "endFrame": 698
+        }
+      ]
+    },
+    {
+      "id": "cap-6",
+      "startFrame": 698,
+      "endFrame": 914,
+      "text": "Grabe sobrang sarap ng tulog ko",
+      "words": [
+        {
+          "word": "Grabe",
+          "startFrame": 698,
+          "endFrame": 734
+        },
+        {
+          "word": "sobrang",
+          "startFrame": 734,
+          "endFrame": 770
+        },
+        {
+          "word": "sarap",
+          "startFrame": 770,
+          "endFrame": 806
+        },
+        {
+          "word": "ng",
+          "startFrame": 806,
+          "endFrame": 842
+        },
+        {
+          "word": "tulog",
+          "startFrame": 842,
+          "endFrame": 878
+        },
+        {
+          "word": "ko",
+          "startFrame": 878,
+          "endFrame": 914
+        }
+      ]
+    },
+    {
+      "id": "cap-7",
+      "startFrame": 914,
+      "endFrame": 1051,
+      "text": "Mabilis akong makatulog dati",
+      "words": [
+        {
+          "word": "Mabilis",
+          "startFrame": 914,
+          "endFrame": 948
+        },
+        {
+          "word": "akong",
+          "startFrame": 948,
+          "endFrame": 982
+        },
+        {
+          "word": "makatulog",
+          "startFrame": 982,
+          "endFrame": 1016
+        },
+        {
+          "word": "dati",
+          "startFrame": 1016,
+          "endFrame": 1050
+        }
+      ]
+    },
+    {
+      "id": "cap-8",
+      "startFrame": 1051,
+      "endFrame": 1207,
+      "text": "pero hindi siya deep sleep nagigising-gising din ako",
+      "words": [
+        {
+          "word": "pero",
+          "startFrame": 1051,
+          "endFrame": 1071
+        },
+        {
+          "word": "hindi",
+          "startFrame": 1071,
+          "endFrame": 1091
+        },
+        {
+          "word": "siya",
+          "startFrame": 1091,
+          "endFrame": 1111
+        },
+        {
+          "word": "deep",
+          "startFrame": 1111,
+          "endFrame": 1131
+        },
+        {
+          "word": "sleep",
+          "startFrame": 1131,
+          "endFrame": 1151
+        },
+        {
+          "word": "nagigising-gising",
+          "startFrame": 1151,
+          "endFrame": 1171
+        },
+        {
+          "word": "din",
+          "startFrame": 1171,
+          "endFrame": 1191
+        },
+        {
+          "word": "ako",
+          "startFrame": 1191,
+          "endFrame": 1207
+        }
+      ]
+    },
+    {
+      "id": "cap-9",
+      "startFrame": 1209,
+      "endFrame": 1452,
+      "text": "Pero bro since I took this sobrang grabe",
+      "words": [
+        {
+          "word": "Pero",
+          "startFrame": 1209,
+          "endFrame": 1239
+        },
+        {
+          "word": "bro",
+          "startFrame": 1239,
+          "endFrame": 1269
+        },
+        {
+          "word": "since",
+          "startFrame": 1269,
+          "endFrame": 1299
+        },
+        {
+          "word": "I",
+          "startFrame": 1299,
+          "endFrame": 1329
+        },
+        {
+          "word": "took",
+          "startFrame": 1329,
+          "endFrame": 1359
+        },
+        {
+          "word": "this",
+          "startFrame": 1359,
+          "endFrame": 1389
+        },
+        {
+          "word": "sobrang",
+          "startFrame": 1389,
+          "endFrame": 1419
+        },
+        {
+          "word": "grabe",
+          "startFrame": 1419,
+          "endFrame": 1449
+        }
+      ]
+    },
+    {
+      "id": "cap-10",
+      "startFrame": 1452,
+      "endFrame": 1686,
+      "text": "Eight hours and 30 minutes tulog ko two days ago",
+      "words": [
+        {
+          "word": "Eight",
+          "startFrame": 1452,
+          "endFrame": 1475
+        },
+        {
+          "word": "hours",
+          "startFrame": 1475,
+          "endFrame": 1498
+        },
+        {
+          "word": "and",
+          "startFrame": 1498,
+          "endFrame": 1521
+        },
+        {
+          "word": "30",
+          "startFrame": 1521,
+          "endFrame": 1544
+        },
+        {
+          "word": "minutes",
+          "startFrame": 1544,
+          "endFrame": 1567
+        },
+        {
+          "word": "tulog",
+          "startFrame": 1567,
+          "endFrame": 1590
+        },
+        {
+          "word": "ko",
+          "startFrame": 1590,
+          "endFrame": 1613
+        },
+        {
+          "word": "two",
+          "startFrame": 1613,
+          "endFrame": 1636
+        },
+        {
+          "word": "days",
+          "startFrame": 1636,
+          "endFrame": 1659
+        },
+        {
+          "word": "ago",
+          "startFrame": 1659,
+          "endFrame": 1682
+        }
+      ]
+    },
+    {
+      "id": "cap-11",
+      "startFrame": 1686,
+      "endFrame": 1845,
+      "text": "kanina naka-seven hours complete sleep",
+      "words": [
+        {
+          "word": "kanina",
+          "startFrame": 1686,
+          "endFrame": 1718
+        },
+        {
+          "word": "naka-seven",
+          "startFrame": 1718,
+          "endFrame": 1750
+        },
+        {
+          "word": "hours",
+          "startFrame": 1750,
+          "endFrame": 1782
+        },
+        {
+          "word": "complete",
+          "startFrame": 1782,
+          "endFrame": 1814
+        },
+        {
+          "word": "sleep",
+          "startFrame": 1814,
+          "endFrame": 1845
+        }
+      ]
+    },
+    {
+      "id": "cap-12",
+      "startFrame": 1845,
+      "endFrame": 1956,
+      "text": "uninterrupted sobrang deep",
+      "words": [
+        {
+          "word": "uninterrupted",
+          "startFrame": 1845,
+          "endFrame": 1882
+        },
+        {
+          "word": "sobrang",
+          "startFrame": 1882,
+          "endFrame": 1919
+        },
+        {
+          "word": "deep",
+          "startFrame": 1919,
+          "endFrame": 1956
+        }
+      ]
+    },
+    {
+      "id": "cap-13",
+      "startFrame": 1958,
+      "endFrame": 2090,
+      "text": "actually nagka-deep lucid dreams na bro",
+      "words": [
+        {
+          "word": "actually",
+          "startFrame": 1958,
+          "endFrame": 1980
+        },
+        {
+          "word": "nagka-deep",
+          "startFrame": 1980,
+          "endFrame": 2002
+        },
+        {
+          "word": "lucid",
+          "startFrame": 2002,
+          "endFrame": 2024
+        },
+        {
+          "word": "dreams",
+          "startFrame": 2024,
+          "endFrame": 2046
+        },
+        {
+          "word": "na",
+          "startFrame": 2046,
+          "endFrame": 2068
+        },
+        {
+          "word": "bro",
+          "startFrame": 2068,
+          "endFrame": 2090
+        }
+      ]
+    },
+    {
+      "id": "cap-14",
+      "startFrame": 2090,
+      "endFrame": 2335,
+      "text": "Sobrang sarap lucid dreams talaga as in sobrang sarap",
+      "words": [
+        {
+          "word": "Sobrang",
+          "startFrame": 2090,
+          "endFrame": 2117
+        },
+        {
+          "word": "sarap",
+          "startFrame": 2117,
+          "endFrame": 2144
+        },
+        {
+          "word": "lucid",
+          "startFrame": 2144,
+          "endFrame": 2171
+        },
+        {
+          "word": "dreams",
+          "startFrame": 2171,
+          "endFrame": 2198
+        },
+        {
+          "word": "talaga",
+          "startFrame": 2198,
+          "endFrame": 2225
+        },
+        {
+          "word": "as",
+          "startFrame": 2225,
+          "endFrame": 2252
+        },
+        {
+          "word": "in",
+          "startFrame": 2252,
+          "endFrame": 2279
+        },
+        {
+          "word": "sobrang",
+          "startFrame": 2279,
+          "endFrame": 2306
+        },
+        {
+          "word": "sarap",
+          "startFrame": 2306,
+          "endFrame": 2333
+        }
+      ]
+    },
+    {
+      "id": "cap-15",
+      "startFrame": 2337,
+      "endFrame": 2579,
+      "text": "Share ko lang guys and honestly medyo mura na din siya",
+      "words": [
+        {
+          "word": "Share",
+          "startFrame": 2337,
+          "endFrame": 2359
+        },
+        {
+          "word": "ko",
+          "startFrame": 2359,
+          "endFrame": 2381
+        },
+        {
+          "word": "lang",
+          "startFrame": 2381,
+          "endFrame": 2403
+        },
+        {
+          "word": "guys",
+          "startFrame": 2403,
+          "endFrame": 2425
+        },
+        {
+          "word": "and",
+          "startFrame": 2425,
+          "endFrame": 2447
+        },
+        {
+          "word": "honestly",
+          "startFrame": 2447,
+          "endFrame": 2469
+        },
+        {
+          "word": "medyo",
+          "startFrame": 2469,
+          "endFrame": 2491
+        },
+        {
+          "word": "mura",
+          "startFrame": 2491,
+          "endFrame": 2513
+        },
+        {
+          "word": "na",
+          "startFrame": 2513,
+          "endFrame": 2535
+        },
+        {
+          "word": "din",
+          "startFrame": 2535,
+          "endFrame": 2557
+        },
+        {
+          "word": "siya",
+          "startFrame": 2557,
+          "endFrame": 2579
+        }
+      ]
+    },
+    {
+      "id": "cap-16",
+      "startFrame": 2579,
+      "endFrame": 2834,
+      "text": "So if nahihirapan kayong matulog check the yellow basket",
+      "words": [
+        {
+          "word": "So",
+          "startFrame": 2579,
+          "endFrame": 2607
+        },
+        {
+          "word": "if",
+          "startFrame": 2607,
+          "endFrame": 2635
+        },
+        {
+          "word": "nahihirapan",
+          "startFrame": 2635,
+          "endFrame": 2663
+        },
+        {
+          "word": "kayong",
+          "startFrame": 2663,
+          "endFrame": 2691
+        },
+        {
+          "word": "matulog",
+          "startFrame": 2691,
+          "endFrame": 2719
+        },
+        {
+          "word": "check",
+          "startFrame": 2719,
+          "endFrame": 2747
+        },
+        {
+          "word": "the",
+          "startFrame": 2747,
+          "endFrame": 2775
+        },
+        {
+          "word": "yellow",
+          "startFrame": 2775,
+          "endFrame": 2803
+        },
+        {
+          "word": "basket",
+          "startFrame": 2803,
+          "endFrame": 2831
+        }
+      ]
+    },
+    {
+      "id": "cap-17",
+      "startFrame": 2835,
+      "endFrame": 2942,
+      "text": "Like and follow for science-based advice. God bless!",
+      "words": [
+        {
+          "word": "Like",
+          "startFrame": 2835,
+          "endFrame": 2848
+        },
+        {
+          "word": "and",
+          "startFrame": 2848,
+          "endFrame": 2861
+        },
+        {
+          "word": "follow",
+          "startFrame": 2861,
+          "endFrame": 2874
+        },
+        {
+          "word": "for",
+          "startFrame": 2874,
+          "endFrame": 2887
+        },
+        {
+          "word": "science-based",
+          "startFrame": 2887,
+          "endFrame": 2900
+        },
+        {
+          "word": "advice.",
+          "startFrame": 2900,
+          "endFrame": 2913
+        },
+        {
+          "word": "God",
+          "startFrame": 2913,
+          "endFrame": 2926
+        },
+        {
+          "word": "bless!",
+          "startFrame": 2926,
+          "endFrame": 2939
+        }
+      ]
+    }
+  ],
+  "sfxCues": [
+    {
+      "frame": 0,
+      "src": "sfx/soft-whoosh.wav",
+      "name": "Hook Whoosh",
+      "volume": 0.4
+    },
+    {
+      "frame": 340,
+      "src": "sfx/production-pop.wav",
+      "name": "Synergy Pop",
+      "volume": 0.35
+    },
+    {
+      "frame": 780,
+      "src": "sfx/soft-whoosh.wav",
+      "name": "Comparison Whoosh",
+      "volume": 0.4
+    },
+    {
+      "frame": 1240,
+      "src": "sfx/production-chime.wav",
+      "name": "8.5 Hours Chime",
+      "volume": 0.45
+    },
+    {
+      "frame": 1920,
+      "src": "sfx/production-tick.wav",
+      "name": "Lucid Dream Tick",
+      "volume": 0.35
+    },
+    {
+      "frame": 2440,
+      "src": "sfx/production-chime.wav",
+      "name": "Yellow Basket Chime",
+      "volume": 0.45
+    }
+  ]
+}

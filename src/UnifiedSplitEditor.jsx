@@ -365,7 +365,24 @@ export const BottomPresenterZone = ({
   sourceEndFrame,
   cropOffsetY = -180, // Default chest-up framing offset
   scale = 1.05,
+  durationInFrames = 60,
+  volume = 1.0,
 }) => {
+  const getVolume = (frame) => {
+    const fade = 3;
+    const fadeIn = interpolate(frame, [0, fade], [0, 1], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    });
+    const fadeOut = interpolate(
+      frame,
+      [durationInFrames - fade, durationInFrames - 1],
+      [1, 0],
+      {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'},
+    );
+    return Math.min(fadeIn, fadeOut) * volume;
+  };
+
   return (
     <div
       style={{
@@ -382,17 +399,18 @@ export const BottomPresenterZone = ({
       {presenterSrc ? (
         <Video
           src={presenterSrc.startsWith('http') ? presenterSrc : staticFile(presenterSrc)}
-          trimBefore={sourceStartFrame}
-          trimAfter={sourceEndFrame}
-          objectFit="cover"
+          startFrom={sourceStartFrame}
+          endAt={sourceEndFrame}
+          volume={getVolume}
           style={{
             position: 'absolute',
             left: 0,
             top: cropOffsetY,
             width: CANVAS_WIDTH,
             height: CANVAS_HEIGHT,
+            objectFit: 'cover',
             transform: `scale(${scale})`,
-            transformOrigin: 'center 40%',
+            transformOrigin: 'center 35%',
           }}
         />
       ) : (
@@ -544,40 +562,78 @@ export const OpeningCover = ({coverSrc, durationFrames = 6}) => {
 // ==========================================
 
 export const UnifiedSplitEditor = ({
-  presenterSrc = 'source.mp4',
-  coverSrc = 'poster-source.jpg',
+  presenterSrc = 'newvid.mp4',
+  coverSrc = 'product-hero.jpg',
   segments = [],
+  topSegments = [],
+  presenterClips = [],
   captions = [],
   sfxCues = [],
-  presenterOffsetY = -180,
-  presenterScale = 1.05,
+  presenterOffsetY = -150,
+  presenterScale = 1.15,
 }) => {
+  const hasIndependentTracks = topSegments.length > 0 || presenterClips.length > 0;
+
   return (
     <AbsoluteFill style={{backgroundColor: COLOR_BLACK, overflow: 'hidden'}}>
       {/* 1. Opening Cover Hold (~0.1s / 6 frames) */}
       <OpeningCover coverSrc={coverSrc} durationFrames={6} />
 
-      {/* 2. Timeline Segments (Top 55% Proof + Bottom 45% Presenter) */}
-      {segments.map((seg, idx) => (
-        <Sequence
-          key={seg.id || `seg-${idx}`}
-          from={seg.timelineStartFrame}
-          durationInFrames={seg.durationInFrames}
-          name={seg.name || `Segment ${idx + 1}`}
-        >
-          {/* Top 55% Proof Zone */}
-          <TopProofZone asset={seg.topAsset} currentSegmentIndex={idx} />
+      {/* 2. Timeline Tracks */}
+      {hasIndependentTracks ? (
+        <>
+          {/* Top 55% Proof Track */}
+          {topSegments.map((seg, idx) => (
+            <Sequence
+              key={seg.id || `top-seg-${idx}`}
+              from={seg.timelineStartFrame}
+              durationInFrames={seg.durationInFrames}
+              name={seg.name || `Top Proof Beat ${idx + 1}`}
+            >
+              <TopProofZone asset={seg.topAsset} currentSegmentIndex={idx} />
+            </Sequence>
+          ))}
 
-          {/* Bottom 45% Presenter Zone */}
-          <BottomPresenterZone
-            presenterSrc={presenterSrc}
-            sourceStartFrame={seg.sourceStartFrame}
-            sourceEndFrame={seg.sourceEndFrame}
-            cropOffsetY={seg.presenterOffsetY ?? presenterOffsetY}
-            scale={seg.presenterScale ?? presenterScale}
-          />
-        </Sequence>
-      ))}
+          {/* Bottom 45% Presenter Track */}
+          {presenterClips.map((clip, idx) => (
+            <Sequence
+              key={clip.id || `pres-clip-${idx}`}
+              from={clip.timelineStartFrame}
+              durationInFrames={clip.durationInFrames}
+              name={clip.name || `Presenter Speech ${idx + 1}`}
+            >
+              <BottomPresenterZone
+                presenterSrc={presenterSrc}
+                sourceStartFrame={clip.sourceStartFrame}
+                sourceEndFrame={clip.sourceEndFrame}
+                cropOffsetY={clip.presenterOffsetY ?? presenterOffsetY}
+                scale={clip.presenterScale ?? presenterScale}
+                durationInFrames={clip.durationInFrames}
+              />
+            </Sequence>
+          ))}
+        </>
+      ) : (
+        // Combined Segments Mode
+        segments.map((seg, idx) => (
+          <Sequence
+            key={seg.id || `seg-${idx}`}
+            from={seg.timelineStartFrame}
+            durationInFrames={seg.durationInFrames}
+            name={seg.name || `Segment ${idx + 1}`}
+          >
+            <TopProofZone asset={seg.topAsset} currentSegmentIndex={idx} />
+            <BottomPresenterZone
+              presenterSrc={presenterSrc}
+              sourceStartFrame={seg.sourceStartFrame}
+              sourceEndFrame={seg.sourceEndFrame}
+              cropOffsetY={seg.presenterOffsetY ?? presenterOffsetY}
+              scale={seg.presenterScale ?? presenterScale}
+              durationInFrames={seg.durationInFrames}
+            />
+          </Sequence>
+        ))
+      )}
 
       {/* 3. News Daddy 10px Gold Divider Bar */}
       <GoldDivider />
